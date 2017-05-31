@@ -46,9 +46,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-# Bootstrap
+# Bootstrap, Flexslider
 --------------------------------------------------------------*/
 @import url(css/bootstrap.min.css);
+@import url(css/flexslider.css);
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -82,3 +83,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
+.rental-single {
+  margin-top: 120px;
+  border-top: 30px solid #ccc; }
+
+.slider.block {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px; }
+
+ul.slides {
+  border: 1px solid #ddd; }
+
+.tabbed-area {
+  margin-bottom: 100px; }

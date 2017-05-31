@@ -42,6 +42,11 @@ function allmobilevideo_theme_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
+	add_image_size( 'pr-slider-image', 570, 570, true );
+
+	add_image_size( 'pr-slider-thumb', 125, 125, true );
+
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'menu-1' => esc_html__( 'Primary', 'allmobilevideo-theme' ),
@@ -108,6 +113,14 @@ function allmobilevideo_theme_scripts() {
 	wp_enqueue_style( 'allmobilevideo-theme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'allmobilevideo-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/js/jquery.flexslider-min.js', array() , false, true );
+	wp_enqueue_script( 'flexsettings', get_template_directory_uri() . '/js/flex-settings.js', array() , false, true );
+	wp_register_script( 'imagesloaded', get_theme_file_uri( '/js/libs/imagesloaded.pkgd.min.js' ), array( 'jquery' ), '4.1.1', true );
+	wp_register_script( 'isotope', get_theme_file_uri( '/js/libs/isotope.pkgd.min.js' ), array( 'imagesloaded' ), '3.0.1', true );
+	wp_enqueue_script( 'main', get_theme_file_uri( '/js/main2.js' ), array( 'isotope' ), '1.0', true );
+	wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', array() , false, true );
+	wp_enqueue_script( 'wow-settings', get_template_directory_uri() . '/js/wow-settings.js', array() , false, true );
+	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'allmobilevideo-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -164,4 +177,41 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
             $chain .= $name.$separator;
  
     return $chain;
+}
+/* Shortcode to display linked URLs to files uploaded via Types post meta
+* 
+* @arg file_url optionally will hold a specific URL to process & display a link to the file directly
+* with the link display being the file name & extension
+* 
+* @arg types_field optionally will hold the field name of a Types field for File uploads
+* and dsiplay each (if multiple) as the file name with extension linked to full file download URL
+*
+*/
+ 
+add_shortcode( 'my_file_name', 'wpml_hard_link'); // Actually activate the shortcode
+function wpml_hard_link($atts) {
+    global $post; // So we can get the post meta later on
+ 
+    $url = "{$atts['file_url']}";
+    $types = "wpcf-{$atts['types_field']}";
+     
+    if ($types) { // if the types_field argument was provided 
+ 
+        $urls = get_post_meta($post->ID,$types); // let's get the (potentially multiple) values
+     
+        $content = ''; // Setting up a variable to hold the links so we can return it later
+     
+        foreach ($urls as $fileurl) { // Let's iterate for each of the multiple values
+            $arr = explode('/',$fileurl); // Split it up so that we can just grab the end part, the filename
+            $content .= '<a href="'.$fileurl.'">'.end($arr).'</a><br />'; // Create the link and store it in the $content variable
+        }
+         
+        return $content; // Return the content as the shortcode value
+     
+    } else {  // Else we didn't use the fields_type argument, we just needed one URL we provided explicitly
+            $arr = explode('/',$url); // So let's split that URL up so we can grab the end
+            return '<a href="'.$url.'">'.end($arr).'</a>'; // And return the resultant link
+     
+    } // We're done!
+     
 }
