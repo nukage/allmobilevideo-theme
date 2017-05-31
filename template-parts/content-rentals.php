@@ -7,7 +7,11 @@
  * @package allmobilevideo-theme
  */
 
-get_header(); ?>
+get_header(); 
+    $cate = get_queried_object();
+$cateID = $cate->term_id;
+ ?>
+
 
 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main">
@@ -44,51 +48,28 @@ $args=array(
 
 echo get_the_term_list( null , 'rentals', '<p>', '</p><p>', '</p>');
 
+
+ echo $cateID;
+if (is_page()){
+	echo 'THIS IS RENTALS HOME';
+	 get_template_part( 'template-parts/content', 'rentalcategories' );
+}
+
+elseif (get_term_children( $cateID, 'rentals' )){
+	echo 'THIS IS SUBCATEGORY INDEX';
+	 get_template_part( 'template-parts/content', 'rentalcategories' );
 ?>
 
-<div class="row">
- <?php 
-    $args = array(
-    	'taxonomy' => 'rentals',
-    	  'hierarchical' => true,
-    'depth' => 1,
-      // 'orderby' => 'id',
-      'hide_empty'=> 1,
-      // 'child_of' => 5, //Child From Boxes Category 
-  );
-  $categories = get_terms($args);
-  foreach ($categories as $cat) { ?>
- <div class="card col-sm-4">
- <?php
-  	if (function_exists('z_taxonomy_image')) {
-  		 
-  		
-  	 
-  			$attr = array(
-  			'class' => 'img-responsive, card-img-top',
-  			);
-  		z_taxonomy_image($cat->term_id, 'full', $attr);
-  		 
+<?php 
+
+}
  
- 
-  	};?>
-  		 
-       
-        <?php echo '<h4 class="valignmiddle uppercase text-center card-title "><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->term_icon.'" alt=""  class="alignleft"/>'.'<br />'.'<span class="solutions">'.$cat->description.'</span>'.'</a></h4>';
-        //echo '<br />';
-        $args2= array("orderby"=>'name', "category" => $cat->cat_ID); // Get Post from each Sub-Category
-        $posts_in_category = get_posts($args2);
-        foreach($posts_in_category as $current_post) {
-            echo '<span>';
-            ?>
-            <li type='none' style='list-style-type: none !important;'><a href="<?=$current_post->guid;?>"><?='+ '.$current_post->post_title;?></a></li>
-            <?php
-            echo '</span>';
-        }?>
-      </div><!--card-->
-  <?php  }
+else{
+	echo 'THIS IS A PRODUCT INDEX';
+
+
+};
 ?>
-</div><!--row-->
 		<?php
 		if ( have_posts() ) : ?>
 			<div class="row">
