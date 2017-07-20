@@ -20,30 +20,70 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'allmobilevideo-theme' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'allmobilevideo-theme' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+    <nav class="navbar navbar1 navbar-toggleable-xl navbar-inverse bg-inverse">
+      <div class="container">
+        <div class="navbar-collapse collapse" id="navbar1" aria-expanded="true" style="">
+          <ul class="navbar-nav mr-auto">
+            <li class="">
+              <a class="phone" href="#">(212) 727-1234</a>
+            </li>
+            <li class="nav-item hidden-sm-down">
+              <a class="email" href="#">CONTACT@AMVCHELSEA.COM</a>
+            </li>
+          </ul>
+          <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
+            <input class="form-control " type="text" placeholder="Search">
+            <button class="btn  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar2 navbar-toggleable-md navbar-inverse justify-content-between">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="<?php echo get_home_url(); ?>">All Mobile Video</a>
+        <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
+          <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Our Company</a>
+                <a class="dropdown-item" href="#">Credits</a>
+                <a class="dropdown-item" href="#">News</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile &amp; Rentals <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu" aria-labelledby="mobile-rentals">
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile-home">Mobile</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/rentals-home">Rentals</a>
+ 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stages">Stages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#post">Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#digitalmedia">Digital Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sales">Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#transport">Video Transport / IP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up">
+            <input class="form-control" type="text" placeholder="Search">
+            <button class="btn  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>

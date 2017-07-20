@@ -42,9 +42,11 @@ function allmobilevideo_theme_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	add_image_size( 'pr-slider-image', 570, 570, true );
+	add_image_size( 'amv-slider-image', 725, 430, true );
 
-	add_image_size( 'pr-slider-thumb', 125, 125, true );
+	add_image_size( 'amv-isotope-image', 500, 350, true );
+
+	add_image_size( 'amv-slider-thumb', 75, 50, true );
 
 
 	// This theme uses wp_nav_menu() in one location.
@@ -111,16 +113,16 @@ add_action( 'widgets_init', 'allmobilevideo_theme_widgets_init' );
  */
 function allmobilevideo_theme_scripts() {
 	wp_enqueue_style( 'allmobilevideo-theme-style', get_stylesheet_uri() );
-
 	wp_enqueue_script( 'allmobilevideo-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/js/jquery.flexslider-min.js', array() , false, true );
-	wp_enqueue_script( 'flexsettings', get_template_directory_uri() . '/js/flex-settings.js', array() , false, true );
 	wp_register_script( 'imagesloaded', get_theme_file_uri( '/js/libs/imagesloaded.pkgd.min.js' ), array( 'jquery' ), '4.1.1', true );
-	wp_register_script( 'isotope', get_theme_file_uri( '/js/libs/isotope.pkgd.min.js' ), array( 'imagesloaded' ), '3.0.1', true );
-	wp_enqueue_script( 'main', get_theme_file_uri( '/js/main2.js' ), array( 'isotope' ), '1.0', true );
+	wp_register_script( 'isotope', get_theme_file_uri( '/js/jquery.isotope.js' ), array( 'imagesloaded' ), '3.0.1', true );
+	wp_enqueue_script( 'isotope-settings-custom', get_theme_file_uri( '/js/isotope.settings-custom.js' ), array( 'isotope' ), '1.0', true );
 	wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', array() , false, true );
 	wp_enqueue_script( 'wow-settings', get_template_directory_uri() . '/js/wow-settings.js', array() , false, true );
 	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );
+		wp_enqueue_script( 'SmoothScroll', get_template_directory_uri() . '/js/SmoothScroll.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'allmobilevideo-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -188,6 +190,37 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
 *
 */
  
+
+function amv_list_taxonomies($type, $name){
+	?>
+	 <li class="filter-list col-md-12 col-3 pr-md-0 pr-3">
+        
+         <ul class='' data-group='$type'>
+            
+          <?php
+      
+          $terms = get_terms($type);
+
+          
+            if ( !empty( $terms ) && !is_wp_error( $terms ) ) { ?>
+              <h5><?php echo $name ?></h5>
+              <?php
+                foreach( $terms as $term) {
+                    ?>
+                    <li>
+                        <input type='checkbox' value='.<?php echo $type . '-' . $term->slug; ?>' id='<?php echo $type . '-' . $term->slug; ?>'>
+                        <label for='<?php echo $type . '-' . $term->slug; ?>'><?php echo $term->name; ?></label>
+                    </li>
+                    <?php
+                }
+            }
+            ?>
+             
+        
+        </ul>
+         </li>
+<?php
+}
 add_shortcode( 'my_file_name', 'wpml_hard_link'); // Actually activate the shortcode
 function wpml_hard_link($atts) {
     global $post; // So we can get the post meta later on

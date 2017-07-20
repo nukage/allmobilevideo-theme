@@ -1,5 +1,9 @@
 // JavaScript Document
 
+
+
+
+
 // Portfolio Isotope Filter
 jQuery(document).ready( function($) {
         var $container = $('.portfolio-items');

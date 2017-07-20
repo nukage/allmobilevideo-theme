@@ -199,11 +199,12 @@ h1, h2, h3, h4{
 	transition: .1s background;
 	background-color:#222222;
 	.navbar-nav .nav-link{
-		font-weight: 200;
+		font-weight: 300;
 	font-size:14px;
 	font-size:.87em;
 	color:white;
 	text-transform: uppercase;
+	 text-shadow: 1px 1px 5px rgba(0,0,0,.8);
 	}
 	@media(min-width:990px) {
 		background-color: rgba(255,255,255,0);
@@ -643,6 +644,13 @@ footer{
 	}
 }
 
+.mobile-products{
+	background-image: url("img/abstract-bg2.gif");
+	 background-size: cover;
+		background-position: top center;
+		background-attachment: fixed;
+}
+
 
  .custom-btn{
 	border-radius:19px;
@@ -703,7 +711,7 @@ li{
 
 //Mobile Section
 
-.mobile-home{
+.post-type-archive-mobile{
 	.sectionhero{
 	 
 		background-image: url("img/mobile-hero-1.jpg");
@@ -753,15 +761,28 @@ li{
 }
 
 .mobile-products {
-
+#clearfilters{
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+}
 	.product{
 		position: relative;
 		overflow: hidden;
 		margin-right:-1px;
 		margin-bottom:-1px;
+		z-index:2;
 		a{
-			.description{transition: all .5s;}
+			.description{transition: all .5s;
+				font-size:11px;
+				@media (min-width:1400px){font-size:14px;padding:20px;}}
 		}
+	}
+	ul,  {margin:0;padding:0;margin-left:10px;
+	}
+	li{
+		margin-bottom:5px;
+		// list-style-type: none;
 	}
 
 	img{
@@ -769,35 +790,34 @@ li{
 		height:100%;
 		transition: all .5s;
 	}
-	a:hover img{
-		transform: scale(1.3,1.3);
 
+	@media (min-width:1000px) {
+			a:hover img{
+		transform: scale(1.3,1.3);
 	}
-	.description{
+		.description{
 		position: absolute;
-		transform: scale(.6,.6);
+		transform: scale(.8,.8);
 		opacity: 0;
 		background:rgba(0,0,0,.7);
 		height:100%;
 		color:white;
-		border-radius: 40px;
+		border-radius: 10px;
 		padding:20px;
 		font-weight: 200;
-		 
 		top:0;
-		text-align: center;
+		width:100%;
+		// text-align: center;
 	}
 a:hover .description{
-	 
 		opacity: 1;
 		transform: scale(1,1);
 		border-radius: 0;
-		
 	}
 	.caption{
 		position: absolute;
 		bottom:0;
-height:3.5em;
+		height:3.5em;
 		padding:1em 0;
 		text-align:center;
 		width:100%;
@@ -805,13 +825,32 @@ height:3.5em;
 		color:white;
 		transition:all 1s;
 		opacity: 1;
-
-
 	}
 	a:hover .caption{
-		 
 		opacity: 0;
 	}
+	}
+		@media (max-width:999px){
+			.product {
+				font-size:12px;
+			padding:10px;
+			border:1px solid #ccc;
+			background: #fff;
+			a{
+				color:black;
+			}
+			img{
+				margin-bottom:10px;
+			}
+			a:hover{text-decoration: none;}
+			}
+			.caption{
+				display:none;
+			}
+			
+			
+		}
+	
 }
 
 .notlist{list-style-type: none;
@@ -819,12 +858,16 @@ height:3.5em;
 		padding:0;}
 .mobile-filter {
  input[type="checkbox"] {
-    display: none;
+   display: none;
 }
-.filter li.checked {
+li.checked label {
     background: #ededed;
     padding-left: 1em;
+    color:white;
+    background:#005FCB;
 }
+ 
+
 	li, ul {
 	@extend .notlist;
 	}
@@ -836,14 +879,26 @@ height:3.5em;
 		padding:10px 0;
 
 	}
-	ul li ul li {
+	ul li ul li { 
+		label{
+			cursor:pointer;
+			display:block;
+			padding:5px 0;
+			transition:all .5s;
+				margin:0;
+
+		}
 		border-top: solid 1px #ccc;
 		margin-right:10px;
+		
+		padding:0;
+	
 	 
-			display:block;
+			
 			cursor: pointer;
+			width:100%;
 			font-size:12px;
-			padding:2px 0;
+			
 	 
 	}
 	ul li ul li:last-of-type{
@@ -865,4 +920,64 @@ height:3.5em;
 
 
 
+}
+
+#noresults{
+	transition: all .3s;
+	position: absolute;
+	padding:2em;
+	text-align: center;
+	width:100%;
+
+}
+
+.invisible{
+ 
+ 
+	opacity:0;
+	transform: scale(.5,.5)
+ 
+}
+
+
+//Animations for Isotope.js
+.isotope-container{
+	min-height: 200px;
+}
+.isotope-container,
+.isotope-container .product {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope-container {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope-container .product {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope-container CSS3 transitions ****/
+
+.isotope-container.no-transition,
+.isotope-container.no-transition .product,
+.isotope-container .product.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
 }
