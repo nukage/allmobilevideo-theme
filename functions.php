@@ -114,6 +114,8 @@ add_action( 'widgets_init', 'allmobilevideo_theme_widgets_init' );
 function allmobilevideo_theme_scripts() {
 	wp_enqueue_style( 'allmobilevideo-theme-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'allmobilevideo-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/js/jquery.flexslider-min.js', array() , false, true );
+	wp_enqueue_script( 'flexsettings', get_template_directory_uri() . '/js/flex-settings.js', array() , false, true );
 	wp_register_script( 'imagesloaded', get_theme_file_uri( '/js/libs/imagesloaded.pkgd.min.js' ), array( 'jquery' ), '4.1.1', true );
 	wp_register_script( 'isotope', get_theme_file_uri( '/js/jquery.isotope.js' ), array( 'imagesloaded' ), '3.0.1', true );
 	wp_enqueue_script( 'isotope-settings-custom', get_theme_file_uri( '/js/isotope.settings-custom.js' ), array( 'isotope' ), '1.0', true );
@@ -190,6 +192,7 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
 *
 */
  
+
 
 function amv_list_taxonomies($type, $name){
 	?>

@@ -57,7 +57,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "css/bootstrap-reboot.min.css";
 @import "css/bootstrap.min.css";
 @import "css/animate.min.css";
-// @import "css/flexslider.css";
+@import "css/flexslider.css";
  
 /*--------------------------------------------------------------
 # PLUGINS
@@ -429,10 +429,8 @@ align-items: center;
 .rental-single{
 	margin-top:120px;
 	border-top:30px solid #ccc;
-}
 
-  
-.slider.block{
+	.slider.block{
 	background: #eee;
 	padding:20px;
 	border-radius:10px;
@@ -442,6 +440,12 @@ align-items: center;
 ul.slides {
 	border:1px solid #ddd;
 }
+
+
+}
+
+  
+
 .tabbed-area{
 	margin-bottom:100px;
 }
@@ -853,9 +857,10 @@ a:hover .description{
 	
 }
 
-.notlist{list-style-type: none;
-		margin:0;
-		padding:0;}
+.notlist{
+	list-style-type: none;
+	margin:0;
+	padding:0;}
 .mobile-filter {
  input[type="checkbox"] {
    display: none;
@@ -981,3 +986,126 @@ li.checked label {
        -o-transition-duration: 0s;
           transition-duration: 0s;
 }
+
+
+
+#carousel {
+	margin:0;
+	padding:0;
+	position: absolute;
+	bottom:0;
+	z-index: 100;
+	background: none;
+	border:none;
+	cursor:pointer;
+	li{margin:10px;}
+}
+.slider{
+	
+	li, ul{
+		margin:0;
+		padding:0;
+		list-style-type: none;
+	}
+	.slides {
+		padding:20px 10px 30px;
+		img{
+			height:auto;
+		}
+	}
+	.flex-caption {
+		display:none;
+	}
+}
+.product-content{
+	.sidebarcontactinfo {
+		padding-top:12px;
+	}
+}
+.product-top{
+	.topheader{
+		padding-top:2em;
+		padding-bottom:1em;
+		text-align: center;
+		color:white;
+		text-transform: uppercase;
+		font-size:48px;
+		font-weight: 600;
+
+	}
+	.contactbtn{
+		margin:2% 25%;
+		width:50%;
+	}
+	.sectionoverlay {
+		background-color:rgba(0,32,105,.4);
+		height:100%;
+		position: relative;
+	}
+			background-image: url("img/mobile-hero-1.jpg");
+		background-size:cover;
+		background-position: center center; 
+ 
+		}
+
+		.bluebar{
+			background: #17324F;
+			padding-top:10px;
+			color:#fff;
+			.nav-item{
+				background: #005FCB;
+				margin:5px 5px 0 5px;
+				border-radius: 5px;
+			}
+			.nav-link{
+				color:#fff;
+	 
+				font-size:14px;
+			}
+			.nav-tabs{border-bottom:none;}
+			.bluecontact{
+				margin-top:5px;
+
+			}
+		}
+#overview{
+	ul {
+		margin:0;
+		margin-top:20px;
+		padding:0;
+	}
+	li{
+		background: url('img/chevron.png') no-repeat 0 5px ;
+		padding-left:20px;
+		list-style-type: none;
+		margin-bottom:15px;
+	}
+
+}
+		.product-hero {
+			background: #FFFFFF;
+			border-radius: 20px 20px 0 0px;
+			h1, h3{
+				text-align: center;
+				font-family: roboto;
+			}
+			h1{
+
+				margin-top:1em;
+				margin-bottom:.5em;
+				font-weight: 300;
+				font-size:48px;
+				@media (min-width:990px) and (max-width:1199px){
+					margin-top:2em;
+				}
+				@media (min-width:1200px){
+					margin-top:3em;
+				}
+			}
+			h3{
+				font-size:18px;
+				line-height: 28px;
+			 
+				   padding: 0 20px;
+			}
+		}

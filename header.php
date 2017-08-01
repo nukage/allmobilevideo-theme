@@ -57,7 +57,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile &amp; Rentals <span class="sr-only">(current)</span></a>
               <div class="dropdown-menu" aria-labelledby="mobile-rentals">
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile-home">Mobile</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile">Mobile</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/rentals-home">Rentals</a>
  
             </li>

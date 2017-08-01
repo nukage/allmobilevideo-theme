@@ -17,65 +17,126 @@
 
 
 	<section class="product-top">
-	<div class="container">
-		<h1>Mobile</h1>
+	<div class="sectionoverlay">
+	<div class="container ">
+		<h1 class="topheader">Mobile</h1>
 		<div class="product-hero row">
-			<div class="col-8"> <?php echo get_the_post_thumbnail($post, 'amv-slider-image' , array( 'class' => 'img-responsive' ));?></div>
-			<div class="col-4">
-				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
-				<h3>Subtitle</h3>
+			<div class="col-md-8 col-12"> <?php
+	get_template_part( 'template-parts/product', 'slideshow' );
+
+			?>
+
+
 			</div>
+			<div class="col-md-4">
+				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
+				
+				<?php if (types_render_field( 'subtitle' )){ ?>
+				<h3>
+					<?php echo (types_render_field( 'subtitle' )) ?>
+				</h3>
+			<?php } ?>
+			<a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
+			</div>
+		</div>
 		</div>
 		</div>
 	</section>
 <div class="bluebar">
 	<div class="container">
 		<div class="row">
-			<div class="col-4">Contact</div>
-			<div class="col-8">General Information | FAQ | Virtual Tour</div>
+			
+			<div class="col-sm-8"><ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" href="#overview" role="tab" data-toggle="tab">Overview</a>
+  </li>
+
+    <?php if (types_render_field( 'info-tab-1-title' )){ ?>
+  <li class="nav-item">
+    <a class="nav-link" href="#tab1" role="tab" data-toggle="tab">
+
+   <?php echo(types_render_field( 'info-tab-1-title' )); ?>
+    	
+    </a>
+  </li>
+  <?php };?>
+    <?php if (types_render_field( 'info-tab-2-title' )){ ?>
+  <li class="nav-item">
+    <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
+
+   <?php echo(types_render_field( 'info-tab-2-title' )); ?>
+    	
+    </a>
+  </li>
+  <?php };?>
+</ul>
+</div>
+<div class="col-sm-4 bluecontact hidden-sm-down">Contact</div>
 		</div>
 	</div>
 </div>
 
-	<section class="entry-content">
+	<section class="entry-content product-content">
 	<div class="container">
 	<div class="row">
-	<div class="col-4">
-		 <section class='sidebarcontactinfo hidden-sm-down'>
-    <h4>Inquiries</h4>
-      <ul><li>
-        <ul><h5>Eric Duke</h5>
-          <li>t: (212) 727-1234</li>
-          <li>e: eduke@amvchelsea.com</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Lenny Laxler</h5>
-          <li>t: (646)230-6996</li>
-          <li>c:(917)299-0205</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Tom D'Angelo</h5>
-          <li>t: (646)486-8052</li>
-          <li>e:tdeangelo@amvchelsea.com</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>General</h5>
-        <li>contact@amvchelsea.com</li>
-          <li>t:(212)727-1234</li>
-          <li>f:(212)255-6644</li>
-        </ul>
-      </li></ul>
-    </section>
-	</div>
-	<div class="col-8">
-		<?php
+
+	<div class="col-12 col-md-8">
+
+
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade show active" id="overview"><?php
 			the_content();
 
 			 
-		?></div></div>
+		?></div>
+
+
+		 <?php if (types_render_field( 'info-tab-1-content' )){ ?>
+  <div role="tabpanel" class="tab-pane fade" id="tab1">
+
+   <?php echo(types_render_field( 'info-tab-1-content' )); ?>
+    	
+</div>
+  <?php };?>
+	 <?php if (types_render_field( 'info-tab-2-content' )){ ?>
+  <div role="tabpanel" class="tab-pane fade" id="tab2">
+
+   <?php echo(types_render_field( 'info-tab-2-content' )); ?>
+    	
+</div>
+  <?php };?>
+
+
+
+ 
+ 
+</div>
+
+
+
+		</div>
+	<div class="col-12 col-md-4">
+
+	    <?php if (types_render_field( 'contact-info' )){ ?>
+
+
+   <?php 
+
+   $contactinfo = (types_render_field( 'contact-info' ));
+
+
+  
+
+	get_template_part( 'template-parts/contactinfo',  $contactinfo );
+
+			};
+			?>
+
+		
+	</div>
+		</div>
 		</div>
 	</section><!-- .entry-content -->
 
@@ -95,3 +156,9 @@
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
 </article><!-- #post-## -->
+
+ <!-- jQuery -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
