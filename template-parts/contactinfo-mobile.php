@@ -7,7 +7,7 @@
         </ul>
       </li>
       <li>
-        <ul><h5>Lenny Laxler</h5>
+        <ul><h5>Lenny Laxer</h5>
           <li>t: (646)230-6996</li>
           <li>c:(917)299-0205</li>
         </ul>
