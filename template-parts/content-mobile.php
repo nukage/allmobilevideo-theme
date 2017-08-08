@@ -41,7 +41,7 @@
        <?php amv_list_taxonomies('mpu-type', 'Type') ?>
         <?php amv_list_taxonomies('video-format', 'Video Format') ?>
          <?php amv_list_taxonomies('audio-format', 'Audio Format') ?>
-         <?php amv_list_taxonomies('no-of-cameras', 'Number of Cameras') ?>
+         <?php amv_list_taxonomies('number-of-cameras', 'Number of Cameras') ?>
        </ul>
         
     </section><!-- .filter .widget -->
@@ -89,7 +89,8 @@
         'post_type' => array('mobile'),
         'post_status' => 'publish',
         'orderby' => 'title',
-        'order' => 'ASC'
+        'order' => 'ASC',
+        'posts_per_page' => '-1'
       )
     );
  $posts = $query->posts;
@@ -97,7 +98,7 @@
                 foreach ($posts as $post) {  ?>
  
 <?php $allClasses = get_post_class();   ?>  
- <div class="col-6 col-sm-4 col-md-4 col-lg-4 product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
+ <div class="col-6 col-sm-4 col-md-3   product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
           <div class="">
            <a href="<?php echo get_permalink($post);?>" title="<?php echo the_title();?>"  >
                   <?php echo get_the_post_thumbnail($post, 'amv-isotope-image' , array( 'class' => 'img-responsive' ));?>
