@@ -6,5 +6,5 @@
  *
  * @package allmobilevideo-theme
  */
-
-  get_template_part( 'template-parts/content', 'rentals' ); ?>
+get_header(); 
+  get_template_part( 'template-parts/content', 'rentalshome' ); get_footer();?>
