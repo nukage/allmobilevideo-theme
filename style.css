@@ -846,3 +846,40 @@ footer {
     font-size: 18px;
     line-height: 28px;
     padding: 0 20px; }
+
+.rental-product-categories {
+  margin: 40px auto; }
+  .rental-product-categories .product {
+    margin-bottom: 25px; }
+    .rental-product-categories .product .description {
+      color: black;
+      font-family: Roboto;
+      top: 10px;
+      position: relative; }
+  .rental-product-categories li {
+    border-top: 1px #E2E2E2 solid;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px; }
+    .rental-product-categories li a {
+      display: block;
+      color: #424242; }
+  .rental-product-categories .imgholder {
+    border: 1px #B8B8B8 solid;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    max-height: 178px; }
+
+.rental-text {
+  font-family: Roboto;
+  text-align: center;
+  background: #1D1D1D;
+  color: white;
+  padding: 20px; }
+  .rental-text p {
+    font-weight: 200;
+    line-height: 30px; }
+  .rental-text h3 {
+    padding: 20px; }

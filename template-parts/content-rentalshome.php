@@ -14,65 +14,90 @@
 ?>
 
     <?php 
-$args=array(
-  'name' => 'rentals'
-);
-$output = 'objects'; // or names
-$taxonomies=get_taxonomies($args,$output); 
-if  ($taxonomies) {
-  foreach ($taxonomies  as $taxonomy ) {
-   // echo '<p>' . $taxonomy->name . '</p>';
-  };
-  
+
+
+
+
+
+
+
+
+$cate = get_queried_object();
+    if ($cate->term_id){
+      $cateID = $cate->term_id;
+    }
+    else{
+      $cateID = 0;
+    }
+echo '<h1>'.$cateID.'</h1>';
+
+if ($cateID === 0){
+  echo 'THIS IS RENTALS HOME';
+  $current = 'rentals_home';
+ 
 }
-else {
-    echo "<p>Didnt work</p>";
-  };
+
+elseif (get_term_children( $cateID, 'rentals' )){
+  echo 'THIS IS SUBCATEGORY INDEX';
+ $current = 'rentals_sub';
+?>
+
+<?php 
+
+}
+ 
+else{
+  echo 'THIS IS A PRODUCT INDEX';
+  $current = 'rentals_product';
+
+
+};
+
+
+ $args = array(
+      'taxonomy' => 'rentals',
+      'parent' => $cateID,
+        'hierarchical' => 0,
+ 
+      // 'orderby' => 'id',
+      'hide_empty'=> 0
+      // 'child_of' => $cateID //Child From Boxes Category 
+  );
+
+
+
  
 
-$taxonomies = get_taxonomies(); 
-foreach ( $taxonomies as $taxonomy ) {
-  //  echo '<p>' . $taxonomy . '</p>';
-}
 
 
-$args=array(
-  none, rentals
-);
 
-    $args = array(
-      'taxonomy' => 'rentals',
-        'hierarchical' => true,
-    'depth' => 1,
-      // 'orderby' => 'id',
-      'hide_empty'=> 1,
-      // 'child_of' => 5, //Child From Boxes Category 
-  );
   $categories = get_terms($args);
 
 
 //echo get_the_term_list( null , 'rentals', '<p>', '</p><p>', '</p>');
 
 
-$query = new WP_query(
-    array(
-        'post_type' => array('mobile'),
-        'post_status' => 'publish',
-        'orderby' => 'title',
-        'order' => 'ASC',
-        'posts_per_page' => '-1'
-      )
-    );
- $posts = $query->posts;
+
 
 
 ?>
 
     <!-- Page Content -->
    
-<?php echo do_shortcode( '[rev_slider alias="homeslider"]' ); ?>
-
-<section class="rental-products container">
+<?php echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
+<div class="rental-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+      <h3>Trusted Since 1976.</h3>
+      <p>As the original and longest standing department of All Mobile Video, the Rentals Division personifies AMV’s approach to business. Everything we rent is carefully tested and maintained by a meticulous team of engineers and technicians. Customers are supported every step of the way from the budgeting phase, prep, and check- out straight through shoots and post production.</p>
+        <p>
+Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="rental-product-categories container">
 <div class="row">
 <div class="col-sm-12 col-md-3 col-lg-2">
  <section class="mobile-filter widget">
@@ -94,8 +119,8 @@ echo '<li><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->te
  <?php 
 
   foreach ($categories as $cat) { ?>
- <div class="card col-sm-4">
-
+ <div class=" col-sm-4 product">
+<div class="imgholder mx-auto">
 
 
 
@@ -105,19 +130,17 @@ echo '<li><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->te
    $valuee = z_taxonomy_image_url($cat->term_id, 'amv-slider-full');
    echo '<a href="../rentals/'.$cat->slug.'">';
       if(!empty($valuee)){ ?>
-  <img class="img-responsive" src="<?php echo $valuee ?>">
+  <img class="img-responsive center-block" src="<?php echo $valuee ?>">
 
       <?php
       } else {
        
-         echo '<img class="img-responsive" src="http://via.placeholder.com/275x178">';  
+         echo '<img class="img-responsive center-block" src="http://via.placeholder.com/275x178">';  
        }
                                
-      }else{
-        echo 'fuck';
-      };
+      } ;
       echo '</a>'?>
-
+</div>
 
 
 
@@ -125,7 +148,7 @@ echo '<li><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->te
  
        
        
-        <?php echo '<h4 class="valignmiddle uppercase text-center card-title "><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->term_icon.'" alt=""  class="alignleft"/>'.'<br />'.'<span class="solutions">'.$cat->description.'</span>'.'</a></h4>';
+        <?php echo '<a class="description" href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->term_icon.'" alt=""  class="alignleft"/>'.'<br />'.'<span class="solutions">'.$cat->description.'</span>'.'</a>';
         //echo '<br />';
         $args2= array("orderby"=>'name', "category" => $cat->cat_ID); // Get Post from each Sub-Category
         $posts_in_category = get_posts($args2);
@@ -160,14 +183,85 @@ echo '<li><a href="../rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->te
 
 
 
-
-
-  < 
  
   </div>
   </div>
 </section>
+<section class="rental-products"> THIS IS RENTAL PRODUCTS
+<?php
 
+$the_query = new WP_Query( array(
+    'post_type' => 'Adverts',
+    'tax_query' => array(
+        array (
+            'taxonomy' => 'rentals',
+            'field' => 'slug',
+            'terms' => $cateID,
+        )
+    ),
+) );
+
+while ( $the_query->have_posts() ) :
+    $the_query->the_post();
+   echo the_title(); 
+endwhile;
+
+/* Restore original Post Data 
+ * NB: Because we are using new WP_Query we aren't stomping on the 
+ * original $wp_query and it does not need to be reset.
+*/
+wp_reset_postdata();
+
+
+
+
+
+
+ $query = new WP_query(
+    array(
+        'post_type' => array('rental'),
+        'post_status' => 'publish',
+        'orderby' => 'title',
+        'order' => 'ASC',
+        'posts_per_page' => '-1',
+        'taxonomy' => 'rentals',
+           'field' => 'slug',
+            'terms' => $cate
+       )
+    );
+ $posts = $query->posts;
+
+                foreach ($posts as $post) {  ?>
+ 
+<?php $allClasses = get_post_class();   ?>  
+ <div class="col-6 col-sm-4 col-md-3   product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
+          <div class="">
+           <a href="<?php echo get_permalink($post);?>" title="<?php echo the_title();?>"  >
+                  <?php echo get_the_post_thumbnail($post, 'amv-isotope-image' , array( 'class' => 'img-responsive' ));?>
+                  <div class="caption"><?php echo the_title() ?></div>
+                  <span class="description">
+                  <h5><?php echo the_title();?></h5>
+                    <?php the_excerpt() ?>
+                  </span>
+ 
+       
+            
+          </div>
+        </div>
+
+
+ 
+
+   
+    <?php
+} 
+
+
+
+
+
+?>
+</section>
 
 
     <!-- Page Content -->
