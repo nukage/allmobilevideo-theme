@@ -29,7 +29,7 @@
 
 			</div>
 			<div class="col-md-4">
-				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
+				 <?php 	the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?> 
 				
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>

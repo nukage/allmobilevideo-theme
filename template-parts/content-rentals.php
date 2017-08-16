@@ -86,13 +86,49 @@ else{
 			while ( have_posts() ) : the_post(); ?>
 				
 
-			<?php
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'rental' ); ?>
+						<div class="col-md-4">
+				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
+				
+				<?php if (types_render_field( 'subtitle' )){ ?>
+				<h3>
+					<?php echo (types_render_field( 'subtitle' )) ?>
+				</h3>
+					<?php } ?>
+				<?php   if (types_render_field('model')) : ?>
+				  <?php
+				  echo '<h3>Model: ';
+				   echo (types_render_field('model')); 
+				   echo'</h3>'
+
+				   ?>
+				<?php endif; ?>
+					      <?php   if (types_render_field('brand')) : ?>
+				  <?php
+				  echo '<h3>Brand: ';
+				   echo types_render_field('brand'); 
+				   echo'</h3>'
+
+				   ?>
+				<?php endif; ?>
+					      <?php   if(types_render_field('size')) : ?>
+				  <?php
+				  echo '<h4>Size: ';
+				   echo types_render_field('size'); 
+				   echo'</h4>'
+
+				   ?>
+				<?php endif; ?>
+						      <?php   if(types_render_field('weight')) : ?>
+				  <?php
+				  echo '<h4>Weight: ';
+				   echo types_render_field('weight'); 
+				   echo'</h4>'
+
+				   ?>
+				<?php endif; ?>
+		
+			<a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
+			</div>
 				
 
 
