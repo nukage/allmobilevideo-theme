@@ -192,8 +192,24 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
 *
 */
  
+ 
+function get_featured_section($key, $post){
+	if (get_post_meta($post->ID, $key, true)){
+	$featuredSection =  get_post_meta($post->ID, $key, true);
+	$featuredSectionId  = get_page_by_path($featuredSection,  OBJECT,  'page' );?>
+	<div class="card"  >
+	 <a href="<?php echo get_permalink($featuredSectionId);?>" title="<?php get_the_title($featuredSectionId);?>"  >
 
-
+		<?php echo get_the_post_thumbnail($featuredSectionId, 'amv-isotope-image' , array( 'class' => 'card-img-top' ));?>
+		  <div class="card-block">
+		 <h4 class="card-title"><?php echo get_the_title($featuredSectionId->ID);?></h4>
+		   <p class="card-text"><?php echo get_post_meta($featuredSectionId->ID, 'Excerpt', true);?></p>
+		  </div>
+	</a>
+	</div>
+	<?php
+	};
+};
 function amv_list_taxonomies($type, $name){
 	?>
 	 <li class="filter-list col-md-12 col-3 pr-md-0 pr-3">

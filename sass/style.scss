@@ -712,18 +712,16 @@ li{
 }
 }
 
+//Hero Shared Styles
 
-//Mobile Section
-
-.post-type-archive-mobile{
 	.sectionhero{
 	 
-		background-image: url("img/mobile-hero-1.jpg");
+		 
 		background-size:cover;
 		background-position: center center;
 	}
 	.sectionoverlay{
-		background-color:rgba(0,32,105,.4);
+		
 		height:100%;
 		position: relative;
 	
@@ -735,6 +733,7 @@ li{
 			font-size:58px;
 			font-weight: 600;
 			padding:3em 0 .5em 0;
+			text-transform: uppercase;
 		}
 		h2{
 			font-size:17px;
@@ -761,6 +760,26 @@ li{
 		h4{
 			font-size:20px;
 		}
+	}
+//Post Hero
+
+//Mobile Section
+.page-template-page-post{
+	.sectionoverlay{background-color:rgba(0,32,105,.4);}
+		.sectionhero{
+	 
+		background-image: url("img/post-hero-1.jpg");
+
+	}
+}
+
+
+	.post-type-archive-mobile{
+		.sectionoverlay{background-color:rgba(0,32,105,.4);}
+		.sectionhero{
+	 
+		background-image: url("img/mobile-hero-1.jpg");
+
 	}
 }
 

@@ -65,7 +65,7 @@
               <a class="nav-link" href="#stages">Stages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#post">Post</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#digitalmedia">Digital Media</a>

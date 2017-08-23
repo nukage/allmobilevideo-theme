@@ -107,8 +107,6 @@
                   <h5><?php echo the_title();?></h5>
                     <?php the_excerpt() ?>
                   </span>
- 
-       
             </a>
           </div>
         </div>
