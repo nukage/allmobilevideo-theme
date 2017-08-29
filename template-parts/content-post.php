@@ -6,16 +6,8 @@
  *
  * @package allmobilevideo-theme
  */
-
-
-		 
-
-
 ?>
-
-
     <!-- Page Content -->
-   
 <section class="sectionhero">
   <div class="sectionoverlay">
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
@@ -23,14 +15,11 @@
   <h2 >Chelsea Post is one of the most comprehensively equipped facilities in the country. Post production technology and work flow is constantly changing and we pride ourselves on being at the forefront of this evolution. </h2>
   <div class="pb-xl-5"></div>
 </div>
-
     <div class="sectionherooverlay">
           <h3>Post</h3>
         <h4>Chelsea Post is one of the most comprehensively equipped facilities in the country. </h4>
     </div>
-
   </div>
-
 </section>
 <section class="icons pt-5">
       <div class="container">
@@ -77,16 +66,9 @@
           </div>
           <!-- /.container -->
         </section>
-
-
         <section class="featured-pages">
           <div class="container">
             <div class="row">
-         
-              
-
-
-
       <div class="col-4">
       <?php get_featured_section('FeaturedSection1', $post); ?>
       </div>
@@ -96,13 +78,6 @@
             <div class="col-4">
       <?php get_featured_section('FeaturedSection3', $post); ?>
       </div>
-
-
-
-          
-   
-  
-
             </div>
            </div>
           </div>
@@ -117,7 +92,6 @@
          <?php amv_list_taxonomies('audio-format', 'Audio Format') ?>
          <?php amv_list_taxonomies('number-of-cameras', 'Number of Cameras') ?>
        </ul>
-        
     </section><!-- .filter .widget -->
     <section class='sidebarcontactinfo hidden-sm-down'>
     <h4>Inquiries</h4>
@@ -148,16 +122,11 @@
       </li></ul>
     </section>
   </div>
-
 <div class="col-sm-12 col-md-9 col-lg-10">   
   <div id="noresults" class="invisible col-sm-6 offset-2"><p>There are no results for this combination of filters, try selecting different options or click below to clear the filters. </p>
-
   <button role="button" class="btn btn-primary custom-btn" id="clearfilters" href="#">Clear Filters</button></div>
-
   <div class="row no-gutters isotope-container">
-
 <?php
-
  $query = new WP_query(
     array(
         'post_type' => array('mobile'),
@@ -168,9 +137,7 @@
       )
     );
  $posts = $query->posts;
-
                 foreach ($posts as $post) {  ?>
- 
 <?php $allClasses = get_post_class();   ?>  
  <div class="col-6 col-sm-4 col-md-3   product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
           <div class="">
@@ -184,39 +151,15 @@
             </a>
           </div>
         </div>
-
-
- 
-
-   
     <?php
 } 
-
-
-
-
-
-?>
-
-          
-               
-        
-       
-        
-         
-          
-        
+?>   
   </div>
   </div>
   </div>
 </section>
-
-
-
     <!-- Page Content -->
-    
    <!--end page content -->
-
         <?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php

@@ -14,38 +14,19 @@
 
 get_header(); ?>
 
-
-
-
-
-
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
 
 		<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
 				<header>
-					<section class="news-top">
-	<div class="container">
-		<h1>NEWS</h1>
-		<h2>AMV News Updates</h2>
-	</div>
-</section>
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
 
 			<?php
-			endif; ?>
-
-				<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-<section class="news-main-content">
-<div class="container">
-
-<div class="row">
-<div class="col-md-9">
-<div class="row">
-
-<?php
+			endif;
 
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
@@ -67,25 +48,9 @@ get_header(); ?>
 
 		endif; ?>
 
-
-
-
-
-</div>
-</div>
-<div class="col-md-3">
-<?php
- get_sidebar(); ?>
-
-
-
-</div>
-</div>
-</div>
-</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
- 
+get_sidebar();
 get_footer();

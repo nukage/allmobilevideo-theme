@@ -51,7 +51,7 @@
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="#">Our Company</a>
                 <a class="dropdown-item" href="#">Credits</a>
-                <a class="dropdown-item" href="#">News</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/news">News</a>
               </div>
             </li>
             <li class="nav-item dropdown">

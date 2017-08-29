@@ -11,7 +11,7 @@
 
 ?>
 
-	   <footer>
+	   <footer class="main-footer">
           <div class="container">
             <div class="row">
               <div class="col-xl-3 col-lg-3 col-md-5  col-sm-6    footercontactinfo  offset-3 offset-sm-0 col-8">

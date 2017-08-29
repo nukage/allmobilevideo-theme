@@ -240,6 +240,24 @@ function amv_list_taxonomies($type, $name){
          </li>
 <?php
 }
+
+// Add Shortcode
+function social_icons() { ?>
+<div class="sidebar_social">
+<h2 class="widget-title">Follow Us</h2>
+	<ul>
+		<li><a href="http://www.facebook.com"><span>Facebook</span></a></li>
+		<li><a href="http://www.twitter.com"><span>Twitter</span></a></li>
+		<li><a href="http://www.linkedin.com"><span>LinkedIn</span></a></li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+
+<?php
+}
+add_shortcode( 'social_icons', 'social_icons' );
+
+
 add_shortcode( 'my_file_name', 'wpml_hard_link'); // Actually activate the shortcode
 function wpml_hard_link($atts) {
     global $post; // So we can get the post meta later on
