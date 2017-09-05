@@ -1212,7 +1212,7 @@ li.checked label {
 .news-top{
 		background-image: url("img/news-headerbg.jpg");
 		background-size:cover;
-
+margin-bottom:20px;
 		background-position: center bottom; 
 		background-attachment: fixed;
 		h1,h2{
@@ -1251,9 +1251,9 @@ li.checked label {
 
 .news-main-content{
 	article{
-		border:1px solid #ccc;
-		padding:5px;
-		border-radius: 5px;
+		// border:1px solid #ccc;
+		// padding:5px;
+		// border-radius: 5px;
 	}
  .entry-meta{
  	font-size:14px;
@@ -1268,13 +1268,22 @@ li.checked label {
 		font-size:16px;
  color:#454545;
  font-weight:200;
+p{
+  // width: 250px;
+  // height:2em;
+  // white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+}
 	}
 		img{
 		height:auto;
-		padding-top:20px;
+		// padding-top:20px;
 	}
 }
-
+.widget{
+	margin-bottom:20px;
+}
 .widget-area {
 		.widget_archive {
 			ul, li{
@@ -1291,7 +1300,7 @@ li.checked label {
 				font-size:16px;
 				font-family: Roboto;
 				color: #000000;
-				padding-top:20px;
+				 
 				padding-bottom: 10px;
 			}
 		.widget_search{

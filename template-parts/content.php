@@ -11,31 +11,33 @@
 
 
 
-<div class="col-6">
-
+<div class="col-md-6">
+ 
  
 
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="card">
 	<?php if (has_post_thumbnail):  ?>
      
  <a href="<?php echo get_permalink(); ?>">
-       <?php the_post_thumbnail( 'pr-slider-image', [  'title' => 'Featured image'] ); ?>
+       <?php the_post_thumbnail( 'amv-slider-image', [ 'class' => 'card-img-top wp-post-image', 'title' => 'Featured image'] ); ?>
 
        </a>
         <?php endif;?>
+         <div class="card-block">
 	<header class="entry-header">
 
 		<?php
 		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title card-title">', '</h1>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="entry-title card-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-		<?php the_date(); ?>
+		<?php echo get_the_date(); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
@@ -43,13 +45,13 @@
 
 	<div class="entry-content">
 		<?php
-			the_excerpt();
+			excerpt('30')
 
 			 
 		?>
 	</div><!-- .entry-content -->
-
-	 
+</div><!-- .card-block-->
+	 </div><!-- .card-->
 </article><!-- #post-## -->
 
 </div>
