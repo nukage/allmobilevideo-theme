@@ -112,6 +112,9 @@ a {
 h1, h2, h3, h4 {
   font-family: 'Raleway'; }
 
+.no-padding {
+  padding: 0; }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -596,6 +599,38 @@ img {
 .post-type-archive-mobile .sectionhero {
   background-image: url("img/mobile-hero-1.jpg"); }
 
+.post-type-archive-stage .sectionoverlay {
+  background-color: rgba(0, 32, 105, 0.4); }
+
+.post-type-archive-stage .sectionhero {
+  background-image: url("img/stage-hero-1.jpg"); }
+
+.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+  padding-top: 4em;
+  padding-bottom: .7em;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  line-height: 1.2em; }
+
+@media (max-width: 1199px) {
+  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+    padding-top: 3em; } }
+
+@media (max-width: 992px) {
+  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+    padding-top: 0; }
+  .single-mobile .sectionoverlay .contactbtn, .single-stage .sectionoverlay .contactbtn {
+    margin: 2% 33%;
+    width: 33%; } }
+
+.single-mobile .sectionoverlay h2, .single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h2, .single-stage .sectionoverlay h3 {
+  color: #4A4A4A;
+  font-family: Roboto;
+  font-weight: 300; }
+
+.single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h3 {
+  padding-bottom: 1em; }
+
 .mobile-products #clearfilters {
   cursor: pointer;
   position: relative;
@@ -783,9 +818,17 @@ img {
   z-index: 100;
   background: none;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 100%; }
   #carousel li {
     margin: 10px; }
+
+.slider .flex-direction-nav a:before {
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); }
+
+.slider .flex-direction-nav a {
+  height: 50px; }
 
 .slider li, .slider ul {
   margin: 0;
@@ -800,11 +843,13 @@ img {
 .slider .flex-caption {
   display: none; }
 
+.slider #carousel .flex-direction-nav a {
+  top: 60px; }
+
 .product-content .sidebarcontactinfo {
   padding-top: 12px; }
 
 .product-top {
-  background-image: url("img/mobile-hero-1.jpg");
   background-size: cover;
   background-position: center center; }
   .product-top .topheader {
@@ -822,6 +867,12 @@ img {
     background-color: rgba(0, 32, 105, 0.4);
     height: 100%;
     position: relative; }
+
+.single-stage .product-top {
+  background-image: url("img/stage-hero-1.jpg"); }
+
+.single-mobile .product-top {
+  background-image: url("img/mobile-hero-1.jpg"); }
 
 .bluebar {
   background: #17324F;

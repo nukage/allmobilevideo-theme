@@ -152,6 +152,10 @@ h1, h2, h3, h4{
 	font-family: 'Raleway';
 }
 
+.no-padding{
+	padding:0;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -779,12 +783,12 @@ li{
 
 //Mobile Section
 .page-template-page-post{
+
 	.sectionoverlay{background-color:rgba(0,32,105,.4);}
 		.sectionhero{
-	 
 		background-image: url("img/post-hero-1.jpg");
-
 	}
+
 }
 
 
@@ -796,6 +800,54 @@ li{
 
 	}
 }
+
+	.post-type-archive-stage{
+		
+		.sectionoverlay{
+			background-color:rgba(0,32,105,.4);
+
+		}
+		.sectionhero{
+	 
+		background-image: url("img/stage-hero-1.jpg");
+
+	}
+}
+
+	.single-mobile, .single-stage {
+		.sectionoverlay {
+			h2{
+				padding-top:4em;
+				padding-bottom:.7em;
+				font-size:2.5em;
+				text-transform: uppercase;
+				line-height: 1.2em;
+			}
+			@media(max-width:1199px) {
+				h2{
+					padding-top:3em;
+				}
+			}
+			@media(max-width:992px) {
+				h2{
+					padding-top:0;
+				}
+				.contactbtn {
+					margin:2% 33%;
+					width:33%;
+				
+				}
+			}
+			h2, h3{
+				color: #4A4A4A;
+				font-family: Roboto;
+				font-weight:300;
+			}
+			h3{
+				padding-bottom:1em;
+			}
+		}
+	}
 
 .mobile-products {
 #clearfilters{
@@ -1031,10 +1083,18 @@ li.checked label {
 	background: none;
 	border:none;
 	cursor:pointer;
+	width:100%;
 	li{margin:10px;}
 }
 .slider{
-	
+	.flex-direction-nav a:before{
+		color:rgba(255, 255, 255, 0.8);
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	}
+	.flex-direction-nav a {
+		height:50px;
+		
+	}
 	li, ul{
 		margin:0;
 		padding:0;
@@ -1050,11 +1110,21 @@ li.checked label {
 		display:none;
 	}
 }
+
+ .slider #carousel .flex-direction-nav a {
+		 top:60px;
+		
+	}
+ 
+
+
 .product-content{
 	.sidebarcontactinfo {
 		padding-top:12px;
 	}
 }
+
+
 .product-top{
 	.topheader{
 		padding-top:2em;
@@ -1075,11 +1145,21 @@ li.checked label {
 		height:100%;
 		position: relative;
 	}
-			background-image: url("img/mobile-hero-1.jpg");
+		
 		background-size:cover;
 		background-position: center center; 
  
 		}
+
+
+.single-stage .product-top  {
+	background-image: url("img/stage-hero-1.jpg");
+}
+.single-mobile .product-top  {
+	background-image: url("img/mobile-hero-1.jpg");
+}
+
+
 
 		.bluebar{
 			background: #17324F;

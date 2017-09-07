@@ -62,22 +62,22 @@
  
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#stages">Stages</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/stage">Stages</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#digitalmedia">Digital Media</a>
+              <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#sales">Sales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#transport">Video Transport / IP</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/video-transport-ip">Video Transport / IP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>
             </li>
           </ul>
           <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up">

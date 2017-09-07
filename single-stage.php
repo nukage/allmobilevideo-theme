@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying MPU (Mobile) Custom posts
+ * The template for displaying Stages Custom posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -15,7 +15,7 @@ get_header(); ?>
 		<?php
 		while ( have_posts() ) : the_post();
 
-			get_template_part( 'template-parts/content', 'product' );
+			get_template_part( 'template-parts/content', 'product-stage' );
 
 			 
 

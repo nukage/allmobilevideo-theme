@@ -11,7 +11,7 @@
 
         slideshow: true,
 
-        itemWidth: 75,
+        itemWidth: 100,
 
         itemMargin: 2,
 

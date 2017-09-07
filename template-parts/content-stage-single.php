@@ -19,29 +19,18 @@
 	<section class="product-top">
 	<div class="sectionoverlay">
 	<div class="container ">
-		<h1 class="topheader">
-<?php if ( 'stage' == get_post_type() ) {
- echo 'Stages';
-} 
-elseif('mobile' == get_post_type()) {
-echo 'Mobile';
-}
-else{
-	echo 'Unknown Post Type';
-}
-
-
-?>
-
-
-		 </h1>
+		<h1 class="topheader">Mobile</h1>
 		<div class="product-hero row">
-			<div class="col-lg-8 col-12"> <?php
+			<div class="col-md-8 col-12"> <?php
 	get_template_part( 'template-parts/product', 'slideshow' );
+
 			?>
+
+
 			</div>
-			<div class="col-lg-4">
-				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+			<div class="col-md-4">
+				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
+				
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>
 					<?php echo (types_render_field( 'subtitle' )) ?>
@@ -62,7 +51,7 @@ else{
     <a class="nav-link active" href="#overview" role="tab" data-toggle="tab">Overview</a>
   </li>
 
-    <?php if (types_render_field( 'info-tab-1-content' )){ ?>
+    <?php if (types_render_field( 'info-tab-1-title' )){ ?>
   <li class="nav-item">
     <a class="nav-link" href="#tab1" role="tab" data-toggle="tab">
 
@@ -71,7 +60,7 @@ else{
     </a>
   </li>
   <?php };?>
-    <?php if (types_render_field( 'info-tab-2-content' )){ ?>
+    <?php if (types_render_field( 'info-tab-2-title' )){ ?>
   <li class="nav-item">
     <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
 
