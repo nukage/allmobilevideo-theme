@@ -679,8 +679,13 @@ ul.slides {
 	text-transform: uppercase;
 	padding: .7rem 2rem;
 	font-family: 'Raleway';
+	cursor: pointer;
 
 }
+ .custom-btn:hover{
+ 	background: rgba(255,0,0,.5);
+ 	border:1px solid rgba(255,0,0,.5)
+ }
 
 
 .btn-tertiary{
@@ -813,6 +818,35 @@ li{
 
 	}
 }
+
+.page-template-page-contact-php {
+	.sectionoverlay{background-color:rgba(0,32,105,.4);}
+		.sectionhero{
+		background-image: url("img/contact-hero-1.jpg");
+		color:white;
+		iframe{
+			margin-bottom:5em;
+		}
+		h2{
+			text-align: left;
+			padding-top:4em;
+			padding-bottom:1em;
+			font-size:2em;
+			font-family: Roboto;
+			font-weight:500;
+		}
+		ul {
+			margin:0;padding:0;
+			li{
+				margin-bottom: 2.5em;
+				text-transform: uppercase;
+				list-style-type: none;
+			}
+		}
+	}
+}
+
+ 
 
 	.single-mobile, .single-stage {
 		.sectionoverlay {
@@ -1124,7 +1158,56 @@ li.checked label {
 	}
 }
 
+#directory{
+	
+	.rtborder{
+		
+		padding-right:2em;
+		padding-left:3em;
+		padding-bottom:4em;
+		 padding-top:-2em;
+		 @media (min-width:992px){
+		border-right:1px solid #CDCDCD;
+	}
+	}
+	.nortborder{
+		padding-right:2em;
+		padding-left:3em;
+		padding-bottom:4em;
+	}
 
+	h2{
+		text-align: center;
+		text-transform: uppercase;
+		padding-top:2em;
+		padding-bottom:2em;
+		font-weight: 600;
+	}
+	h3{
+		font-family: roboto;
+		font-size:1.5em;
+		text-transform: uppercase;
+		color:#000000;
+		padding-bottom:.5em;
+		padding-top:2em;
+	}
+	@media (min-width:992px){
+		h3:first-of-type{
+			padding-top:0;
+		}
+	}
+	h4{
+		font-size:1em;
+		font-weight: 600;
+		color:#1B1B1B;
+		margin-top:20px;
+		margin-bottom:0;
+
+	}
+	ul, li {
+		padding:0;margin:0;list-style-type: none;
+	}
+}
 .product-top{
 	.topheader{
 		padding-top:2em;
@@ -1421,3 +1504,5 @@ p{
 				}
 		}
 	}
+
+

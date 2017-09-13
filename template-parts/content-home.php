@@ -194,20 +194,10 @@
               </p>
               </div>
               <div class="col-6">
-                <h3 class="mb-4">Send us a Message</h3>
+<h3 class="mb-4">Send us a Message</h3>
                 <p>Simply fill out the quick form below with your contact info and a member of our team will be back in touch with you ASAP, usually within 1 business day. Thank you for visiting us.</p>
-                <form class="mt-4" action=""><div class="row">
-                   <div class="col-6">
-    <input class="form-control" type="text" placeholder="First Name *" id="example-text-input">
-  </div>
-  <div class="col-6">
-    <input class="form-control" type="text" placeholder="Last Name *"  id="example-text-input">
-  </div><div class="col-12 mt-3">
-    <input class="form-control" type="text"  placeholder="Phone Number"  id="example-text-input">
-  </div><div class="col-12 mt-3">
-    <textarea class="form-control" type="text" placeholder="Your Message*" id="example-text-input"></textarea> 
-  </div></div> <button type="submit" class="btn custom-btn   btn-tertiary mt-3">Send Message</button>
-                </form>
+                <?php echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' ); ?>
+            
               </div>
             </div>
           </div>

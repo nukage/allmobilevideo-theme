@@ -47,7 +47,7 @@
                 </ul>
               </div>
               <div class="offset-md-5 offset-lg-0 col-md-3 col-sm-6 col-lg-2 text-sm-left text-left col-5  offset-sm-0">
-                <h6>Teleports</h6>
+                <h6>Video Transport / IP</h6>
                 <ul>
                   <li><a href="">AMV Gateway</a></li>
                   <li><a href="">AMV Master Control</a></li>
