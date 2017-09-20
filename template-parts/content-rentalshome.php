@@ -16,21 +16,21 @@ $cateID = $cate->term_id;
 else{
 $cateID = 0;
 }
-echo '<h1>'.$cateID.'</h1>';
+//echo '<h1>'.$cateID.'</h1>';
 if ($cateID === 0){
-echo 'THIS IS RENTALS HOME';
+//echo 'THIS IS RENTALS HOME';
 $current = 'rentals_home';
 
 }
 elseif (get_term_children( $cateID, 'rentals' )){
-echo 'THIS IS SUBCATEGORY INDEX';
+//echo 'THIS IS SUBCATEGORY INDEX';
 $current = 'rentals_sub';
 ?>
 <?php
 }
 
 else{
-echo 'THIS IS A PRODUCT INDEX';
+//echo 'THIS IS A PRODUCT INDEX';
 $current = 'rentals_product';
 };
 $args = array(

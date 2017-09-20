@@ -28,9 +28,9 @@ get_header(); ?>
 				<div class="col-md-6">
               <h2>Contact Us</h2>
               <ul>
-                <li><img src="http://www.amv.dev/wp-content/themes/allmobilevideo-theme/img/home-contact-mobile.png">(212)727-1234</li>
-                <li><img src="http://www.amv.dev/wp-content/themes/allmobilevideo-theme/img/home-contact-email.png" alt="">CONTACT@AMVCHELSEA.COM</li>
-                <li><img src="http://www.amv.dev/wp-content/themes/allmobilevideo-theme/img/home-contact-fax.png">(212) 255-6644</li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-mobile.png">(212)727-1234</li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-email.png" alt="">CONTACT@AMVCHELSEA.COM</li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-fax.png">(212) 255-6644</li>
               </ul>
               <p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.704196785838!2d-73.9974590488192!3d40.74653397922675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259baa94ccc93%3A0x226963c36d090dce!2sAll+Mobile+Video!5e0!3m2!1sen!2sus!4v1498850989502" width="350" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>

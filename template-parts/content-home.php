@@ -93,7 +93,7 @@
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>Mobile &amp; Rentals</h3>
                   <p>AMV’s Mobile Division houses a wide range of options offering the most advanced capabilities and equipment available. From single live shots to large-scale multi camera productions – AMV can custom spec any unit or carry-pack to meet your needs.</p>
-                  <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft" href="#" data-wow-delay=".3s">View Mobile</a> <a role="button"  class="mt-md-2 mt-lg-0 btn btn-primary custom-btn wow fadeInLeft" href="#" data-wow-delay=".1s">View Rentals</a>
+                  <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile" data-wow-delay=".3s">View Mobile</a> <a role="button"  class="mt-md-2 mt-lg-0 btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/rentals" data-wow-delay=".1s">View Rentals</a>
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down">
                   <img class="img-responsive mt-md-5 wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt="">
@@ -110,7 +110,7 @@
                 <div class="col-md-6 descrip wow fadeInRight">
                   <h3>Stages</h3>
                   <p>AMV’s Manhattan-based sound stages are conveniently located in Chelsea and Midtown West. Each stage is fully customizable to meet the needs of your production from beginning to end. Providing cutting edge technology, effortless load-in access and ample support space, AMV’s Sound Stages are able to accommodate all of your production needs.</p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="#">View Stages</a>
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/stage">View Stages</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@
                 <div class="col-md-6 descrip wow fadeInRight">
                   <h3>Digital Media</h3>
                   <p>AMV Digital Media is the only glass-to-glass live video provider with the experience to ensure that your live event is a guaranteed success.  All the pieces of this puzzle are finally in place. AMVDM is now ready to handle full production and distribution of your 4K events. </p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="#">View Digital Media</a>
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="http://www.amvdm.com" target="_blank">View Digital Media</a>
                 </div>
               </div>
             </div>

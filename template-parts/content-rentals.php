@@ -46,17 +46,17 @@ $args=array(
   none, rentals
 );
 
-echo get_the_term_list( null , 'rentals', '<p>', '</p><p>', '</p>');
+//echo get_the_term_list( null , 'rentals', '<p>', '</p><p>', '</p>');
 
 
  echo $cateID;
 if (is_page()){
-	echo 'THIS IS RENTALS HOME';
+	//echo 'THIS IS RENTALS HOME';
 	 get_template_part( 'template-parts/content', 'rentalcategories' );
 }
 
 elseif (get_term_children( $cateID, 'rentals' )){
-	echo 'THIS IS SUBCATEGORY INDEX';
+	//echo 'THIS IS SUBCATEGORY INDEX';
 	 get_template_part( 'template-parts/content', 'rentalcategories' );
 ?>
 
@@ -65,7 +65,7 @@ elseif (get_term_children( $cateID, 'rentals' )){
 }
  
 else{
-	echo 'THIS IS A PRODUCT INDEX';
+	//echo 'THIS IS A PRODUCT INDEX';
 
 
 };

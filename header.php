@@ -47,10 +47,10 @@
         <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
           <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <a class="nav-link dropdown-toggle" href="<?php echo get_home_url(); ?>/news" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Our Company</a>
-                <a class="dropdown-item" href="#">Credits</a>
+            <!--     <a class="dropdown-item" href="#">Our Company</a>
+                <a class="dropdown-item" href="#">Credits</a> -->
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/news">News</a>
               </div>
             </li>
@@ -65,16 +65,17 @@
               <a class="nav-link" href="<?php echo get_home_url(); ?>/stage">Stages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a>
+            <!--   <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a> -->
+              <a class="nav-link" href="#">Post</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sales">Sales</a>
+              <a class="nav-link" href="#">Sales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_home_url(); ?>/video-transport-ip">Video Transport / IP</a>
+              <a class="nav-link" href="#">Video Transport / IP</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>
