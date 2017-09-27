@@ -153,6 +153,14 @@ h1, h2, h3, h4 {
   text-indent: -99em;
   background-size: contain; }
 
+.page-template-page-transport .navbar-brand {
+  background-image: url(img/amv-westar-header.png);
+  background-repeat: no-repeat;
+  width: 185px;
+  height: 68px;
+  text-indent: -99em;
+  background-size: contain; }
+
 .navbar2 {
   position: absolute;
   top: 50px;
@@ -632,6 +640,12 @@ img {
       margin-bottom: 2.5em;
       text-transform: uppercase;
       list-style-type: none; }
+
+.page-template-page-transport-php .sectionoverlay {
+  background-color: rgba(0, 32, 105, 0.4); }
+
+.page-template-page-transport-php .sectionhero {
+  background-image: url("img/transport-hero-1.jpg"); }
 
 .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
   padding-top: 4em;
@@ -1127,3 +1141,73 @@ img {
   position: absolute;
   right: 0px;
   top: 0px; }
+
+.page-template-page-transport .sectionoverlay h2 {
+  padding-bottom: 1em; }
+
+.page-template-page-transport a.custom-btn {
+  margin: auto;
+  display: block;
+  width: 12em;
+  margin-bottom: 6em;
+  font-size: 1.5em;
+  border-radius: .2em;
+  font-weight: 200; }
+
+.page-template-page-transport #features {
+  padding: 2em;
+  font-weight: 300;
+  background: url(img/transport-features-icon.png) 90% 100% #eee no-repeat; }
+  .page-template-page-transport #features .feat {
+    border: 1px dotted #ccc;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px 0;
+    transition: .5s all;
+    cursor: default; }
+  .page-template-page-transport #features .feat:hover {
+    text-decoration: none;
+    color: #005FCB;
+    transform: scale(1.1, 1.1);
+    opacity: .8; }
+  .page-template-page-transport #features span {
+    font-weight: 600; }
+
+.page-template-page-transport #services {
+  color: white;
+  padding: 5em 0 4.5em;
+  background: url(img/transport-history-1.jpg) bottom left #2F2F2F fixed; }
+  .page-template-page-transport #services h3 {
+    text-align: center;
+    padding-bottom: 1em; }
+  .page-template-page-transport #services .services-content {
+    max-width: 50em;
+    margin: auto; }
+  .page-template-page-transport #services li {
+    list-style-type: none;
+    background: url("img/red-checks.png") no-repeat center left;
+    padding-left: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    transition: .5s all;
+    cursor: default;
+    border-radius: 3px; }
+  .page-template-page-transport #services li:hover {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    background-color: rgba(255, 255, 255, 0.1); }
+
+.page-template-page-transport #history {
+  font-weight: 200;
+  color: white;
+  background: url(img/transport-history-icon.png) bottom left #2F2F2F no-repeat;
+  padding: 5em 0 4.5em; }
+  .page-template-page-transport #history h3 {
+    text-align: center;
+    font-family: raleway;
+    padding-bottom: 1em; }
+  .page-template-page-transport #history .history-content {
+    max-width: 50em;
+    margin: auto; }

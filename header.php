@@ -25,10 +25,10 @@
         <div class="navbar-collapse collapse" id="navbar1" aria-expanded="true" style="">
           <ul class="navbar-nav mr-auto">
             <li class="">
-              <a class="phone" href="#">(212) 727-1234</a>
+              <a class="phone" href="tel:2127271234">(212) 727-1234</a>
             </li>
             <li class="nav-item hidden-sm-down">
-              <a class="email" href="#">CONTACT@AMVCHELSEA.COM</a>
+              <a class="email" href="<?php echo get_home_url(); ?>/contact">CONTACT@AMVCHELSEA.COM</a>
             </li>
           </ul>
           <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
@@ -75,7 +75,7 @@
               <a class="nav-link" href="#">Sales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Video Transport / IP</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/video-transport-ip/">Video Transport / IP</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>

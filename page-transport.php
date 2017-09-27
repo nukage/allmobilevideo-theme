@@ -19,199 +19,113 @@
 				 */
 			 
 
-get_header(); 
-    $cate = get_queried_object();
-$cateID = $cate->term_id;
- ?>
+get_header(); ?>
 
-
-	<div id="primary" class="content-area container">
-		<main id="main" class="site-main" role="main">
-
-		<?php 
-$args=array(
-  'name' => 'rentals'
-);
-$output = 'objects'; // or names
-$taxonomies=get_taxonomies($args,$output); 
-if  ($taxonomies) {
-  foreach ($taxonomies  as $taxonomy ) {
-    echo '<p>' . $taxonomy->name . '</p>';
-  };
-  
-}
-else {
-  	echo "<p>Didnt work</p>";
-  };
-?>
-
-
-<?php
-
-$taxonomies = get_taxonomies(); 
-foreach ( $taxonomies as $taxonomy ) {
-    echo '<p>' . $taxonomy . '</p>';
-}
-
-
-$args=array(
-  none, rentals
-);
-
-echo get_the_term_list( null , 'rentals', '<p>', '</p><p>', '</p>');
-
-
- echo $cateID;
-if (is_page()){
-	echo 'THIS IS RENTALS HOME';
-	 get_template_part( 'template-parts/content', 'rentalcategories' );
-}
-
-elseif (get_term_children( $cateID, 'rentals' )){
-	echo 'THIS IS SUBCATEGORY INDEX';
-	 get_template_part( 'template-parts/content', 'rentalcategories' );
-?>
-
-<?php
-    $cate = get_queried_object();
-    if ($cate->term_id){
-      $cateID = $cate->term_id;
-    }
-    else{
-      $cateID = 0;
-    }
-
-echo '<h1>'.$cateID.'</h1>';
-    $args = array(
-    	'taxonomy' => 'rentals',
-    	'parent' => $cateID,
-    	  'hierarchical' => 0,
- 
-      // 'orderby' => 'id',
-      'hide_empty'=> 0,
-      // 'child_of' => 5, //Child From Boxes Category 
-  );
-  $categories = get_terms($args);
-
-  ?>
-
-<div class="row">
- <?php 
-  foreach ($categories as $cat) { ?>
- <div class="card col-sm-4">
- <?php
-  	if (function_exists('z_taxonomy_image')) {
-  		 
-  		
-  	 
-  			$attr = array(
-  			'class' => 'img-responsive, card-img-top',
-  			);
-  		z_taxonomy_image($cat->term_id, 'full', $attr);
-  		 
- 
- 
-  	};?>
-  		 
-       
-        <?php echo '<h4 class="valignmiddle uppercase text-center card-title "><a href="'.get_site_url().'/rentals/'.$cat->slug.'">'.$cat->name.'<img src="'.$cat->term_icon.'" alt=""  class="alignleft"/>'.'<br />'.'<span class="solutions">'.$cat->description.'</span>'.'</a></h4>';
-        //echo '<br />';
-        $args2= array("orderby"=>'name', "category" => $cat->cat_ID); // Get Post from each Sub-Category
-        $posts_in_category = get_posts($args2);
-        foreach($posts_in_category as $current_post) {
-            echo '<span>';
-            ?>
-            <li type='none' style='list-style-type: none !important;'><a href="<?=$current_post->guid;?>"><?='+ '.$current_post->post_title;?></a></li>
-            <?php
-            echo '</span>';
-        }?>
-      </div><!--card-->
-  <?php  }
-?>
-</div><!--row-->
-
-
-<?php 
-
-}
- 
-else{
-	echo 'THIS IS A PRODUCT INDEX';
-
-
-};
-?>
-		<?php
-		if ( have_posts() ) : ?>
-			<div class="row">
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+<section class="sectionhero">
+  <div class="sectionoverlay">
+<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
+    <h1>A COMPLETE RANGE OF VIDEO AND IP SERVICES</h1>
+  <h2>Westar Satellite Services specializes in providing the broadcast industry with a complete range of video and IP services. We back up our services with a team of dedicated professionals and years of experience in the video transport industry.</h2>
+  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="http://www.amvdm.com" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
+  <div class="pb-xl-5"></div>
 </div>
-<div class="row">
+
+    <div class="sectionherooverlay">
+          <h3>WESTAR SATELLITE SERVICES</h3>
+        <h4>
+Westar provides customers with national video contribution and distribution over satellite or IP.</h4>
+    </div>
+
+  </div>
+
+</section>
+<section id="features">
+	<div class="container" >
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+					<span>Westar provides custom engineered solutions.</span> We leverage satellite, fiber and teleport assets and a full menu of value added services to provide one- stop solutions.
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+				<span>We are network and satellite neutral,</span> so you are able to mix and leverage resources from numerous sources into a best of class solution. You need never be tied to a specific satellite operator, terrestrial provider, technology or product package.
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+				<span>Our expertise ensures</span> that your services are engineered and deployed using the most efficient combination of Westar assets, facilities and technologies.
+				</div>
+			</div>
+ 
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+				<span>We offer turn-key service</span> packages that include everything from network design and equipment to installation, maintenance and monitoring.
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+				<span>Westar has decades of experience</span> in teleport services, global transport, and network management.
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="feat">
+				<span>We are committed</span> to our customers’ satisfaction and excellence.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id='services'>
+	<div class="container">
+		<div class="row">
+			<div class="services-content">
+				<h3>WESTAR SATELLITE SERVICES FEATURES</h3>
+				<ul>
+					<li>30 Antennas accessing Domestic & International Satellites</li>
+					<li>Video Switching Hubs in: Dallas, Washington D.C. & New York City</li>
+					<li>Program Contribution</li>
+					<li>Special Events Packaging</li>
+					<li>Sports Events</li>
+					<li>Tape/ File Playback & Record Nielson Encoding</li>
+					<li>Standards Conversion</li>
+					<li>Video Streaming</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="history">
+	<div class="container">
+		<div class="row">
+			<div class="history-content">
+				<h3>HISTORY</h3>
+				<p><strong>Westar has the longest history of delivery over satellite in the United States.</strong> Since the early 1970s, and the Westar1 Satellite, Westar has provided reliable performance in contribution and distribution of content for broadcasters. The largest media companies, content providers, and cable companies have used Westar’s facilities.</p>
+
+				<p>Westar’s traffic, booking, and NOC have been finely tuned over the years to deliver performance with every call. We offer full time, occasional use, and special event solutions for transport, space segment, and teleport services with the highest industry reliability and customer service.
+Westar also provides distribution of advertising to television and cable companies throughout North America.</p>
+
+<p>Whatever your content distribution requirements are, give Westar an opportunity to provide you the service that is known throughout the industry.</p>
+
+<p>Call our 24x7 booking center at (866) 980-7400 or (972) 291-6000, extension 2 for our sales department.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+ 
+   <div class="row">
+      Featuring Systems By
+	</div>
+</section>
+<section>
+ 
+   <div class="row">
+     Frequently Added Services
+	</div>
+</section>
 			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post(); ?>
-				
-
-<div class="col-sm-4">
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php allmobilevideo_theme_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
-	</header><!-- .entry-header -->
-
-	<div class="entry-content">
-		<?php
-			the_content( sprintf(
-				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'allmobilevideo-theme' ), array( 'span' => array( 'class' => array() ) ) ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
-
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'allmobilevideo-theme' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php allmobilevideo_theme_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-</div>
-				
-
-
-			<?php endwhile; ?>
-</div>
-			<?php the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
- ?>
+			
+			get_footer();
+			?>
