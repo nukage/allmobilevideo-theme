@@ -65,8 +65,8 @@
               <a class="nav-link" href="<?php echo get_home_url(); ?>/stage">Stages</a>
             </li>
             <li class="nav-item">
-            <!--   <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a> -->
-              <a class="nav-link" href="#">Post</a>
+               <a class="nav-link" href="<?php echo get_home_url(); ?>/post">Post</a>  
+            
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
@@ -74,8 +74,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Sales</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_home_url(); ?>/video-transport-ip/">Video Transport / IP</a>
+            
+                     <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/satellite-services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu" aria-labelledby="mobile-rentals">
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Satellite Services</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/master-control">Master Control</a>
+ 
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>

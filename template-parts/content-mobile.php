@@ -6,44 +6,31 @@
  *
  * @package allmobilevideo-theme
  */
-
-
-		 
-
-
-?>
-
-
-    <!-- Page Content -->
+?>    <!-- Page Content -->
    
 <section class="sectionhero">
   <div class="sectionoverlay">
-<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
+    <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>PREPPED &amp; STAFFED TO ENSURE YOUR SUCCESS</h1>
-  <h2 >AMV’s Mobile Division houses a wide range of options offering the most advanced capabilities and equipment available. From single live shots to large-scale multi camera productions – AMV can custom spec any unit or carry-pack to meet your needs.</h2>
-  <div class="pb-xl-5"></div>
+     <h2 >AMV’s Mobile Division houses a wide range of options offering the most advanced capabilities and equipment available. From single live shots to large-scale multi camera productions – AMV can custom spec any unit or carry-pack to meet your needs.</h2>
+    <div class="pb-xl-5"></div>
 </div>
-
     <div class="sectionherooverlay">
           <h3>Mobile Production</h3>
         <h4>Coast-to-Coast Production Coverage</h4>
     </div>
-
   </div>
-
 </section>
-
 <section class="mobile-products container-fluid">
 <div class="row">
 <div class="col-sm-12 col-md-3 col-lg-2">
  <section class="mobile-filter widget">
        <ul class="row">
-       <?php amv_list_taxonomies('mpu-type', 'Type') ?>
-        <?php amv_list_taxonomies('video-format', 'Video Format') ?>
+         <?php amv_list_taxonomies('mpu-type', 'Type') ?>
+         <?php amv_list_taxonomies('video-format', 'Video Format') ?>
          <?php amv_list_taxonomies('audio-format', 'Audio Format') ?>
          <?php amv_list_taxonomies('number-of-cameras', 'Number of Cameras') ?>
        </ul>
-        
     </section><!-- .filter .widget -->
     <section class='sidebarcontactinfo hidden-sm-down'>
     <h4>Inquiries</h4>
@@ -74,16 +61,11 @@
       </li></ul>
     </section>
   </div>
-
 <div class="col-sm-12 col-md-9 col-lg-10">   
   <div id="noresults" class="invisible col-sm-6 offset-2"><p>There are no results for this combination of filters, try selecting different options or click below to clear the filters. </p>
-
   <button role="button" class="btn btn-primary custom-btn" id="clearfilters" href="#">Clear Filters</button></div>
-
   <div class="row no-gutters isotope-container">
-
 <?php
-
  $query = new WP_query(
     array(
         'post_type' => array('mobile'),
@@ -110,39 +92,15 @@
             </a>
           </div>
         </div>
-
-
- 
-
-   
     <?php
 } 
-
-
-
-
-
 ?>
-
-          
-               
-        
-       
-        
-         
-          
-        
   </div>
   </div>
   </div>
 </section>
-
-
-
     <!-- Page Content -->
-    
    <!--end page content -->
-
         <?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php

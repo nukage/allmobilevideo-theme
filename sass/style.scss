@@ -196,7 +196,7 @@ h1, h2, h3, h4{
 	 background-size:contain;
 }
 
-.page-template-page-transport .navbar-brand{
+.page-template-page-satellite .navbar-brand, .page-template-page-master-control .navbar-brand{
 	background-image: url(img/amv-westar-header.png);
 	background-repeat: no-repeat;
 	width:185px;
@@ -855,20 +855,20 @@ li{
 		}
 	}
 }  
-.page-template-page-transport-php{
+.page-template-page-satellite, .page-template-page-master-control{
  
 	.sectionoverlay{
 			background-color:rgba(0,32,105,.4);
 
 		}
-		.sectionhero{
-	 
-		background-image: url("img/transport-hero-1.jpg");
-
-	}
+		 
 }
- 
-
+ .page-template-page-satellite .sectionhero {
+			background-image: url("img/transport-hero-1.jpg");
+ }
+ .page-template-page-master-control .sectionhero {
+			background-image: url("img/westar-room.jpg");
+ }
 	.single-mobile, .single-stage {
 		.sectionoverlay {
 			h2{
@@ -1529,7 +1529,7 @@ p{
 
 //TRANSPORT PAGE 
 
-.page-template-page-transport{
+.page-template-page-satellite, .page-template-page-master-control{
 	.sectionoverlay{
 		h2{
 			padding-bottom:1em;
@@ -1626,4 +1626,51 @@ a.custom-btn{
 		}	
 	}
 
+}
+
+.page-template-page-master-control {
+
+	#services{
+		background: url(img/westar-room-bw.jpg) bottom left #2F2F2F fixed;
+	}
+	.traffic-media-management{
+		 padding-bottom:2em;
+		text-align: left;
+		margin:auto;
+
+	}
+	.bluebar{
+		border:none;
+	}
+	.nav-tabs{
+		margin:auto;
+		width:30%;
+	 
+	}
+	#mc-faq {
+		text-align: center;
+		h3{font-family: roboto;
+			padding-top:20px;}
+		.answer{
+			font-size:1.5em;
+		}
+		p{
+			max-width:50em;
+			margin:auto;
+			padding: 1.5em 0;
+
+		}
+	}
+}
+
+#mc-overview{
+	text-align: center;
+	margin-top:3em;
+	font-weight: 300;
+	hr{
+		margin:3em 0;
+	}
+	h4{
+		font-family: roboto;
+		 }
 }

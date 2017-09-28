@@ -16,6 +16,17 @@
 
 
     <!-- Page Content -->
+   <div class="col-lg-4 rtborder"></div>
+    <div class="col-lg-4 rtborder">
+      <h3>AMV Headquarters</h3>
+  <ul>
+    <li>(212) 727-1234 221</li>
+    <li>West 26th Street</li>
+    <li>New York, NY 10001</li>
+    <li>Fax: (212) 255-6644</li>
+  </ul>
+    </div>
+     <div class="col-lg-4 "></div>
 <div class="col-lg-4 rtborder">
   <h3>AMV WEST COAST MOBILE</h3>
   <ul>
@@ -77,13 +88,6 @@
   </ul>
 </div>
 <div class="col-lg-4 rtborder">
-  <h3>AMV Headquarters</h3>
-  <ul>
-    <li>(212) 727-1234 221</li>
-    <li>West 26th Street</li>
-    <li>New York, NY 10001</li>
-    <li>Fax: (212) 255-6644</li>
-  </ul>
   <h3>MOBILE PRODUCTION</h3>
   <h4>Eric Duke</h4>
   <ul>
