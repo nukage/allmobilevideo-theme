@@ -796,7 +796,7 @@ li{
 	}
 //Post Hero
 
-//Mobile Section
+//Mobile INDEX PAGE
 .page-template-page-post{
 
 	.sectionoverlay{background-color:rgba(0,32,105,.4);}
@@ -816,6 +816,8 @@ li{
 	}
 }
 
+//STAGE INDEX PAGE
+
 	.post-type-archive-stage{
 		
 		.sectionoverlay{
@@ -828,6 +830,8 @@ li{
 
 	}
 }
+
+//CONTACT PAGE
 
 .page-template-page-contact-php {
 	.sectionoverlay{background-color:rgba(0,32,105,.4);}
@@ -855,6 +859,22 @@ li{
 		}
 	}
 }  
+// RENTALS CATEGORY PAGES
+.tax-rentals .sectionhero {
+			background-image: url("img/rentals-titlebar.jpg");
+			h1{
+				font-size:36px;
+			}
+			h2{
+				padding-bottom:3em;;
+			}
+			.sectionoverlay{
+			background-color:rgba(0,32,105,.8);
+
+		}
+ } 
+
+ // VIDEO TRANSPORT IP PAGES
 .page-template-page-satellite, .page-template-page-master-control{
  
 	.sectionoverlay{
@@ -869,6 +889,10 @@ li{
  .page-template-page-master-control .sectionhero {
 			background-image: url("img/westar-room.jpg");
  }
+
+ // MOBILE AND STAGE PAGES
+
+
 	.single-mobile, .single-stage {
 		.sectionoverlay {
 			h2{

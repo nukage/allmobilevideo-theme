@@ -25,6 +25,7 @@ $current = 'rentals_home';
 elseif (get_term_children( $cateID, 'rentals' )){
 //echo 'THIS IS SUBCATEGORY INDEX';
 $current = 'rentals_sub';
+
 ?>
 <?php
 }
@@ -66,7 +67,25 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
 <?php
 
 };
+
+if ($current = 'rentals_sub'){
 ?>
+
+<section class="sectionhero">
+  <div class="sectionoverlay">
+<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
+    <h1>Rentals</h1>
+  <h2>Production Equipment</h2>
+ 
+ 
+</div>
+ 
+
+  </div>
+
+</section>
+
+<?php }?>
 <section class="rental-product-categories container">
   <div class="row">
     <div class="col-sm-12 col-md-3 col-lg-2">
@@ -129,13 +148,17 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
       if ($cateID > 0){ ?>
       <section class="rental-products">
         <div class="container">
-          <div class="col-md-4">
+          <div class="">
 
 
 
 
 
 
+<hr>
+
+
+ 
 
 
 <div id="primary" class="content-area">
@@ -144,9 +167,11 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
     <?php
     if ( have_posts() ) : ?>
 
-      <header class="page-header">
+      <header class="page-header"><h1 class="page-title">
         <?php
-          the_archive_title( '<h1 class="page-title">', '</h1>' );
+          
+           echo str_replace('Rental Category: ','',get_the_archive_title( ));
+           echo "</h1>";
           the_archive_description( '<div class="archive-description">', '</div>' );
         ?>
       </header><!-- .page-header -->
@@ -160,6 +185,7 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
          * If you want to override this in a child theme, then include a file
          * called content-___.php (where ___ is the Post Format name) and that will be used instead.
          */
+      
         get_template_part( 'template-parts/content', get_post_format() );
 
       endwhile;

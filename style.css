@@ -641,6 +641,15 @@ img {
       text-transform: uppercase;
       list-style-type: none; }
 
+.tax-rentals .sectionhero {
+  background-image: url("img/rentals-titlebar.jpg"); }
+  .tax-rentals .sectionhero h1 {
+    font-size: 36px; }
+  .tax-rentals .sectionhero h2 {
+    padding-bottom: 3em; }
+  .tax-rentals .sectionhero .sectionoverlay {
+    background-color: rgba(0, 32, 105, 0.8); }
+
 .page-template-page-satellite .sectionoverlay, .page-template-page-master-control .sectionoverlay {
   background-color: rgba(0, 32, 105, 0.4); }
 
