@@ -71,10 +71,20 @@
         'post_type' => array('mobile'),
         'post_status' => 'publish',
         'orderby' => 'title',
-        'order' => 'ASC',
+        'order' => 'DESC',
         'posts_per_page' => '-1'
       )
     );
+
+  // array(
+ //        'post_type' => array('mobile'),
+ //        'post_status' => 'publish',
+ //        'meta_key'      => 'wpcf-order',
+ //        'orderby'     => 'meta_value_num',
+ //        'order' => 'ASC',
+ //        'posts_per_page' => '-1'
+ //      )
+ //    );
  $posts = $query->posts;
 
                 foreach ($posts as $post) {  ?>

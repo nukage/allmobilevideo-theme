@@ -28,14 +28,16 @@
 
 
 			</div>
-			<div class="col-md-4">
-				 <?php 	the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?> 
+			<div class="col-lg-4">
 				
+<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>
 					<?php echo (types_render_field( 'subtitle' )) ?>
 				</h3>
-					<?php } ?>
+			<?php } ?>
+
+				 
 				<?php   if (types_render_field('model')) : ?>
 				  <?php
 				  echo '<h3>Model: ';

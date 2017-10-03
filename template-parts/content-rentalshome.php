@@ -38,7 +38,6 @@ $args = array(
 'taxonomy' => 'rentals',
 'parent' => $cateID,
 'hierarchical' => 0,
-
 // 'orderby' => 'id',
 'hide_empty'=> 0
 // 'child_of' => $cateID //Child From Boxes Category
@@ -68,16 +67,19 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
 
 };
 
-if ($current = 'rentals_sub'){
+if ($current === 'rentals_sub' || $current === 'rentals_product'){
 ?>
 
 <section class="sectionhero">
   <div class="sectionoverlay">
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>Rentals</h1>
-  <h2>Production Equipment</h2>
+
  
  
+ 
+   <h2><?php echo str_replace('Rental Category: ','',get_the_archive_title( )); ?></h2>
+
 </div>
  
 
@@ -126,17 +128,7 @@ if ($current = 'rentals_sub'){
             //echo '<br />';
             $args2= array("orderby"=>'name', "category" => $cat->cat_ID); // Get Post from each Sub-Category
             $posts_in_category = get_posts($args2);
-
-
-
-  
-
-
             ?>
-
-
-
-
             </div><!--card-->
             <?php  }
             ?>
@@ -149,17 +141,6 @@ if ($current = 'rentals_sub'){
       <section class="rental-products">
         <div class="container">
           <div class="">
-
-
-
-
-
-
-<hr>
-
-
- 
-
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -175,52 +156,42 @@ if ($current = 'rentals_sub'){
           the_archive_description( '<div class="archive-description">', '</div>' );
         ?>
       </header><!-- .page-header -->
-
+<div class=" ">
+          <div class="row">
       <?php
       /* Start the Loop */
       while ( have_posts() ) : the_post();
-
-        /*
-         * Include the Post-Format-specific template for the content.
-         * If you want to override this in a child theme, then include a file
-         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-         */
+ 
       
-        get_template_part( 'template-parts/content', get_post_format() );
-
-      endwhile;
-
-      the_posts_navigation();
-
-    else :
-
-      get_template_part( 'template-parts/content', 'none' );
-
-    endif; ?>
-
-    </main><!-- #main -->
-  </div><!-- #primary -->
-
-
-<h1>The Second Loop</h1>
-<hr>
-
-
-
-           <a href="<?php echo get_permalink($post);?>" title="<?php echo the_title();?>"  >
-                  <?php echo get_the_post_thumbnail($post, 'amv-isotope-image' , array( 'class' => 'img-responsive' ));?>
-                  <div class="caption"><?php echo the_title() ?></div>
-                  <span class="description">
-                  <h5><?php echo the_title();?></h5>
-                    <?php the_excerpt() ?>
-                  </span>
-            </a>
+      ?> 
  
 
 
-            <?php  the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
-            
-            <?php if (types_render_field( 'subtitle' )){ ?>
+<!--   <article id="post-<php the_ID(); ?>" <php post_class(); ?>> -->
+ <div class=" col-sm-3 product">
+  <div class="imgholder mx-auto">
+     <a href="<?php echo get_permalink(); ?>">
+  <?php if (has_post_thumbnail()){?>
+     
+
+       <?php the_post_thumbnail( 'amv-slider-slide', [ 'class' => 'img-responsive center-block', 'title' => 'Featured image'] ); ?>
+
+    <?php 
+     }else { ?>
+        <img class="img-responsive center-block" src="http://via.placeholder.com/275x178" alt="Card image cap">
+        <?php 
+      }
+      ?>
+         </a>
+      </div>
+       
+  <header class="entry-header">
+
+    <?php
+  
+  the_title( '<a class="description" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a>' ); 
+ 
+if (types_render_field( 'subtitle' )){ ?>
             <h3>
             <?php echo (types_render_field( 'subtitle' )) ?>
             </h3>
@@ -246,9 +217,54 @@ if ($current = 'rentals_sub'){
             echo types_render_field('weight');
             echo'</span>'
             ?>
-            <?php endif; ?>
+            <?php endif; 
+
+
+    if ( 'post' === get_post_type() ) : ?>
+    <div class="entry-meta">
+    <?php echo get_the_date(); ?>
+    </div><!-- .entry-meta -->
+    <?php
+    endif; ?>
+  </header><!-- .entry-header -->
+  <div class="entry-content">
+    <?php
+      excerpt('30')
+
+       
+    ?>
+  </div><!-- .entry-content -->
+
+   </div><!-- .card-->
+         <?php endwhile;  ?>
+<!-- </article>#post-## -->
+
+</div>
+</div><!--card-group-->
+
+
+
+
+      <?php
+
+
+
+      the_posts_navigation();
+
+    else :
+
+      get_template_part( 'template-parts/content', 'none' );
+
+    endif; ?>
+
+    </main><!-- #main -->
+  </div><!-- #primary -->
+
+  
+ 
+
+ 
             
-            <a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
           </div>
         </div>
       </section>

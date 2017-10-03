@@ -659,31 +659,38 @@ img {
 .page-template-page-master-control .sectionhero {
   background-image: url("img/westar-room.jpg"); }
 
-.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
   padding-top: 4em;
   padding-bottom: .7em;
   font-size: 2.5em;
   text-transform: uppercase;
   line-height: 1.2em; }
 
+.single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h4 {
+  font-size: 1em; }
+
 @media (max-width: 1199px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
     padding-top: 3em; } }
 
 @media (max-width: 992px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2 {
+  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
     padding-top: 0; }
-  .single-mobile .sectionoverlay .contactbtn, .single-stage .sectionoverlay .contactbtn {
+  .single-mobile .sectionoverlay .contactbtn, .single-stage .sectionoverlay .contactbtn, .single-rental .sectionoverlay .contactbtn {
     margin: 2% 33%;
     width: 33%; } }
 
-.single-mobile .sectionoverlay h2, .single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h2, .single-stage .sectionoverlay h3 {
+.single-mobile .sectionoverlay h2, .single-mobile .sectionoverlay h3, .single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h2, .single-stage .sectionoverlay h3, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h2, .single-rental .sectionoverlay h3, .single-rental .sectionoverlay h4 {
   color: #4A4A4A;
   font-family: Roboto;
   font-weight: 300; }
 
-.single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h3 {
-  padding-bottom: 1em; }
+.single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h3, .single-rental .sectionoverlay h3 {
+  padding-bottom: .3em; }
+
+.single-rental h3, .single-rental h4 {
+  padding: 0;
+  text-align: left; }
 
 .mobile-products #clearfilters {
   cursor: pointer;
@@ -877,6 +884,24 @@ img {
   #carousel li {
     margin: 10px; }
 
+.single-rental #slider .slides {
+  border: 1px solid #ccc;
+  margin-top: 15px; }
+
+.single-rental #carousel .slides img {
+  border: 1px solid #ccc;
+  margin-top: 15px; }
+
+.product .imgholder {
+  width: 100%;
+  display: block;
+  position: relative; }
+  .product .imgholder img {
+    max-height: 175px;
+    width: auto;
+    margin: auto;
+    display: block; }
+
 .slider .flex-direction-nav a:before {
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); }
@@ -892,7 +917,9 @@ img {
 .slider .slides {
   padding: 20px 10px 30px; }
   .slider .slides img {
-    height: auto; }
+    max-height: 550px;
+    width: auto;
+    margin: auto; }
 
 .slider .flex-caption {
   display: none; }
@@ -973,6 +1000,12 @@ img {
 .single-mobile .product-top {
   background-image: url("img/mobile-hero-1.jpg"); }
 
+.single-rental .product-top {
+  background-image: url("img/rentals-titlebar.jpg"); }
+
+.single-rental .sectionoverlay {
+  background-color: rgba(0, 32, 105, 0.8); }
+
 .bluebar {
   background: #17324F;
   padding-top: 10px;
@@ -1004,7 +1037,6 @@ img {
   background: #FFFFFF;
   border-radius: 20px 20px 0 0px; }
   .product-hero h1, .product-hero h3 {
-    text-align: center;
     font-family: roboto; }
   .product-hero h1 {
     margin-top: 1em;
@@ -1019,28 +1051,30 @@ img {
         margin-top: 3em; } }
   .product-hero h3 {
     font-size: 18px;
-    line-height: 28px;
-    padding: 0 20px; }
+    line-height: 28px; }
 
 .rental-product-categories {
   margin: 40px auto; }
-  .rental-product-categories .product {
+
+.rental-product-categories, .rental-products {
+  margin: 40px auto; }
+  .rental-product-categories .product, .rental-products .product {
     margin-bottom: 25px; }
-    .rental-product-categories .product .description {
+    .rental-product-categories .product .description, .rental-products .product .description {
       color: black;
       font-family: Roboto;
       top: 10px;
       position: relative; }
-  .rental-product-categories li {
+  .rental-product-categories li, .rental-products li {
     border-top: 1px #E2E2E2 solid;
     display: block;
     width: 100%;
     padding: 5px;
     font-size: 12px; }
-    .rental-product-categories li a {
+    .rental-product-categories li a, .rental-products li a {
       display: block;
       color: #424242; }
-  .rental-product-categories .imgholder {
+  .rental-product-categories .imgholder, .rental-products .imgholder {
     border: 1px #B8B8B8 solid;
     margin: auto;
     padding: 0px;
