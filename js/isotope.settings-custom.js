@@ -5,9 +5,15 @@ $(window).resize(function () {
         $container
           .isotope('reLayout');
         return false;
+       
         });
 
-
+setTimeout(function() {
+         $container
+          .isotope('reLayout');
+           // alert(jQuery);
+            return false;
+    }, 1000);
 
   var $container = $('.isotope-container');
   var $products = $($container).isotope({

@@ -255,6 +255,11 @@ section.icons {
     transform: scale(1.05, 1.05);
     opacity: .8; }
 
+.iconbox {
+  padding: 10px 40px; }
+  .iconbox .homeicons {
+    margin-bottom: 20px; }
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
@@ -691,6 +696,22 @@ img {
 .single-rental h3, .single-rental h4 {
   padding: 0;
   text-align: left; }
+
+.rental-product-categories {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3em; }
+
+.rental-products .product .field-model, .rental-products .product .field-brand, .rental-products .product .field-weight {
+  display: block;
+  font-size: .8em;
+  line-height: 2em; }
+
+.rental-products .product .description {
+  font-size: 1em;
+  line-height: auto;
+  display: block;
+  line-height: 1.4em;
+  padding-bottom: .5em; }
 
 .mobile-products #clearfilters {
   cursor: pointer;
@@ -1293,3 +1314,8 @@ img {
     margin: 3em 0; }
   #mc-overview h4 {
     font-family: roboto; }
+
+.tab-content {
+  font-weight: 300; }
+  .tab-content .tab-pane {
+    padding-top: 1em; }

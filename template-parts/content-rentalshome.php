@@ -23,7 +23,7 @@ $current = 'rentals_home';
 
 }
 elseif (get_term_children( $cateID, 'rentals' )){
-//echo 'THIS IS SUBCATEGORY INDEX';
+// echo 'THIS IS SUBCATEGORY INDEX';
 $current = 'rentals_sub';
 
 ?>
@@ -31,7 +31,7 @@ $current = 'rentals_sub';
 }
 
 else{
-//echo 'THIS IS A PRODUCT INDEX';
+// echo 'THIS IS A PRODUCT INDEX';
 $current = 'rentals_product';
 };
 $args = array(
@@ -88,6 +88,9 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 </section>
 
 <?php }?>
+
+
+<?php if ($current != 'rentals_product'){ ?>
 <section class="rental-product-categories container">
   <div class="row">
     <div class="col-sm-12 col-md-3 col-lg-2">
@@ -137,6 +140,8 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
         </div>
       </section>
       <?php
+
+    };
       if ($cateID > 0){ ?>
       <section class="rental-products">
         <div class="container">

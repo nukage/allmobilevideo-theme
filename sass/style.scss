@@ -321,6 +321,14 @@ h1, h2, h3, h4{
 		}
 	}
 
+.iconbox{ padding:10px 40px;
+	.homeicons{
+		margin-bottom:20px;
+	}
+
+}
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -937,6 +945,25 @@ li{
 	}
 
 }
+.rental-product-categories{
+	border-bottom:1px solid #ccc;
+	padding-bottom:3em;
+
+}
+.rental-products .product {
+	.field-model, .field-brand, .field-weight {
+			display: block;
+			font-size:.8em;
+			line-height: 2em;
+		}
+	.description {
+		font-size:1em;
+		line-height: auto;
+		display: block;
+		line-height: 1.4em;
+		padding-bottom:.5em;
+	}
+}
 .mobile-products {
 #clearfilters{
  cursor: pointer;
@@ -954,6 +981,7 @@ li{
 				font-size:11px;
 				@media (min-width:1400px){font-size:14px;padding:20px;}}
 		}
+
 	}
 	ul,  {margin:0;padding:0;margin-left:10px;
 	}
@@ -1740,4 +1768,11 @@ a.custom-btn{
 	h4{
 		font-family: roboto;
 		 }
+}
+
+.tab-content {
+	font-weight:300;
+	.tab-pane{
+		padding-top:1em;
+	}
 }

@@ -9,7 +9,7 @@
 
 ?>
 
-<section class="news-single-top">
+<section class="news-top">
 	<div class="container">
 		<h1>NEWS</h1>
 		<h2>AMV News Updates</h2>
@@ -57,7 +57,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php allmobilevideo_theme_entry_footer(); ?>
+		<?php 
+		allmobilevideo_theme_entry_footer(); 
+		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 </div>
