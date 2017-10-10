@@ -214,7 +214,7 @@ function amv_list_taxonomies($type, $name){
 	?>
 	 <li class="filter-list col-md-12 col-3 pr-md-0 pr-3">
         
-         <ul class='' data-group='$type'>
+         <ul class='' data-group='<?php echo $type; ?>'>
             
           <?php
       
@@ -227,7 +227,7 @@ function amv_list_taxonomies($type, $name){
                 foreach( $terms as $term) {
                     ?>
                     <li>
-                        <input type='checkbox' value='.<?php echo $type . '-' . $term->slug; ?>' id='<?php echo $type . '-' . $term->slug; ?>'>
+                        <input type='checkbox' value='<?php echo $type . '-' . $term->slug; ?>' id='<?php echo $type . '-' . $term->slug; ?>'>
                         <label for='<?php echo $type . '-' . $term->slug; ?>'><?php echo $term->name; ?></label>
                     </li>
                     <?php

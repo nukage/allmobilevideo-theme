@@ -258,76 +258,6 @@ ul.slides {
 	
 }
 
-.footercontactinfo{
-	text-transform: uppercase;
-	line-height: 3em;
-
-	.envelope, .fax, .mobile {
-		background-repeat: no-repeat;
-		padding:20px 20px 20px 30px;
-		background-position: 0% 50%;
-		position: relative;
-		left:-20px;
-
-	}
-	.envelope {
-		background-image: url(img/envelope-o.png);
-	}
-	.fax {
-		background-image: url(img/fax-o.png);
-		padding-left:25px;
-		left:-15px
-
-	}
-	.mobile {
-		background-image: url(img/mobile-o.png);
-		padding-left:23px;
-		left:-14px
-	}
-}
-
-
-.footersocialinfo {
-	ul{overflow:visible;}
-	h6{float:left;}
-	a span{
-		display: none;
-	}
-	
-	 a:before {
-	float:left;
-	position: relative;
-	margin-top:-10px;
-  content: '\f0c1';
-  padding: 8px 8px;
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  line-height: 1;
-  font-family: FontAwesome;
-  color: white;
-  margin-right: 5px;
-  transition: .5s; }
-	 a[href*="facebook"]:before {
-  content: "\f09a";
-  padding: 7px 11px; }
-
- a[href*="facebook"]:hover:before {
-  background-color: #3d5b99; }
- a[href*="twitter"]:before {
-  content: "\f099";
-  padding: 7px 8px; }
-
- a[href*="twitter"]:hover:before {
-  background-color: #00aced; }
- a[href*="linkedin"]:before {
-  content: "\f0e1";
-  padding: 8px 9px; }
-
- a[href*="linkedin"]:hover:before {
-  background-color: #966842; }
-
-}
-
 .sidebar_social {
 	@extend .footersocialinfo;
 	ul, li {
@@ -347,84 +277,6 @@ ul.slides {
 }
 
 
-
-
-.infoboxes{
-
-	font-weight: 200;
-	line-height:2em;
-	p{
-		margin-bottom:2em;
-	}
-	h3{
-		text-transform: uppercase;
-		margin-bottom:.5em;
-	}
-	.dark{
-		color:white;
-		background: #333;
-		text-align: right;
-		.descrip{
-			
-		}
-	}
-	.ibox{
-		padding-top:5em;
-		padding-bottom:5em;
-		background-attachment: fixed;
-
-	}
-	.mobile{
-		background: #EEEEEE;
-		background-image: url('img/circles.png');
-		background-repeat: no-repeat;
-		background-position: bottom right;
-		background-size:contain;
-		.btn{margin-right:1em;}
-	}
-	.stages{
-		background-image: url("img/home-studio.jpg");
-		background-size:cover;
-		background-position: center center;
-	}
-	.digitalmedia {
-		background-image: url("img/home-digitalmedia-bg.jpg");
-		background-size:cover;
-		background-position: center center;
-	}
-	.transport {
-		background-image: url("img/home-transport2.jpg");
-		background-size:cover;
-		background-position: center center;
-	}
-	.post {
-		background-image: url("img/abstract-bg1.gif");
-		background-size:cover;
-		background-position: center center;
-		background-attachment: scroll;
-	}
-	.sales {
-		background-image: url("img/abstract-bg2.gif");
-		background-size:cover;
-		background-position: center center;
-		background-attachment: scroll;
-	}
- 
-		@media(max-width:768px){
-		text-align: center;
-		.descrip{
-			text-align:center;
-		}
-
-	}
-}
-
-.mobile-products{
-	background-image: url("img/abstract-bg2.gif");
-	 background-size: cover;
-		background-position: top center;
-		background-attachment: fixed;
-}
 
 
  .custom-btn{
@@ -559,63 +411,6 @@ li{
 	}
 }
 
-//STAGE INDEX PAGE
-
-	.post-type-archive-stage{
-		
-		.sectionoverlay{
-			background-color:rgba(0,32,105,.4);
-
-		}
-		.sectionhero{
-	 
-		background-image: url("img/stage-hero-1.jpg");
-
-	}
-}
-
-//CONTACT PAGE
-
-.page-template-page-contact-php {
-	.sectionoverlay{background-color:rgba(0,32,105,.4);}
-		.sectionhero{
-		background-image: url("img/contact-hero-1.jpg");
-		color:white;
-		iframe{
-			margin-bottom:5em;
-		}
-		h2{
-			text-align: left;
-			padding-top:4em;
-			padding-bottom:1em;
-			font-size:2em;
-			font-family: Roboto;
-			font-weight:500;
-		}
-		ul {
-			margin:0;padding:0;
-			li{
-				margin-bottom: 2.5em;
-				text-transform: uppercase;
-				list-style-type: none;
-			}
-		}
-	}
-}  
-// RENTALS CATEGORY PAGES
-.tax-rentals .sectionhero {
-			background-image: url("img/rentals-titlebar.jpg");
-			h1{
-				font-size:36px;
-			}
-			h2{
-				padding-bottom:3em;;
-			}
-			.sectionoverlay{
-			background-color:rgba(0,32,105,.8);
-
-		}
- } 
 
  // VIDEO TRANSPORT IP PAGES
 .page-template-page-satellite, .page-template-page-master-control{
@@ -633,72 +428,7 @@ li{
 			background-image: url("img/westar-room.jpg");
  }
 
- // MOBILE AND STAGE PAGES
-
-
-	.single-mobile, .single-stage, .single-rental {
-		.sectionoverlay {
-			h2{
-				padding-top:4em;
-				padding-bottom:.7em;
-				font-size:2.5em;
-				text-transform: uppercase;
-				line-height: 1.2em;
-			}
-			h4{
-				font-size:1em;
-			}
-			@media(max-width:1199px) {
-				h2{
-					padding-top:3em;
-				}
-			}
-			@media(max-width:992px) {
-				h2{
-					padding-top:0;
-				}
-				.contactbtn {
-					margin:2% 33%;
-					width:33%;
-				
-				}
-			}
-			h2, h3, h4{
-				color: #4A4A4A;
-				font-family: Roboto;
-				font-weight:300;
-			}
-			h3{
-				padding-bottom:.3em;
-			}
-		}
-	}
-.single-rental {
-	h3, h4{
-		padding:0;
-		text-align:left;
-	}
-
-}
-.rental-product-categories{
-	border-bottom:1px solid #ccc;
-	padding-bottom:3em;
-
-}
-.rental-products .product {
-	.field-model, .field-brand, .field-weight {
-			display: block;
-			font-size:.8em;
-			line-height: 2em;
-		}
-	.description {
-		font-size:1em;
-		line-height: auto;
-		display: block;
-		line-height: 1.4em;
-		padding-bottom:.5em;
-	}
-}
+ 
 .mobile-products {
 #clearfilters{
  cursor: pointer;
@@ -797,56 +527,7 @@ a:hover .description{
 	list-style-type: none;
 	margin:0;
 	padding:0;}
-.mobile-filter {
- input[type="checkbox"] {
-   display: none;
-}
-li.checked label {
-    background: #ededed;
-    padding-left: 1em;
-    color:white;
-    background:#005FCB;
-}
- 
 
-	li, ul {
-	@extend .notlist;
-	}
-	h5{
-		text-transform: uppercase;
-		text-align: center;
-		color:#000;
-		font-size:14px;
-		padding:10px 0;
-
-	}
-	ul li ul li { 
-		label{
-			cursor:pointer;
-			display:block;
-			padding:5px 0;
-			transition:all .5s;
-				margin:0;
-
-		}
-		border-top: solid 1px #ccc;
-		margin-right:10px;
-		
-		padding:0;
-	
-	 
-			
-			cursor: pointer;
-			width:100%;
-			font-size:12px;
-			
-	 
-	}
-	ul li ul li:last-of-type{
-		border-bottom: solid 1px #ccc;
-		margin-bottom:20px;
-	}
-}
 
 .sidebarcontactinfo{
 	padding:5px;
@@ -1220,55 +901,7 @@ margin:40px auto;}
 
 
 
-//NEWS SINGLE PAGE
 
-
-.news-top{
-		background-image: url("img/news-headerbg.jpg");
-		background-size:cover;
-margin-bottom:20px;
-		background-position: center bottom; 
-		background-attachment: fixed;
-		h1,h2{
-			color:white;
-			text-align: center;
-		}
-		h1{
-			font-size:2.3em;
-			text-transform: uppercase;
-			font-weight: 600;
-			padding-top:3.5em;
-			padding-bottom:.2em;
-		}
-		h2{
-			font-size:1.2em;
-			padding-bottom:6em;
-
-		}
-}	
-.news-single-content {
-	.entry-title {
-		font-family: Roboto;
-		padding-top:20px;
-		padding-bottom:20px;
-	}
-	.entry-meta {
-		padding-bottom:20px;
-	}
-
-	img{
-		height:auto;
-		padding-top:20px;
-	}
-	
-}
-
-.news-main-content{
-	article{
-		// border:1px solid #ccc;
-		// padding:5px;
-		// border-radius: 5px;
-	}
  .entry-meta{
  	font-size:14px;
  color:#454545;
@@ -1280,15 +913,15 @@ margin-bottom:20px;
 	}
 		.entry-content{
 		font-size:16px;
- color:#454545;
- font-weight:200;
-p{
+	 	color:#454545;
+	 font-weight:200;
+	p{
   // width: 250px;
   // height:2em;
   // white-space: nowrap;
   // overflow: hidden;
   // text-overflow: ellipsis;
-}
+		
 	}
 		img{
 		height:auto;

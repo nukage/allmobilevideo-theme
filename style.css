@@ -649,70 +649,6 @@ img {
       height: 2em;
       background-position: 50% 1%; }
 
-.footercontactinfo {
-  text-transform: uppercase;
-  line-height: 3em; }
-  .footercontactinfo .envelope, .footercontactinfo .fax, .footercontactinfo .mobile {
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 30px;
-    background-position: 0% 50%;
-    position: relative;
-    left: -20px; }
-  .footercontactinfo .envelope {
-    background-image: url(img/envelope-o.png); }
-  .footercontactinfo .fax {
-    background-image: url(img/fax-o.png);
-    padding-left: 25px;
-    left: -15px; }
-  .footercontactinfo .mobile {
-    background-image: url(img/mobile-o.png);
-    padding-left: 23px;
-    left: -14px; }
-
-.footersocialinfo ul, .sidebar_social ul {
-  overflow: visible; }
-
-.footersocialinfo h6, .sidebar_social h6 {
-  float: left; }
-
-.footersocialinfo a span, .sidebar_social a span {
-  display: none; }
-
-.footersocialinfo a:before, .sidebar_social a:before {
-  float: left;
-  position: relative;
-  margin-top: -10px;
-  content: '\f0c1';
-  padding: 8px 8px;
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  line-height: 1;
-  font-family: FontAwesome;
-  color: white;
-  margin-right: 5px;
-  transition: .5s; }
-
-.footersocialinfo a[href*="facebook"]:before, .sidebar_social a[href*="facebook"]:before {
-  content: "\f09a";
-  padding: 7px 11px; }
-
-.footersocialinfo a[href*="facebook"]:hover:before, .sidebar_social a[href*="facebook"]:hover:before {
-  background-color: #3d5b99; }
-
-.footersocialinfo a[href*="twitter"]:before, .sidebar_social a[href*="twitter"]:before {
-  content: "\f099";
-  padding: 7px 8px; }
-
-.footersocialinfo a[href*="twitter"]:hover:before, .sidebar_social a[href*="twitter"]:hover:before {
-  background-color: #00aced; }
-
-.footersocialinfo a[href*="linkedin"]:before, .sidebar_social a[href*="linkedin"]:before {
-  content: "\f0e1";
-  padding: 8px 9px; }
-
-.footersocialinfo a[href*="linkedin"]:hover:before, .sidebar_social a[href*="linkedin"]:hover:before {
-  background-color: #966842; }
-
 .sidebar_social ul, .sidebar_social li {
   padding: 0;
   margin: 0;
@@ -726,64 +662,6 @@ img {
 
 .sidebar_social a:hover:before {
   color: white; }
-
-.infoboxes {
-  font-weight: 200;
-  line-height: 2em; }
-  .infoboxes p {
-    margin-bottom: 2em; }
-  .infoboxes h3 {
-    text-transform: uppercase;
-    margin-bottom: .5em; }
-  .infoboxes .dark {
-    color: white;
-    background: #333;
-    text-align: right; }
-  .infoboxes .ibox {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    background-attachment: fixed; }
-  .infoboxes .mobile {
-    background: #EEEEEE;
-    background-image: url("img/circles.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: contain; }
-    .infoboxes .mobile .btn {
-      margin-right: 1em; }
-  .infoboxes .stages {
-    background-image: url("img/home-studio.jpg");
-    background-size: cover;
-    background-position: center center; }
-  .infoboxes .digitalmedia {
-    background-image: url("img/home-digitalmedia-bg.jpg");
-    background-size: cover;
-    background-position: center center; }
-  .infoboxes .transport {
-    background-image: url("img/home-transport2.jpg");
-    background-size: cover;
-    background-position: center center; }
-  .infoboxes .post {
-    background-image: url("img/abstract-bg1.gif");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll; }
-  .infoboxes .sales {
-    background-image: url("img/abstract-bg2.gif");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll; }
-  @media (max-width: 768px) {
-    .infoboxes {
-      text-align: center; }
-      .infoboxes .descrip {
-        text-align: center; } }
-
-.mobile-products {
-  background-image: url("img/abstract-bg2.gif");
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed; }
 
 .custom-btn {
   border-radius: 19px;
@@ -882,44 +760,6 @@ img {
 .post-type-archive-mobile .sectionhero {
   background-image: url("img/mobile-hero-1.jpg"); }
 
-.post-type-archive-stage .sectionoverlay {
-  background-color: rgba(0, 32, 105, 0.4); }
-
-.post-type-archive-stage .sectionhero {
-  background-image: url("img/stage-hero-1.jpg"); }
-
-.page-template-page-contact-php .sectionoverlay {
-  background-color: rgba(0, 32, 105, 0.4); }
-
-.page-template-page-contact-php .sectionhero {
-  background-image: url("img/contact-hero-1.jpg");
-  color: white; }
-  .page-template-page-contact-php .sectionhero iframe {
-    margin-bottom: 5em; }
-  .page-template-page-contact-php .sectionhero h2 {
-    text-align: left;
-    padding-top: 4em;
-    padding-bottom: 1em;
-    font-size: 2em;
-    font-family: Roboto;
-    font-weight: 500; }
-  .page-template-page-contact-php .sectionhero ul {
-    margin: 0;
-    padding: 0; }
-    .page-template-page-contact-php .sectionhero ul li {
-      margin-bottom: 2.5em;
-      text-transform: uppercase;
-      list-style-type: none; }
-
-.tax-rentals .sectionhero {
-  background-image: url("img/rentals-titlebar.jpg"); }
-  .tax-rentals .sectionhero h1 {
-    font-size: 36px; }
-  .tax-rentals .sectionhero h2 {
-    padding-bottom: 3em; }
-  .tax-rentals .sectionhero .sectionoverlay {
-    background-color: rgba(0, 32, 105, 0.8); }
-
 .page-template-page-satellite .sectionoverlay, .page-template-page-master-control .sectionoverlay {
   background-color: rgba(0, 32, 105, 0.4); }
 
@@ -928,55 +768,6 @@ img {
 
 .page-template-page-master-control .sectionhero {
   background-image: url("img/westar-room.jpg"); }
-
-.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-  padding-top: 4em;
-  padding-bottom: .7em;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  line-height: 1.2em; }
-
-.single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h4 {
-  font-size: 1em; }
-
-@media (max-width: 1199px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-    padding-top: 3em; } }
-
-@media (max-width: 992px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-    padding-top: 0; }
-  .single-mobile .sectionoverlay .contactbtn, .single-stage .sectionoverlay .contactbtn, .single-rental .sectionoverlay .contactbtn {
-    margin: 2% 33%;
-    width: 33%; } }
-
-.single-mobile .sectionoverlay h2, .single-mobile .sectionoverlay h3, .single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h2, .single-stage .sectionoverlay h3, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h2, .single-rental .sectionoverlay h3, .single-rental .sectionoverlay h4 {
-  color: #4A4A4A;
-  font-family: Roboto;
-  font-weight: 300; }
-
-.single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h3, .single-rental .sectionoverlay h3 {
-  padding-bottom: .3em; }
-
-.single-rental h3, .single-rental h4 {
-  padding: 0;
-  text-align: left; }
-
-.rental-product-categories {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 3em; }
-
-.rental-products .product .field-model, .rental-products .product .field-brand, .rental-products .product .field-weight {
-  display: block;
-  font-size: .8em;
-  line-height: 2em; }
-
-.rental-products .product .description {
-  font-size: 1em;
-  line-height: auto;
-  display: block;
-  line-height: 1.4em;
-  padding-bottom: .5em; }
 
 .mobile-products #clearfilters {
   cursor: pointer;
@@ -1062,40 +853,6 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-
-.mobile-filter input[type="checkbox"] {
-  display: none; }
-
-.mobile-filter li.checked label {
-  background: #ededed;
-  padding-left: 1em;
-  color: white;
-  background: #005FCB; }
-
-.mobile-filter h5 {
-  text-transform: uppercase;
-  text-align: center;
-  color: #000;
-  font-size: 14px;
-  padding: 10px 0; }
-
-.mobile-filter ul li ul li {
-  border-top: solid 1px #ccc;
-  margin-right: 10px;
-  padding: 0;
-  cursor: pointer;
-  width: 100%;
-  font-size: 12px; }
-  .mobile-filter ul li ul li label {
-    cursor: pointer;
-    display: block;
-    padding: 5px 0;
-    transition: all .5s;
-    margin: 0; }
-
-.mobile-filter ul li ul li:last-of-type {
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 20px; }
 
 .sidebarcontactinfo {
   padding: 5px;
@@ -1379,53 +1136,21 @@ img {
   .rental-text h3 {
     padding: 20px; }
 
-.news-top {
-  background-image: url("img/news-headerbg.jpg");
-  background-size: cover;
-  margin-bottom: 20px;
-  background-position: center bottom;
-  background-attachment: fixed; }
-  .news-top h1, .news-top h2 {
-    color: white;
-    text-align: center; }
-  .news-top h1 {
-    font-size: 2.3em;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding-top: 3.5em;
-    padding-bottom: .2em; }
-  .news-top h2 {
-    font-size: 1.2em;
-    padding-bottom: 6em; }
-
-.news-single-content .entry-title {
-  font-family: Roboto;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.news-single-content .entry-meta {
-  padding-bottom: 20px; }
-
-.news-single-content img {
-  height: auto;
-  padding-top: 20px; }
-
-.news-main-content .entry-meta {
+.entry-meta {
   font-size: 14px;
   color: #454545;
   font-weight: 200; }
 
-.news-main-content .entry-title {
+.entry-title {
   font-family: Roboto;
   font-size: 20px; }
 
-.news-main-content .entry-content {
+.entry-content {
   font-size: 16px;
   color: #454545;
   font-weight: 200; }
-
-.news-main-content img {
-  height: auto; }
+  .entry-content img {
+    height: auto; }
 
 .widget {
   margin-bottom: 20px; }

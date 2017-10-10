@@ -26,7 +26,7 @@
 <div class="col-sm-12 col-md-3 col-lg-2">
  <section class="mobile-filter widget">
        <ul class="row">
-         <?php amv_list_taxonomies('mpu-type', 'Type') ?>
+         <?php amv_list_taxonomies('mputype', 'Type') ?>
          <?php amv_list_taxonomies('video-format', 'Video Format') ?>
          <?php amv_list_taxonomies('audio-format', 'Audio Format') ?>
          <?php amv_list_taxonomies('number-of-cameras', 'Number of Cameras') ?>
