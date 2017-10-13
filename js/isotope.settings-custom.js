@@ -83,7 +83,12 @@ setTimeout(function() {
     // When a button is pressed, run filterSelect
     $( ".filter-list input" ).on("click", filterSelect );
 
+      $( "#clearfilters" ).on("click", filterSelect );
+
     // Set the URI hash to the current selected filters
+
+
+
     function filterSelect() {
         console.log('filterselect ');
         // Current hash value
@@ -93,15 +98,31 @@ setTimeout(function() {
         if (hashFilter['mputype'] != '*'){
         filters["mputype"] = hashFilter["mputype"].substr(1);
         }else{
-            filters["videoformat"] = '*';
+            filters["mputype"] = '*';
         };
          if (hashFilter['videoformat'] != '*'){
         filters["videoformat"] = hashFilter["videoformat"].substr(1);
         } else{
             filters["videoformat"] = '*';
         };
+         if (hashFilter['audioformat'] != '*'){
+        filters["audioformat"] = hashFilter["audioformat"].substr(1);
+        } else{
+            filters["audioformat"] = '*';
+        };
+         if (hashFilter['numberofcameras'] != '*'){
+        filters["numberofcameras"] = hashFilter["numberofcameras"].substr(1);
+        } else{
+            filters["numberofcameras"] = '*';
+        };
 
-
+        if ($(this).attr('id') == "clearfilters") {
+          filters['mputype'] = '*';
+          filters["videoformat"] = '*';
+          filters['audioformat'] = '*';
+          filters["numberofcameras"] = '*';
+          $('#noresults').addClass('invisible');
+        }
         // data-filter attribute of clicked button
         var currentFilter = $(this).attr("value");
         console.log('currentFilter is ' + currentFilter);
@@ -112,7 +133,7 @@ setTimeout(function() {
  console.log('the group is ' + filterGroup);
         // If the current data-filter attribute matches the current filter,
         console.log('currentFilter is ' + filters[filterGroup]);
-        if ( currentFilter == filters["mputype"] || currentFilter == filters["videoformat"] ) {
+        if ( currentFilter == filters["mputype"] || currentFilter == filters["videoformat"] ||  currentFilter == filters["audioformat"]  || currentFilter == filters["numberofcameras"]) {
             // Reset group filter as the user has unselected the button
             filters[ filterGroup ] = "*";
         } else {
@@ -121,7 +142,7 @@ setTimeout(function() {
         }
 
         // Create new hash
-        var newHash = "mputype=" + encodeURIComponent( filters["mputype"] ) + "&video-format=" + encodeURIComponent( filters["video-format"] );
+        var newHash = "mputype=" + encodeURIComponent( filters["mputype"] ) + "&videoformat=" + encodeURIComponent( filters["videoformat"] ) + "&audioformat=" + encodeURIComponent( filters["audioformat"] ) + "&numberofcameras=" + encodeURIComponent( filters["numberofcameras"] );
         // If sort value exists, add it to hash
       
 
@@ -136,7 +157,7 @@ setTimeout(function() {
     function onHashChange() {
         var hashFilter = getHashFilter();
                 // Concatenate mputype and videoformat for Isotope filtering
-        var theFilter = hashFilter["mputype"] + hashFilter["videoformat"];
+        var theFilter = hashFilter["mputype"] + hashFilter["videoformat"] + hashFilter["audioformat"] + hashFilter["numberofcameras"];
 
        if ( hashFilter ) {
         console.log('theFilter is ' + decodeURIComponent(theFilter) + '. Hashfilter[mputype] is ' + hashFilter['mputype']);
@@ -148,12 +169,21 @@ setTimeout(function() {
                     easing: 'linear',
                     queue: false
                 } 
+              } , function noResultsCheck() {
+    var numItems = $('.product:not(.isotope-hidden)').length;
+        if (numItems == 0) {
+        $('#noresults').removeClass('invisible');
+    }
+    else{
+         $('#noresults').addClass('invisible');
+    }
+}
               
-            } );
+             );
                        // Toggle checked status of filter buttons
             $( ".filter-list" ).find(".checked").removeClass("checked");
 
-            $( ".filter-list" ).find("[value='" + hashFilter["mputype"].substr(1) + "'],[value='" + hashFilter["videoformat"].substr(1) + "']").parent().addClass("checked");
+            $( ".filter-list" ).find("[value='" + hashFilter["mputype"].substr(1) + "'],[value='" + hashFilter["numberofcameras"].substr(1) + "'],[value='" + hashFilter["audioformat"].substr(1) + "'],[value='" + hashFilter["videoformat"].substr(1) + "']").parent().addClass("checked");
         }
     } // onHashChange
 
@@ -169,8 +199,9 @@ setTimeout(function() {
         function getHashFilter() {
         // Get filters (matches) and sort order (sorts)
         var mputype = location.hash.match( /mputype=([^&]+)/i );
-        var videoformat = location.hash.match( /video-format=([^&]+)/i );
-        
+        var videoformat = location.hash.match( /videoformat=([^&]+)/i );
+        var audioformat = location.hash.match( /audioformat=([^&]+)/i );
+        var numberofcameras = location.hash.match( /numberofcameras=([^&]+)/i );
 
         // Set up a hashFilter array
         var hashFilter = {};
@@ -182,6 +213,14 @@ setTimeout(function() {
         hashFilter["videoformat"] = videoformat ? videoformat[1] : "*";
          if (hashFilter["videoformat"] != "*" ){
             hashFilter["videoformat"] = '.' + hashFilter["videoformat"];
+         }
+         hashFilter["audioformat"] = audioformat ? audioformat[1] : "*";
+         if (hashFilter["audioformat"] != "*" ){
+            hashFilter["audioformat"] = '.' + hashFilter["audioformat"];
+         }
+          hashFilter["numberofcameras"] = numberofcameras ? numberofcameras[1] : "*";
+         if (hashFilter["numberofcameras"] != "*" ){
+            hashFilter["numberofcameras"] = '.' + hashFilter["numberofcameras"];
          }
         console.log(hashFilter); 
         return hashFilter;
@@ -222,14 +261,21 @@ setTimeout(function() {
   //           console.log('hey hey');
 
   // $('.filter-list input:checkbox:checked').removeAttr('checked');
-  //       $container.isotope({ filter: '*' });
-  //       $('.filter-list li:has(input:checkbox:not(:checked))').removeClass('checked');
+  //         // Create new hash
+  //       var newHash = "mputype=" + encodeURIComponent( filters["mputype"] ) + "&videoformat=" + encodeURIComponent( filters["videoformat"] );
+  //       // If sort value exists, add it to hash
+      
+
+  //       // Apply the new hash to the URI, triggering onHahschange()
+        
+      
   //        $('#noresults').addClass('invisible');
-
-     
-               
-
-  //  }); 
+  //           filters["mputype"] = "*";
+  //           filters["videoformat"] = "*";
+  //           filters["audioformat"] = "*";
+  //           filters["numberofcameras"] = "*";
+  //           location.hash = newHash;
+  //         }); 
 
  
 

@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>A COMPLETE RANGE OF VIDEO AND IP SERVICES</h1>
   <h2>Westar Satellite Services specializes in providing the broadcast industry with a complete range of video and IP services. We back up our services with a team of dedicated professionals and years of experience in the video transport industry.</h2>
-  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="http://www.amvdm.com" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
+  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="#contact" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
 

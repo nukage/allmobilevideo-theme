@@ -40,7 +40,7 @@
     <li>kscholter@amvchelsea.com</li>
     <li>(818) 535-750</li>
   </ul>
-  <h4>Jason Rennie</h4>
+  <h4>Jason Rennie - LA Field Shop Operations </h4>
   <ul>
     <li>jrennie@amvchelsea.com</li>
     <li>(818) 827-0922</li>
@@ -81,10 +81,11 @@
     <li>rduke@amvchelsea.com</li>
     <li>(646) 486-8080 o</li>
   </ul>
-  <h4>Paula Pevzner</h4>
+  <h4>Nova Calise</h4>
   <ul>
-    <li>ppevzner@amvchelsea.com</li>
-    <li>(646) 486-8016 o</li>
+    <li>ncalise@amvchelsea.com</li>
+    <li>(917) 553-3327 m</li>
+    <li>(646) 486-8059 o</li>
   </ul>
 </div>
 <div class="col-lg-4 rtborder">
@@ -202,9 +203,13 @@
   </ul>
   <h3>AMV GATEWAY</h3>
   <ul>
-    <li>27 Randolf Street</li>
+    <li>27 Randolph Street</li>
     <li>Carteret, NJ 07008</li>
   </ul>
+<h4>24 hour Booking / MCR  </h4>
+<ul>
+  <li>(732) 969-3191</li>
+</ul>
   <h4>Lenny Laxer</h4>
   <ul>
     <li>llaxer@amvchelsea.com</li>
@@ -221,7 +226,7 @@
     <li>clichtenberg@amvchelsea.com</li>
     <li>(732) 969-3700</li>
   </ul>
-  <h4>AMV/WESTAR MASTER CONTROL</h4>
+  <h3>AMV/WESTAR MASTER CONTROL</h3>
   <ul>
     <li>(972) 460-4465</li>
     <li>777 Westar Lane</li>

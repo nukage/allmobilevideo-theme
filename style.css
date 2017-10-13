@@ -39,7 +39,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Comments
 # Infinite scroll
 # Media
-	## Captions
+	## Captions 
 	## Galleries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -479,6 +479,29 @@ section.icons {
 .mobile-filter ul li ul li:last-of-type {
   border-bottom: solid 1px #ccc;
   margin-bottom: 20px; }
+
+.page-template-page-contact-php .sectionoverlay {
+  background-color: rgba(0, 32, 105, 0.4); }
+
+.page-template-page-contact-php .sectionhero {
+  background-image: url("img/contact-hero-1.jpg");
+  color: white; }
+  .page-template-page-contact-php .sectionhero iframe {
+    margin-bottom: 5em; }
+  .page-template-page-contact-php .sectionhero h2 {
+    text-align: left;
+    padding-top: 4em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-family: Roboto;
+    font-weight: 500; }
+  .page-template-page-contact-php .sectionhero ul {
+    margin: 0;
+    padding: 0; }
+    .page-template-page-contact-php .sectionhero ul li {
+      margin-bottom: 2.5em;
+      text-transform: uppercase;
+      list-style-type: none; }
 
 /*--------------------------------------------------------------
 # Layout
@@ -1036,6 +1059,9 @@ img {
     background-color: rgba(0, 32, 105, 0.4);
     height: 100%;
     position: relative; }
+
+.single-stage table tr td {
+  padding: 5px; }
 
 .single-stage .product-top {
   background-image: url("img/stage-hero-1.jpg"); }

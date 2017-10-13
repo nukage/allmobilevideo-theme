@@ -27,9 +27,9 @@
  <section class="mobile-filter widget">
        <ul class="row">
          <?php amv_list_taxonomies('mputype', 'Type') ?>
-         <?php amv_list_taxonomies('video-format', 'Video Format') ?>
-         <?php amv_list_taxonomies('audio-format', 'Audio Format') ?>
-         <?php amv_list_taxonomies('number-of-cameras', 'Number of Cameras') ?>
+         <?php amv_list_taxonomies('videoformat', 'Video Format') ?>
+         <?php amv_list_taxonomies('audioformat', 'Audio Format') ?>
+         <?php amv_list_taxonomies('numberofcameras', 'Number of Cameras') ?>
        </ul>
     </section><!-- .filter .widget -->
     <section class='sidebarcontactinfo hidden-sm-down'>
@@ -41,7 +41,7 @@
         </ul>
       </li>
       <li>
-        <ul><h5>Lenny Laxler</h5>
+        <ul><h5>Lenny Laxer</h5>
           <li>t: (646)230-6996</li>
           <li>c:(917)299-0205</li>
         </ul>

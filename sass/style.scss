@@ -40,7 +40,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Comments
 # Infinite scroll
 # Media
-	## Captions
+	## Captions 
 	## Galleries
 --------------------------------------------------------------*/
 //@import "variables-site/variables-site";
@@ -759,6 +759,11 @@ a:hover .description{
 		background-position: center center; 
  
 		}
+
+
+.single-stage table tr td { padding:5px; 
+
+}
 
 
 .single-stage .product-top  {

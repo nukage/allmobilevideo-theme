@@ -60,7 +60,7 @@
                 foreach ($posts as $post) {  ?>
  
 <?php $allClasses = get_post_class();   ?>  
- <div class="col-6 col-sm-4 col-md-3   product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
+ <div class="col-6 col-sm-4   product  <?php foreach ($allClasses as $class) { echo $class . " "; } ?>">
           <div class="">
            <a href="<?php echo get_permalink($post);?>" title="<?php echo the_title();?>"  >
                   <?php echo get_the_post_thumbnail($post, 'amv-isotope-image' , array( 'class' => 'img-responsive' ));?>

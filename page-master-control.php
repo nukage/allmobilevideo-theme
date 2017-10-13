@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>CENTRALIZED MASTER CONTROL SERVICES</h1>
   <h2>Master control center, media management, and business services for independent, small group, and public television broadcasters.</h2>
-  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="http://www.amvdm.com" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
+  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="#contact" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
 
@@ -91,8 +91,8 @@ VIRTUAL TOUR
 				<h4>YOUR RESULTS</h4>
 				<p>By eliminating capital expenditures and reducing operational expenses, Westar Master Control Services allows your station to focus resources on the future and doing what you do best.</p>
 			</div>
-		</div>
-		<hr>
+		
+<!-- 		<hr>
 	<h4>TRAFFIC MEDIA MANAGEMENT</h4>
 		<div class="row traffic-media-management">
 		<div class="col-1"></div>
@@ -107,7 +107,8 @@ VIRTUAL TOUR
 				<li>Program Formatting</li>
 				<li>Offiline Synchronization</li>
 			</ul></div>
-		</div>
+		</div><!-- .row .traffic-media-management" --> 
+	</div><!--.row-->
 		</section>
 	</div>
 
@@ -165,13 +166,13 @@ test
 				<ul>
 					<li>24/7 365 Multiplex HD &amp; SD delivery</li>
 					<li>Live event switching &amp; Live insertion capabilities</li>
-					<li>PSIP, EAS-CAP, CALM Act compliance</li>
+					<li>PSIP, EAS-CAP, Grass Valley Calm Compliance</li>
 					<li>Closed Caption &amp; transmitter monitoring</li>
-					<li>Miranda ITX system</li>
+					<li>Grass Valley ITX System</li>
 					<li>PSIP via Trivini</li>
 					<li>Muxing via Harmonic’s Elektra system</li>
 					<li>EAS via Digital Alert’s DASDEC system</li>
-					<li>CALM Compliance &amp; Audio processing via Miranda</li>
+					<li>Grass Valley Calm Compliance &amp; Audio processing via Miranda</li>
 				</ul>
 			</div>
 		</div>
