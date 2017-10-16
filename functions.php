@@ -48,6 +48,8 @@ function allmobilevideo_theme_setup() {
 
 	add_image_size( 'amv-slider-thumb', 75, 50, true );
 
+	add_image_size( 'amv-featured-thumb', 360, 230, true );
+
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -193,19 +195,42 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
 */
  
  
-function get_featured_section($key, $post){
-	if (get_post_meta($post->ID, $key, true)){
-	$featuredSection =  get_post_meta($post->ID, $key, true);
+function dynamic_contact($postID){ ?>
+<section class="dynamic_contact" id="contactform">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+			              <h2>Contact <?php echo get_the_title($postID);?></h2>
+			              <?php echo get_post_meta($postID, 'contactlist', true); ?>
+			              
+			</div>
+			<div class="col-md-6">
+					<h3 class="mb-4">Send us a Message</h3>
+	                <p>Simply fill out the quick form below with your contact info and a member of our team will be back in touch with you ASAP, usually within 1 business day. Thank you for visiting us.</p>
+	                <?php echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' ); ?>
+	         </div>
+        </div>
+    </div>
+</section>
+<?php };
+
+
+
+function get_featured_section($key, $postID){
+	if (get_post_meta($postID, $key, true)){
+	$featuredSection =  get_post_meta($postID, $key, true);
 	$featuredSectionId  = get_page_by_path($featuredSection,  OBJECT,  'page' );?>
-	<div class="card"  >
+	<div class=" ">
+	<div class="card">
 	 <a href="<?php echo get_permalink($featuredSectionId);?>" title="<?php get_the_title($featuredSectionId);?>"  >
 
-		<?php echo get_the_post_thumbnail($featuredSectionId, 'amv-isotope-image' , array( 'class' => 'card-img-top' ));?>
+		<?php echo get_the_post_thumbnail($featuredSectionId, 'amv-featured-thumb' , array( 'class' => 'card-img-top' ));?>
 		  <div class="card-block">
 		 <h4 class="card-title"><?php echo get_the_title($featuredSectionId->ID);?></h4>
 		   <p class="card-text"><?php echo get_post_meta($featuredSectionId->ID, 'Excerpt', true);?></p>
 		  </div>
 	</a>
+	</div>
 	</div>
 	<?php
 	};

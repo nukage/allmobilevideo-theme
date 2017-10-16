@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>CENTRALIZED MASTER CONTROL SERVICES</h1>
   <h2>Master control center, media management, and business services for independent, small group, and public television broadcasters.</h2>
-  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated" href="#contact" target="_blank" style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
+  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
 
@@ -189,6 +189,40 @@ test
      Frequently Added Services
 	</div>
 </section>
+<section>
+ 
+   <div class="row">
+     Frequently Added Services
+	</div>
+</section>
+<section class="featured-pages">
+	<div class="other-services">
+		<div class="container">
+			<h4 class="">Other Services Available</h4>
+		</div>
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<?php 
+					$postID = $post->ID;
+				get_featured_section('FeaturedSection1', $postID);  ?>
+			</div>
+			<div class="col-4">
+				<?php get_featured_section('FeaturedSection2', $postID); ?>
+			</div>
+			<div class="col-4">
+				<?php get_featured_section('FeaturedSection3', $postID); ?>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+<?php dynamic_contact($postID) ?>
+
 			<?php
 			
 			get_footer();

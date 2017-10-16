@@ -13,6 +13,7 @@
     <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>PREPPED &amp; STAFFED TO ENSURE YOUR SUCCESS</h1>
      <h2 >AMV’s Mobile Division houses a wide range of options offering the most advanced capabilities and equipment available. From single live shots to large-scale multi camera productions – AMV can custom spec any unit or carry-pack to meet your needs.</h2>
+       <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
     <div class="pb-xl-5"></div>
 </div>
     <div class="sectionherooverlay">
@@ -109,6 +110,34 @@
   </div>
   </div>
 </section>
+<section class="featured-pages">
+  <div class="other-services">
+    <div class="container">
+      <h4 class="">Other Services Available</h4>
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-4">
+
+        <?php 
+        $postID = 95;
+        
+        get_featured_section('FeaturedSection1', $postID); ?>
+      </div>
+      <div class="col-4">
+        <?php get_featured_section('FeaturedSection2', $postID); ?>
+      </div>
+      <div class="col-4">
+        <?php get_featured_section('FeaturedSection3', $postID); ?>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<?php dynamic_contact($postID) ?>
     <!-- Page Content -->
    <!--end page content -->
         <?php if ( get_edit_post_link() ) : ?>
