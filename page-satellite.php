@@ -106,12 +106,12 @@ Westar also provides distribution of advertising to television and cable compani
 	</div>
 </section>
 
-<section>
+<!-- <section>
  
    <div class="row">
       Featuring Systems By
 	</div>
-</section>
+</section> -->
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">

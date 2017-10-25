@@ -80,6 +80,16 @@ else{
     </a>
   </li>
   <?php };?>
+
+   <?php if (types_render_field( 'info-tab-3-content' )){ ?>
+  <li class="nav-item">
+    <a class="nav-link" href="#tab3" role="tab" data-toggle="tab">
+
+   <?php echo(types_render_field( 'info-tab-3-title' )); ?>
+    	
+    </a>
+  </li>
+  <?php };?>
 </ul>
 </div>
 <div class="col-sm-4 bluecontact hidden-sm-down">Contact</div>
@@ -119,7 +129,13 @@ else{
 </div>
   <?php };?>
 
+<?php if (types_render_field( 'info-tab-3-content' )){ ?>
+  <div role="tabpanel" class="tab-pane fade" id="tab3">
 
+   <?php echo(types_render_field( 'info-tab-3-content' )); ?>
+    	
+</div>
+  <?php };?>
 
  
  

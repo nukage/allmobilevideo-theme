@@ -178,7 +178,7 @@ test
 		</div>
 	</div>
 </section>
-<section>
+<!-- <section>
    <div class="row">
       Featuring Systems By
 	</div>
@@ -188,13 +188,13 @@ test
    <div class="row">
      Frequently Added Services
 	</div>
-</section>
-<section>
+</section> -->
+<!-- <section>
  
    <div class="row">
      Frequently Added Services
 	</div>
-</section>
+</section> -->
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">
