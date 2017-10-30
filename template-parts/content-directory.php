@@ -81,12 +81,6 @@
     <li>rduke@amvchelsea.com</li>
     <li>(646) 486-8080 o</li>
   </ul>
-  <h4>Nova Calise</h4>
-  <ul>
-    <li>ncalise@amvchelsea.com</li>
-    <li>(917) 553-3327 m</li>
-    <li>(646) 486-8059 o</li>
-  </ul>
 </div>
 <div class="col-lg-4 rtborder">
   <h3>MOBILE PRODUCTION</h3>

@@ -152,6 +152,7 @@ else{
    <?php 
 
    $contactinfo = (types_render_field( 'contact-info' ));
+   // echo $contactinfo;
 
 
   
