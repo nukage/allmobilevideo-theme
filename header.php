@@ -78,8 +78,9 @@
                      <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/satellite-services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span></a>
               <div class="dropdown-menu" aria-labelledby="mobile-rentals">
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Satellite Services</a>
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/master-control">Master Control</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/gateway">AMV Gateway</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Westar Satellite Services</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/master-control">Westar Master Control</a>
  
             </li>
             <li class="nav-item">
