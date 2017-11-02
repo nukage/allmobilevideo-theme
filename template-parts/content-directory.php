@@ -20,180 +20,178 @@
     <div class="col-lg-4 rtborder">
       <h3>AMV Headquarters</h3>
   <ul>
-    <li>(212) 727-1234 221</li>
+    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a> 221</li>
     <li>West 26th Street</li>
     <li>New York, NY 10001</li>
-    <li>Fax: (212) 255-6644</li>
+    <li>Fax: <a href="tel:2122556644" target="_blank">(212) 255-6644</a></li>
   </ul>
     </div>
      <div class="col-lg-4 "></div>
 <div class="col-lg-4 rtborder">
   <h3>AMV WEST COAST MOBILE</h3>
   <ul>
-    <li>(818) 827-0922</li>
+    <li><a href="tel:8188270922" target="_blank">(818) 827-0922</a></li>
     <li>AMV LLC | West Coast Office</li>
     <li>11851 Sheldon Street</li>
     <li>Sun Valley, CA 91352</li>
   </ul>
   <h4>Kimberly Scholter</h4>
   <ul>
-    <li>kscholter@amvchelsea.com</li>
-    <li>(818) 535-750</li>
+    <li><a href="mailto:kscholter@amvchelsea.com" target="_blank">kscholter@amvchelsea.com</a></a></li>
+    <li><a href="tel:8185357506" target="_blank">(818) 535-7506</a></li>
   </ul>
   <h4>Jason Rennie - LA Field Shop Operations </h4>
   <ul>
-    <li>jrennie@amvchelsea.com</li>
-    <li>(818) 827-0922</li>
+    <li><a href="mailto:jrennie@amvchelsea.com" target="_blank">jrennie@amvchelsea.com</a></li>
+    <li><a href="tel:8188270922" target="_blank">(818) 827-0922</a></li>
   </ul>
   <h3>CHELSEA TELEVISION STUDIOS</h3>
   <ul>
-    <li>(212) 727-1234</li>
+    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a></li>
     <li>221 West 26th Street</li>
     <li>New York, NY 10001</li>
   </ul>
   <h4>Eric Duke</h4>
   <ul>
-    <li>eduke@amvchelsea.com</li>
-    <li>(212) 727-9862 o</li>
-    <li>(917) 299-0204 m</li>
+    <li><a href="mailto:eduke@amvchelsea.com" target="_blank">eduke@amvchelsea.com</a></li>
+    <li><a href="tel:2127279862" target="_blank">(212) 727-9862</a> o</li>
+    <li><a href="tel:9172990204" target="_blank">(917) 299-0204</a> m</li>
   </ul>
   <h4>Lenny Laxer</h4>
   <ul>
-    <li>llaxer@amvchelsea.com</li>
-    <li>(646) 230-6996 o</li>
-    <li>(917) 299-0205 m</li>
+    <li><a href="mailto:llaxer@amvchelsea.com" target="_blank">llaxer@amvchelsea.com</a></li>
+    <li><a href="tel:6462306996" target="_blank">(646) 230-6996</a> o</li>
+    <li><a href="tel:9172990205" target="_blank">(917) 299-0205</a> m</li>
   </ul>
   <h4>Mark Van Wickel</h4>
   <ul>
-    <li>mvanwickel@amvchelsea.com</li>
-    <li>(646) 486-8055 o</li>
-    <li>(201) 230-8188 m</li>
+    <li><a href="mailto:mvanwickel@amvchelsea.com" target="_blank">mvanwickel@amvchelsea.com</a></li>
+    <li><a href="tel:6464868055" target="_blank">(646) 486-8055</a> o</li>
+    <li><a href="tel:2012308188" target="_blank">(201) 230-8188</a> m</li>
   </ul>
   
   <h3>Chelsea Post</h3>
   <ul>
-    <li>(212) 727-1234</li>
+    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a></li>
     <li>221 West 26th Street</li>
     <li>New York, NY 10001</li>
   </ul>
   <h4>Richard Duke</h4>
   <ul>
-    <li>rduke@amvchelsea.com</li>
-    <li>(646) 486-8080 o</li>
+    <li><a href="mailto:rduke@amvchelsea.com" target="_blank">rduke@amvchelsea.com</a></li>
+    <li><a href="tel:6464868080" target="_blank">(646) 486-8080</a> o</li>
   </ul>
 </div>
 <div class="col-lg-4 rtborder">
   <h3>MOBILE PRODUCTION</h3>
   <h4>Eric Duke</h4>
   <ul>
-    <li>eduke@amvchelsea.com</li>
-    <li>(212) 727-9862 o</li>
-    <li>(917) 299-0204 m</li>
+    <li><a href="mailto:eduke@amvchelsea.com" target="_blank">eduke@amvchelsea.com</a></li>
+    <li><a href="tel:2127279862" target="_blank">(212) 727-9862</a> o</li>
+    <li><a href="tel:9172990204" target="_blank">(917) 299-0204</a> m</li>
   </ul>
   <h4>Lenny Laxer</h4>
   <ul>
-    <li>llaxer@amvchelsea.com</li>
-    <li>(646) 230-6996 o</li>
-    <li>(917) 299-0205 m</li>
+    <li><a href="mailto:llaxer@amvchelsea.com" target="_blank">llaxer@amvchelsea.com</a></li>
+    <li><a href="tel:6462306996" target="_blank">(646) 230-6996</a> o</li>
+    <li><a href="tel:9172990205" target="_blank">(917) 299-0205</a> m</li>
   </ul>
   <h4>Tom D'Angelo</h4>
   <ul>
-    <li>tdangelo@amvchelsea.com</li>
-    <li>(646) 486-8052 o</li>
-    <li>(917) 299-1583 m</li>
+    <li><a href="mailto:tdangelo@amvchelsea.com" target="_blank">tdangelo@amvchelsea.com</a></li>
+    <li><a href="tel:6464868052" target="_blank">(646) 486-8052</a> o</li>
+    <li><a href="tel:9172991583" target="_blank">(917) 299-1583</a> m</li>
   </ul>
   <h3>AMV/UNITEL STUDIOS</h3>
   <ul>
-    <li>(212) 727-1234 sales</li>
-    <li>(212) 265-3600 facility</li>
-  </ul>
-  <h4>AMV/Unitel 57</h4>
-  <ul><li>515 West 57th Street</li>
+    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a> sales</li>
+    <li><a href="tel:2122653600" target="_blank">(212) 265-3600</a> facility</li>
+   <li>515 West 57th Street</li>
   <li>New York, NY 10019</li></ul>
   <h4>Eric Duke</h4>
   <ul>
-    <li>eduke@amvchelsea.com</li>
-    <li>(212) 727-9862 o</li>
-    <li>(917) 299-0204 m</li>
+    <li><a href="mailto:eduke@amvchelsea.com" target="_blank">eduke@amvchelsea.com</a></li>
+    <li><a href="tel:2127279862" target="_blank">(212) 727-9862</a> o</li>
+    <li><a href="tel:9172990204" target="_blank">(917) 299-0204</a> m</li>
   </ul>
   <h4>Mark Van Wickel</h4>
-  <ul><li>mvanwickel@amvchelsea.com</li>
-  <li>(646)  486-8055 o</li>
-  <li>(201) 230-8188 m</li></ul>
+  <ul><li><a href="mailto:mvanwickel@amvchelsea.com" target="_blank">mvanwickel@amvchelsea.com</a></li>
+  <li><a href="tel:6464868055" target="_blank">(646) 486-8055</a> o</li>
+  <li><a href="tel:2012308188" target="_blank">(201) 230-8188</a> m</li></ul>
   <h4>Nova Calise</h4>
   <ul>
-    <li>ncalise@amvchelsea.com</li>
-    <li>(917) 553-3327 m</li>
-    <li>(646) 486-8059 o</li>
+    <li><a href="mailto:ncalise@amvchelsea.com" target="_blank">ncalise@amvchelsea.com</a></li>
+    <li><a href="tel:9175533327" target="_blank">(917) 553-3327</a> m</li>
+    <li><a href="tel:6464868059" target="_blank">(646) 486-8059</a> o</li>
   </ul>
   <h3>AMV BROADCAST SALES</h3>
   <ul>
-    <li>(212) 586-8616</li>
+    <li><a href="tel:2125868616" target="_blank">(212) 586-8616</a></li>
     <li>515 West 57th Street</li>
     <li>New York, NY 10019</li>
   </ul>
   <h4>Erik Thielking</h4>
   <ul>
-    <li>ethielking@allmobilevideo.com</li>
-    <li>(347) 865-7797 m</li>
+    <li><a href="mailto:ethielking@allmobilevideo.com" target="_blank">ethielking@allmobilevideo.com</a></li>
+    <li><a href="tel:3478657797" target="_blank">(347) 865-7797</a> m</li>
   </ul>
   <h4>Helena Lin</h4>
   <ul>
-    <li>hlin@allmobilevideo.com</li>
+    <li><a href="mailto:hlin@allmobilevideo.com" target="_blank">hlin@allmobilevideo.com</a></li>
   </ul>
   <h4>Mark Ptak</h4>
   <ul>
-    <li>mptak@allmobilevideo.com</li>
+    <li><a href="mailto:mptak@allmobilevideo.com" target="_blank">mptak@allmobilevideo.com</a></li>
   </ul>
   <h4>Derek Purtell</h4>
   <ul>
-    <li>dpurtell@allmobilevideo.com</li>
+    <li><a href="mailto:dpurtell@allmobilevideo.com" target="_blank">dpurtell@allmobilevideo.com</a></li>
   </ul>
 </div>
 <div class="col-lg-4 nortborder">
   <h3>AMV DIGITAL MEDIA</h3>
   <ul>
-    <li>(310) 751-1911</li>
+    <li><a href="tel:3107511911" target="_blank">(310) 751-1911</a></li>
     <li>12950 Culver Blvd. Suite 200</li>
     <li>Los Angeles, CA 90066</li>
-    <li>www.amvdm.com</li>
+    <li>www.amvdm.com</a></li>
   </ul>
   <h4>Brian Bedard</h4>
   <ul>
-    <li>bbedard@amvdm.com</li>
-    <li>(310) 751-1921  o</li>
-    <li>(323) 839 - 3225 m</li>
+    <li><a href="mailto:bbedard@amvdm.com" target="_blank">bbedard@amvdm.com</a></li>
+    <li><a href="tel:3107511921" target="_blank">(310) 751-1921</a>  o</li>
+    <li><a href="tel:3238393225" target="_blank">(323) 839-3225</a> m</li>
   </ul>
   <h4>Ian Dittbrenner</h4>
   <ul>
-    <li>iand@amvchelsea.com</li>
-    <li>(310) 751-1925  o</li>
-    <li>(310) 213-6923 m</li>
+    <li><a href="mailto:iand@amvchelsea.com" target="_blank">iand@amvchelsea.com</a></li>
+    <li><a href="tel:3107511925" target="_blank">(310) 751-1925</a>  o</li>
+    <li><a href="tel:3102136923" target="_blank">(310) 213-6923</a> m</li>
   </ul>
   <h4>Nick Jacobovitz</h4>
   <ul>
-    <li>nickj@amvchelsea.com</li>
-    <li>(310) 751-1960 o</li>
-    <li>(818) 823-0154 m</li>
+    <li><a href="mailto:nickj@amvchelsea.com" target="_blank">nickj@amvchelsea.com</a></li>
+    <li><a href="tel:3107511960" target="_blank">(310) 751-1960</a> o</li>
+    <li><a href="tel:8188230154" target="_blank">(818) 823-0154</a> m</li>
   </ul>
   <h3>AMV RENTALS</h3>
   <h4>AMV FIELD OPERATIONS</h4>
   <ul>
-    <li>(201) 488-4181</li>
-    <li>(201) 488-3709 fax</li>
+    <li><a href="tel:2014884181" target="_blank">(201) 488-4181</a></li>
+    <li><a href="tel:2014883709" target="_blank">(201) 488-3709</a> fax</li>
     <li>272 State Route 17 South</li>
     <li>Lodi, New Jersey 07644</li>
   </ul>
   <h4>Lee Blanco</h4>
   <ul>
-    <li>lblanco@amvchelsea.com</li>
-    <li>(201) 488-4181 o</li>
-    <li>(917) 299-0206 m</li>
+    <li><a href="mailto:lblanco@amvchelsea.com" target="_blank">lblanco@amvchelsea.com</a></li>
+    <li><a href="tel:2014884181" target="_blank">(201) 488-4181</a> o</li>
+    <li><a href="tel:9172990206" target="_blank">(917) 299-0206</a> m</li>
   </ul>
   <h4>Jesus Bones</h4>
   <ul>
-    <li>jbones@amvchelsea.com</li>
-    <li>(201) 488-4181</li>
+    <li><a href="mailto:jbones@amvchelsea.com" target="_blank">jbones@amvchelsea.com</a></li>
+    <li><a href="tel:2014884181" target="_blank">(201) 488-4181</a></li>
   </ul>
   <h3>AMV GATEWAY</h3>
   <ul>
@@ -202,29 +200,29 @@
   </ul>
 <h4>24 hour Booking / MCR  </h4>
 <ul>
-  <li>(732) 969-3191</li>
+  <li><a href="tel:7329693191" target="_blank">(732) 969-3191</a></li>
 </ul>
   <h4>Lenny Laxer</h4>
   <ul>
-    <li>llaxer@amvchelsea.com</li>
-    <li>(646) 230-6996 o</li>
-    <li>(917) 299-0205 m</li>
+    <li><a href="mailto:llaxer@amvchelsea.com" target="_blank">llaxer@amvchelsea.com</a></li>
+    <li><a href="tel:6462306996" target="_blank">(646) 230-6996</a> o</li>
+    <li><a href="tel:9172990205" target="_blank">(917) 299-0205</a> m</li>
   </ul>
   <h4>Michael Carberry</h4>
   <ul>
-    <li>mcarberry@amvchelsea.com</li>
-    <li>(732) 969-3700</li>
+    <li><a href="mailto:mcarberry@amvchelsea.com" target="_blank">mcarberry@amvchelsea.com</a></li>
+    <li><a href="tel:7329693700" target="_blank">(732) 969-3700</a></li>
   </ul>
   <h4>Carl Lichtenberg</h4>
   <ul>
-    <li>clichtenberg@amvchelsea.com</li>
-    <li>(732) 969-3700</li>
+    <li><a href="mailto:clichtenberg@amvchelsea.com" target="_blank">clichtenberg@amvchelsea.com</a></li>
+    <li><a href="tel:7329693700" target="_blank">(732) 969-3700</a></li>
   </ul>
   <h3>AMV/WESTAR MASTER CONTROL</h3>
   <ul>
-    <li>(972) 460-4465</li>
+    <li><a href="tel:9724604465" target="_blank">(972) 460-4465</a></li>
     <li>777 Westar Lane</li>
     <li>Cedar Hill, Texas 75104</li>
-    <li>contact@westarsat.com</li>
+    <li><a href="mailto:contact@westarsat.com" target="_blank">contact@westarsat.com</a></li>
   </ul>
 </div>

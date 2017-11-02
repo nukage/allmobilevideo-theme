@@ -124,7 +124,7 @@
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>Post Production</h3>
                   <p>Chelsea Post is one of the most comprehensively equipped facilities in the country. Post production technology and work flow is constantly changing and we pride ourselves on being at the forefront of this evolution. </p>
-                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="#">View Post</a> 
+                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/post">View Post</a> 
                 </div>
                 <div class="col-md-6 text-center  hidden-sm-down">
                   <img class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-post.png" alt="">
@@ -155,7 +155,7 @@
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>Sales</h3>
                   <p>As the “World’s Production Equipment Headquarters,” AMV Broadcast Sales offers the world’s top production equipment at competitive prices along with expert installation, training and support. </p>
-                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="#">View Sales</a>
+                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/sales">View Sales</a>
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down ">
                   <img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-sales.png" alt="">
@@ -166,13 +166,15 @@
            <div class="ibox transport dark" id="transport">
             <div class="container">
               <div class="row">
-            <div class="col-md-6 text-center">
-                  <img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/amv-westar.gif" alt="">
+            <div class="col-md-5 text-center">
+                  
                 </div>
-                <div class="col-md-6 descrip wow fadeInRight">
+                <div class="col-md-7 descrip wow fadeInRight">
                   <h3>Video Transport / IP</h3>
                   <p>Westar provides your station the efficiencies of scale and expense savings once available to only the largest of broadcast groups. From Providence to Chicago, Florida to Arizona, Westar Master Control Services is presently partnering with network affiliates across the industry including CBS, PBS, CW, Univision, Azteca, Estrella, MeTV and more.</p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="#">View Video Transport / IP</a>
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/gateway">AMV  <br>Gateway</a> 
+                   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/satellite-services">Westar <br>Satellite Services</a>
+                   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/master-control">Westar  <br> Master Control</a>
                 </div>
                
               </div>
@@ -182,12 +184,12 @@
         <section class="contact" id="contact">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 contactform">
               <h3>Contact Us</h3>
               <ul>
-                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-mobile.png">(212)727-1234</li>
-                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-email.png" alt="">CONTACT@AMVCHELSEA.COM</li>
-                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-fax.png">(212) 255-6644</li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-mobile.png"><a href="tel:2127271234" target="_blank">(212) 727-1234</a></li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-email.png" alt=""><a href="mailto:CONTACT@AMVCHELSEA.COM" target="_blank">CONTACT@AMVCHELSEA.COM</a></li>
+                <li><img src="<?php echo get_template_directory_uri()?>/img/home-contact-fax.png"><a href="tel:2122556644" target="_blank">(212) 255-6644</a></li>
               </ul>
               <p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.704196785838!2d-73.9974590488192!3d40.74653397922675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259baa94ccc93%3A0x226963c36d090dce!2sAll+Mobile+Video!5e0!3m2!1sen!2sus!4v1498850989502" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>

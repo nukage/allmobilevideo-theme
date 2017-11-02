@@ -28,7 +28,7 @@
               <a class="phone" href="tel:2127271234">(212) 727-1234</a>
             </li>
             <li class="nav-item hidden-sm-down">
-              <a class="email" href="<?php echo get_home_url(); ?>/contact">CONTACT@AMVCHELSEA.COM</a>
+              <a class="email" href="mailto:contact@amvchelsea.com" target="_blank">CONTACT@AMVCHELSEA.COM</a>
             </li>
           </ul>
           <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">

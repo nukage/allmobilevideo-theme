@@ -1,8 +1,16 @@
 
 
 //CONTACT PAGE
-
+.contactform a{
+		color:white;
+	}
 .page-template-page-contact-php {
+	#directory{
+		a{
+			color:#555;
+		}
+	}
+	
 	.sectionoverlay{background-color:rgba(0,32,105,.4);}
 		.sectionhero{
 		background-image: url("img/contact-hero-1.jpg");

@@ -61,7 +61,7 @@ FAQ
  
   <li class="nav-item">
     <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
-VIRTUAL TOUR
+VIDEO TOUR
     	
     </a>
   </li>
@@ -151,9 +151,12 @@ VIRTUAL TOUR
 </div>	
    
   <div role="tabpanel" class="tab-pane fade" id="tab2">
-
-test
-    	
+<div class="container">
+	<div class="pb-5">
+<div class="videoWrapper ">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/In6U9NUzMKE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+    	</div></div>o
 </div>
   
 </div>

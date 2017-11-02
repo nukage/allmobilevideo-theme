@@ -68,14 +68,32 @@
           <!-- /.container -->
         </section>
 
-
+<section class="transfersuite">
+  <h2>COMING SOON!</h2>
+  <h3>Chelsea Post Transfer Suite</h3>
+  <div class="insidebox row">
+    <div class="col-6">
+    <ul>
+      <li> Frame Rate Conversion</li>
+      <li>Audio Sweetening</li>
+      <li>Captioning</li>
+    </ul></div>
+     <div class="col-6">
+       <ul>
+         <li>Upload to Cloud</li>
+         <li>File Transfer</li>
+         <li>Quality Control Reports</li>
+       </ul>
+     </div>
+  </div>
+</section>
         <section id="features">
           <h3 class="text-center pb-4">Equipment Inventory &amp; Capabilities </h3>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 push-md-2">
+      <div class="col-12  ">
         <div class="row">
-      <div class="col-md-6 feat">
+      <div class="col-md-4 feat">
             <div class="">
         <h4>Standard Definition </h4>
 <ul>
@@ -93,7 +111,7 @@
 </ul>
         </div>
       </div>
-      <div class="col-md-6 feat push-md-1">
+      <div class="col-md-4 feat" >
          <div class="">
         <h4>High Definition</h4>
           <ul>
@@ -113,7 +131,7 @@
 
       </div>
      
-      <div class="col-md-6 feat">
+      <div class="col-md-4 feat">
         <div class="">
        <h4>Frame Rate Converters</h4>
 <ul>
@@ -122,10 +140,7 @@
 <li>FOR A</li>
 </ul>
         </div>
-      </div>
- 
-      <div class="col-md-6 feat push-md-1">
-        <div class="">
+                <div class="">
         <h4>Additional Services</h4>
 <ul>
 <li>  Close Captioning</li>
@@ -135,7 +150,10 @@
 <li>  AC3 encoding</li>
 </ul>
         </div>
+
       </div>
+ 
+ 
  
  
     </div>

@@ -412,8 +412,10 @@ li{
 }
 
 
+
+
  // VIDEO TRANSPORT IP PAGES
-.page-template-page-satellite, .page-template-page-master-control{
+.page-template-page-satellite, .page-template-page-master-control, .page-template-page-gateway{
  
 	.sectionoverlay{
 			background-color:rgba(0,32,105,.4);
@@ -423,6 +425,9 @@ li{
 }
  .page-template-page-satellite .sectionhero {
 			background-image: url("img/transport-hero-1.jpg");
+ }
+ .page-template-page-gateway .sectionhero {
+			background-image: url("img/gateway-hero-1.jpg");
  }
  .page-template-page-master-control .sectionhero {
 			background-image: url("img/westar-room.jpg");
@@ -530,6 +535,9 @@ a:hover .description{
 
 
 .sidebarcontactinfo{
+	a{
+		color:#444;
+	}
 	padding:5px;
 	background: rgba(233,236,245,.33);
 	h4,h5{font-size:12px;}
@@ -615,8 +623,20 @@ a:hover .description{
 	background: none;
 	border:none;
 	cursor:pointer;
-	width:100%;
-	li{margin:10px;}
+	width:90%;
+	margin-left:20px;
+	li{
+		margin:10px;
+	}
+	img{
+		-webkit-box-shadow: 2px 0px 44px -9px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 0px 44px -9px rgba(0,0,0,0.75);
+		box-shadow: 2px 0px 44px -9px rgba(0,0,0,0.75);
+	}
+	.flex-direction-nav{
+		position: relative;
+		top:-140px;
+	}
 }
 .single-rental #slider .slides{
 	border:1px solid #ccc;
@@ -1066,28 +1086,81 @@ margin:40px auto;}
 	font-weight:200;
 }
 .page-template-page-post {
+	.transfersuite{
+		background: url('img/post-transfersuite.jpg');
+		 background-size:cover;
+		background-position: center center;
+		padding-top:80px;
+		padding-bottom: 80px;
+		
+		h1,h2,h3{
+			text-align: center;
+			color:white;
+			font-family: roboto;
+		}
+		h2{
+			font-size:55px;
+			font-weight: 900;
+		}
+		h3{
+			font-size:30px;
+			padding:10px;
+			padding-bottom: 20px;
+			font-weight: 300;
+		}
+		li{
+			color:white;
+			list-style-type: none;
+			font-family: raleway;
+			background: url('img/red-checks-2.png') no-repeat 0 5px;
+			padding-left:20px;
+		}
+		.insidebox	{
+			margin:auto;
+			max-width: 550px;
+
+		}
+		
+	}
 	#features{
-		h4{font-family: roboto;}
+		h3{
+			margin:1em;
+		}
+		h4{
+			font-family: roboto;
+			font-size:22px;
+			border-bottom:1px solid #ccc;
+			padding-bottom:8px;		}
 		font-family: roboto;
 		padding:2em;
 		font-weight:300;
-		background:   90% 100% #eee no-repeat;
+		background:   90% 100% #F2F2F2 no-repeat;
+		ul, li{
+			list-style-type: none;
+			margin:0;padding:0;
+		}
+		ul{
+			margin-bottom:30px;
+		}
+		li{
+			padding-bottom:10px;
+		}
 		.feat{
-			border:1px dotted #ccc;
-			border-radius:10px;
-			background:rgba(255,255,255,.5);
-			padding:40px;
-			margin:20px 0;
-			transition: .5s all;
-			cursor: default;
+			// border:1px dotted #ccc;
+			// border-radius:10px;
+			// background:rgba(255,255,255,.5);
+			// padding:40px;
+			// margin:20px 0;
+			// transition: .5s all;
+			// cursor: default;
 
 		}
 	
 		.feat:hover{
-			text-decoration: none;
-			color:#005FCB;
-			transform: scale(1.1,1.1);
-			opacity: .8;
+			// text-decoration: none;
+			// color:#005FCB;
+			// transform: scale(1.1,1.1);
+			// opacity: .8;
 
 		}
 		// .divider{
@@ -1119,3 +1192,35 @@ margin:40px auto;}
 	width: 100%;
 	height: 100%;
 }
+
+#contactform {
+	a{
+		color:#fff;
+	}
+}
+
+
+.bloglook {
+	padding-top:2em;
+	padding-bottom:2em;
+	p{
+		font-weight: 400;
+		font-family: helvetica;
+		color:#777;
+		font-size: 14px;
+	}
+	h3{
+		padding-bottom:.5em;
+	}
+	h4{
+		font-size:18px;
+	}
+	h1, h2, h3, h4{
+		font-family: Roboto;
+	}
+}
+
+ .sectionherooverlay h4{
+ 	max-width: 800px;
+ 	margin:auto;
+ }

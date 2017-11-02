@@ -21,9 +21,16 @@
 
 get_header(); ?>
 
+ 
+
+
 <section class="sectionhero">
   <div class="sectionoverlay">
-<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
+
+
+
+
+<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext" >
     <h1>Complete Connectivity to the Broadcasting Market</h1>
   <h2>AMV Gateway’s teleport provides a superior mix of data and video service. Both domestic and international antennas are available as well as multi-format global fiber connectivity. </h2>
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
@@ -43,12 +50,14 @@ All services are monitored and controlled via a state-of-the-art control center,
 <section class="gatewayinfo">
 	<div class="container">
 		<div class="row">
-		<div class="col-9"><div title="Page 1">
+		<div class="col-8 bloglook">
+			<div title="Page 1">
     <div>
         <div>
-            <p>
-                Services available at AMV Gateway include: Video / Audio
-            </p>
+            
+              <h3>  Services available at AMV Gateway include: </h3>
+            
+            <h4>Video / Audio</h4>
             <ul>
                 <li>
                     <p>
@@ -82,31 +91,29 @@ All services are monitored and controlled via a state-of-the-art control center,
                         Digital MPEG2 &amp; H.264 Compression is available
                         utilizing Harmonic, Ericsson
                     </p>
+                  </li>   
+                  <li>
                     <p>
                         Tandberg, Arris Digicipher and Cisco PowerVu equipment.
                     </p>
-                    <p>
+                    </li> 
+                      </ul>
+                    <h4>
                         Co-Location Space
-                    </p>
+                    </h4>
                     <p>
                         3,000 Sq. Ft of space is cooled with redundant Liebert
                         20 Ton systems. The co-location space has over 1,000
                         Amps of technical conditioned power available through
                         the UPS via A &amp; B power panels.
                     </p>
-                </li>
-            </ul>
+               
+          
         </div>
     </div>
 </div>
 <div title="Page 2">
-    <div>
-        <div>
-            <p>
-                Voice / Data / Internet
-            </p>
-        </div>
-    </div>
+<h4>Voice / Data / Internet</h4>
     <div>
         <div>
             <ul>
@@ -134,26 +141,26 @@ All services are monitored and controlled via a state-of-the-art control center,
                         System
                     </p>
                 </li>
-                <li>
+               </ul>
                     <p>
                         Applications include internet traffic, voice and
                         private WAN connections.
                     </p>
-                    <p>
+                    <h4>
                         Fiber Connectivity
-                    </p>
+                    </h4>
                     <p>
                         Connectivity to / from Azzurro, The Switch, Level 3 and
                         Encompass. Direct fiber connectivity available from
                         many metropolitan area locations.
-                        <br/>
+                        </p><p>
                         Diverse fiber carriers utilizing Verizon, Zayo,
                         Windstream, Level 3 and Century Link. GigE, OC3, DS3,
                         T-1, ASI and public internet circuits available.
                     </p>
-                    <p>
+                    <h4>
                         Facility Power
-                    </p>
+                    </h4>
                     <p>
                         A 500 KVA Leibert Uninterruptible Power System (UPS) is
                         in place along with backup battery protection. In the
@@ -163,9 +170,9 @@ All services are monitored and controlled via a state-of-the-art control center,
                         generator and keep the station operating normal for 10
                         days.
                     </p>
-                    <p>
+                    <h4>
                         Facility Cooling
-                    </p>
+                    </h4>
                     <p>
                         Eight redundant Carrier air-handling units cool the
                         facility. These high performance systems are designed
@@ -173,9 +180,9 @@ All services are monitored and controlled via a state-of-the-art control center,
                         equipment providing reliable control of room
                         temperature.
                     </p>
-                    <p>
+                    <h4>
                         Security
-                    </p>
+                    </h4>
                     <p>
                         Security cameras offering 360-degree view and 128X-zoom
                         capability monitor the exterior and interior of the
@@ -185,14 +192,16 @@ All services are monitored and controlled via a state-of-the-art control center,
                         the equipment rooms. Only authorized personnel are
                         provided access to secured facilities.
                     </p>
+
+                    <h4>Fire Detection</h4>
                     <p>
-                        Fire Detection – A Thorn Firequest smoke and heat
+                        A Thorn Firequest smoke and heat
                         detection system monitors the entire building for fire
                         sensor alarms.
                     </p>
-                    <p>
+                    <h4>
                         Monitor and Control System
-                    </p>
+                    </h4>
                     <p>
                         A Maxview Earth Station Monitor and Control System
                         (M&amp;C) is installed and operating all equipment at
@@ -206,204 +215,69 @@ All services are monitored and controlled via a state-of-the-art control center,
                         Please do not hesitate to call if you have any
                         questions or special requests.
                     </p>
-                </li>
-            </ul>
+               
+            
         </div>
     </div>
 </div></div>
-		<div class="col-3">
+		<div class="col-4">
 
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pQL2r2voTio?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 		 <section class='sidebarcontactinfo hidden-sm-down'>
     <h4>Inquiries</h4>
-      <ul><li>
-        <ul><h5>Eric Duke</h5>
-          <li>t: (212) 727-1234</li>
-          <li>e: eduke@amvchelsea.com</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Lenny Laxer</h5>
-          <li>t: (646)230-6996</li>
-          <li>c:(917)299-0205</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Tom D'Angelo</h5>
-          <li>t: (646)486-8052</li>
-          <li>e:tdeangelo@amvchelsea.com</li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>General</h5>
-        <li>contact@amvchelsea.com</li>
-          <li>t:(212)727-1234</li>
-          <li>f:(212)255-6644</li>
-        </ul>
-      </li></ul>
+
+    <ul>
+    <li>
+		<ul>
+			<li>Lenny Laxer</li>
+			<li>o: <a target="_blank" href="tel:6462306996">(646)230-6996</a></li>
+			<li>m: <a target="_blank" href="tel:9172990205">(917)299-0205</a></li>
+			<li>e: <a target="_blank" href="mailto:llaxer@amvchelsea.com">llaxer@amvchelsea.com</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>Michael Carberry</li>
+			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
+			<li>e: <a target="_blank" href="mailto:mcarberry@amvchelsea.com">mcarberry@amvchelsea.com</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>Phil Venticinque</li>
+			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
+			<li>e: <a target="_blank" href="mailto:pventicinque@amvchelsea.com">pventicinque@amvchelsea.com</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>Carl Lichtenberg</li>
+			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
+			<li>e: <a target="_blank" href="mailto:clichtenberg@amvchelsea.com">clichtenberg@amvchelsea.com</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+			<li>Contact Numbers</li>
+			<li>Traffic: <a target="_blank" href="tel:7329693610">(732)969-3610</a></li>
+			<li>Main Office: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
+			<li>Simulcasting: <a target="_blank" href="tel:7329690978">(732)969-0978</a></li>
+		</ul>
+	</li>
+</ul>
+ 
     </section></div>
 	</div></div>
 </section>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.9800539075163!2d-74.21632966584725!3d40.58044654070733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24b52b9bd1b59%3A0xf7807b2654ce5f73!2sAMV+Gateway+Teleport!5e0!3m2!1sen!2sus!4v1509571941398" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<div class="bluebar">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-sm-12"><ul class="nav nav-tabs" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" href="#overview" role="tab" data-toggle="tab">OVERVIEW</a>
-  </li>
 
-  
-  <li class="nav-item">
-    <a class="nav-link" href="#tab1" role="tab" data-toggle="tab">
-
-FAQ
-    	
-    </a>
-  </li>
  
  
-  <li class="nav-item">
-    <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
-VIRTUAL TOUR
-    	
-    </a>
-  </li>
  
-</ul>
-</div>
  
-		</div>
-	</div>
-</div>
-
-<!-- Tab panes -->
-<div class="tab-content">
-  <div role="tabpanel" class="tab-pane fade show active" id="overview">
-	<div class="container">
-		<section id="mc-overview">
-		<div class="row">
-			<div class="col-4">
-				<h4>OUR MISSION</h4>
-				<p>To provide the most efficient, reliable, cost effective central-casting service for the independent, small group and Public Television broadcaster.</p>
-			</div>
-			<div class="col-4">
-				<h4>OUR PROMISE</h4>
-				<p>To move your broadcast to a state of the art system; with specific equipment assigned to your specific air chain; with no capital expenditure on your part.</p>
-			</div>
-			<div class="col-4">
-				<h4>YOUR RESULTS</h4>
-				<p>By eliminating capital expenditures and reducing operational expenses, Westar Master Control Services allows your station to focus resources on the future and doing what you do best.</p>
-			</div>
-		
-<!-- 		<hr>
-	<h4>TRAFFIC MEDIA MANAGEMENT</h4>
-		<div class="row traffic-media-management">
-		<div class="col-1"></div>
-			<div class="col-7"><ul>
-				<li>Daily Traffic Log Development
-</li>
-				<li>Reconciliation</li>
-				<li>Media Management</li>
-			</ul></div>
-			<div class="col-4"><ul>
-				<li>Continuity Coordination</li>
-				<li>Program Formatting</li>
-				<li>Offiline Synchronization</li>
-			</ul></div>
-		</div><!-- .row .traffic-media-management" --> 
-	</div><!--.row-->
-		</section>
-	</div>
-
-  </div>
-
-
-		 
-  <div role="tabpanel" class="tab-pane fade" id="tab1">
-<div class="container">
-	<section id="mc-faq">
- <div>
- 	<h3>What are my annual maintenance and repair costs?</h3>
- 	<div class="answer">Zero.</div>
- 	<p class="details">Your monthly broadcast stream, maintenance &amp; repair are also built into your monthly operating service fee.</p>
- </div>
- <hr>
- <div>
- 	<h3>Will I own my broadcast stream equipment?</h3>
- 	<div class="answer">No.</div>
- 	<p class="details">While dedicated exclusively to your signal distribution, the broadcast equipment employed in your service is part of the larger master control facility.</p>
- </div>
-  <hr>
- <div>
- 	<h3>How long does the on-boarding process take?</h3>
- 	<div class="answer">90 days.</div>
- 	<p class="details">Once Engineering has approved the broadcast signal chain &amp; equipment has been ordered – the build-out/light-up process takes approximately three months.</p>
- </div>
- <hr>
- <div>
- 	<h3>What are the responsibilities of my operations?</h3>
- 	<div class="answer">PROGRAMMING</div>
- 	<p class="details">Station operations remain responsible for all programming acquisition, coordination and episode scheduling.</p>
- 	<div class="answer">OFFLINE STORAGE</div>
- 	<p class="details">Westar acquires and transcodes a stations approved ‘nearline’ programming (within two weeks of broadcast air). Station operations remain responsible for offline content storage. Westar is a tapeless facility.</p>
- 	<div class="answer">PROMO &amp; COMMERICAL DEVELOPMENT</div>
- 	<p class="details">Westar will provide an FTP site for your station to upload local promos and commercials in a format that matches one standard.</p>
- </div>
- </section>
-</div>    	
-</div>	
-   
-  <div role="tabpanel" class="tab-pane fade" id="tab2">
-
-test
-    	
-</div>
-  
-</div>
- 
-<section id='services'>
-	<div class="container">
-		<div class="row">
-			<div class="services-content">
-				<h3>WESTAR  MASTER CONTROL FEATURES</h3>
-				<ul>
-					<li>24/7 365 Multiplex HD &amp; SD delivery</li>
-					<li>Live event switching &amp; Live insertion capabilities</li>
-					<li>PSIP, EAS-CAP, Grass Valley Calm Compliance</li>
-					<li>Closed Caption &amp; transmitter monitoring</li>
-					<li>Grass Valley ITX System</li>
-					<li>PSIP via Trivini</li>
-					<li>Muxing via Harmonic’s Elektra system</li>
-					<li>EAS via Digital Alert’s DASDEC system</li>
-					<li>Grass Valley Calm Compliance &amp; Audio processing via Miranda</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- <section>
-   <div class="row">
-      Featuring Systems By
-	</div>
-</section>
-<section>
- 
-   <div class="row">
-     Frequently Added Services
-	</div>
-</section> -->
-<!-- <section>
- 
-   <div class="row">
-     Frequently Added Services
-	</div>
-</section> -->
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">
@@ -429,10 +303,13 @@ test
 	
 </section>
 
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.9800539075163!2d-74.21632966584725!3d40.58044654070733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24b52b9bd1b59%3A0xf7807b2654ce5f73!2sAMV+Gateway+Teleport!5e0!3m2!1sen!2sus!4v1509571941398" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <?php dynamic_contact($postID) ?>
-
+ 
+	
+			</script>
 			<?php
 			
 			get_footer();
 			?>
+			
