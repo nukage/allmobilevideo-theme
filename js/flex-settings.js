@@ -13,7 +13,7 @@
 
         itemWidth: 100,
 
-        itemMargin: 2,
+        itemMargin: 1,
 
         asNavFor: '#slider'
 

@@ -39,7 +39,9 @@
 
 //. MOBILE FILTER 
 
-
+.mobile-filter ul[data-group=numberofcameras] {
+	display:none;
+}
 .mobile-filter {
  input[type="checkbox"] {
    display: none;

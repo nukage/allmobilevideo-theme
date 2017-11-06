@@ -446,6 +446,9 @@ section.icons {
 .single-mobile .sectionoverlay h3, .single-stage .sectionoverlay h3, .single-rental .sectionoverlay h3 {
   padding-bottom: .3em; }
 
+.mobile-filter ul[data-group=numberofcameras] {
+  display: none; }
+
 .mobile-filter input[type="checkbox"] {
   display: none; }
 
@@ -966,9 +969,8 @@ img {
   border: none;
   cursor: pointer;
   width: 90%;
-  margin-left: 20px; }
-  #carousel li {
-    margin: 10px; }
+  margin-left: 30px;
+  margin-bottom: 20px; }
   #carousel img {
     -webkit-box-shadow: 2px 0px 44px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 0px 44px -9px rgba(0, 0, 0, 0.75);
@@ -1018,7 +1020,7 @@ img {
   display: none; }
 
 .slider #carousel .flex-direction-nav a {
-  top: 60px; }
+  top: 80px; }
 
 .product-content .sidebarcontactinfo {
   padding-top: 12px; }

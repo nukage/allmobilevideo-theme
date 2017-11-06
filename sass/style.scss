@@ -624,9 +624,10 @@ a:hover .description{
 	border:none;
 	cursor:pointer;
 	width:90%;
-	margin-left:20px;
+	margin-left:30px;
+	margin-bottom:20px;
 	li{
-		margin:10px;
+		// margin:10px;
 	}
 	img{
 		-webkit-box-shadow: 2px 0px 44px -9px rgba(0,0,0,0.75);
@@ -692,7 +693,7 @@ a:hover .description{
 }
 
  .slider #carousel .flex-direction-nav a {
-		 top:60px;
+		 top:80px;
 		
 	}
  

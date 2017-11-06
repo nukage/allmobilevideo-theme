@@ -2,8 +2,8 @@
     <h4>Inquiries</h4>
       <ul><li>
         <ul><h5>Jesus Bones</h5>
-          <li>t: (201)488-4181</li>
-          <li>e: jbones@amvchelsea.com</li>
+          <li>t: <a target="_blank" href="tel:2014884181">(201)488-4181</a></li>
+          <li>e: <a target="_blank" href="mailto:jbones@amvchelsea.com">jbones@amvchelsea.com</a></li>
         </ul>
       </li>
     </ul>

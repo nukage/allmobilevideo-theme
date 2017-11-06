@@ -237,7 +237,7 @@ function get_featured_section($key, $postID){
 };
 function amv_list_taxonomies($type, $name){
 	?>
-	 <li class="filter-list col-md-12 col-3 pr-md-0 pr-3">
+	 <li class="filter-list col-md-12 col-4 pr-md-0 pr-3">
         
          <ul class='' data-group='<?php echo $type; ?>'>
             
