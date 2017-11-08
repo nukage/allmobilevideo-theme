@@ -214,7 +214,32 @@ function dynamic_contact($postID){ ?>
 </section>
 <?php };
 
+function amv_product_navigation(){
 
+	  previous_post_link('<i class="fa fa-chevron-left" aria-hidden="true"></i>%link'); 
+the_title( '<h2 class="entry-title">', '</h2>' );
+ 
+
+next_post_link();
+
+
+};
+
+function amv_product_navi(){
+
+
+ // Previous/next post navigation.
+    $next_post = get_next_post();
+    $previous_post = get_previous_post();
+    the_post_navigation( array(
+        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentyfifteen' ) . '</span> ' .
+            '<span class="screen-reader-text">' . __( 'Next post:', 'twentyfifteen' ) . '</span> ' . 
+            '<span class="post-title">%title</span>' . get_the_post_thumbnail($next_post->ID,'thumbnail'),
+        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'twentyfifteen' ) . '</span> '  . 
+            '<span class="screen-reader-text">' . __( 'Previous post:', 'twentyfifteen' ) . '</span> ' .
+            '<span class="post-title">%title</span>' . get_the_post_thumbnail($previous_post->ID,'thumbnail'),
+    ) );
+}
 
 function get_featured_section($key, $postID){
 	if (get_post_meta($postID, $key, true)){

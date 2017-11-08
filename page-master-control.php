@@ -40,42 +40,11 @@ Master control center, media management, and business services for independent, 
 
 </section>
 
-<div class="bluebar">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-sm-12"><ul class="nav nav-tabs" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" href="#overview" role="tab" data-toggle="tab">OVERVIEW</a>
-  </li>
 
-  
-  <li class="nav-item">
-    <a class="nav-link" href="#tab1" role="tab" data-toggle="tab">
-
-FAQ
-    	
-    </a>
-  </li>
- 
- 
-  <li class="nav-item">
-    <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
-VIDEO TOUR
-    	
-    </a>
-  </li>
- 
-</ul>
-</div>
- 
-		</div>
-	</div>
-</div>
 
 <!-- Tab panes -->
-<div class="tab-content">
-  <div role="tabpanel" class="tab-pane fade show active" id="overview">
+<div>
+
 	<div class="container">
 		<section id="mc-overview">
 		<div class="row">
@@ -112,13 +81,35 @@ VIDEO TOUR
 		</section>
 	</div>
 
-  </div>
+ 
+</div>
+ 
+<section id='services'>
+	<div class="container">
+		<div class="row">
+			<div class="services-content">
+				<h3>WESTAR  MASTER CONTROL FEATURES</h3>
+				<ul>
+					<li>24/7 365 Multiplex HD &amp; SD delivery</li>
+					<li>Live event switching &amp; Live insertion capabilities</li>
+					<li>PSIP, EAS-CAP, Grass Valley Calm Compliance</li>
+					<li>Closed Caption &amp; transmitter monitoring</li>
+					<li>Grass Valley ITX System</li>
+					<li>PSIP via Trivini</li>
+					<li>Muxing via Harmonic’s Elektra system</li>
+					<li>EAS via Digital Alert’s DASDEC system</li>
+					<li>Grass Valley Calm Compliance &amp; Audio processing via Miranda</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-		 
-  <div role="tabpanel" class="tab-pane fade" id="tab1">
+  
 <div class="container">
 	<section id="mc-faq">
+		<h2>Questions and Answers</h2>
  <div>
  	<h3>What are my annual maintenance and repair costs?</h3>
  	<div class="answer">Zero.</div>
@@ -147,40 +138,7 @@ VIDEO TOUR
  	<p class="details">Westar will provide an FTP site for your station to upload local promos and commercials in a format that matches one standard.</p>
  </div>
  </section>
-</div>    	
-</div>	
-   
-  <div role="tabpanel" class="tab-pane fade" id="tab2">
-<div class="container">
-	<div class="pb-5">
-<div class="videoWrapper ">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/In6U9NUzMKE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
-    	</div></div>o
-</div>
-  
-</div>
- 
-<section id='services'>
-	<div class="container">
-		<div class="row">
-			<div class="services-content">
-				<h3>WESTAR  MASTER CONTROL FEATURES</h3>
-				<ul>
-					<li>24/7 365 Multiplex HD &amp; SD delivery</li>
-					<li>Live event switching &amp; Live insertion capabilities</li>
-					<li>PSIP, EAS-CAP, Grass Valley Calm Compliance</li>
-					<li>Closed Caption &amp; transmitter monitoring</li>
-					<li>Grass Valley ITX System</li>
-					<li>PSIP via Trivini</li>
-					<li>Muxing via Harmonic’s Elektra system</li>
-					<li>EAS via Digital Alert’s DASDEC system</li>
-					<li>Grass Valley Calm Compliance &amp; Audio processing via Miranda</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
+</div> 
 <!-- <section>
    <div class="row">
       Featuring Systems By

@@ -18,6 +18,17 @@
 	 
 	}
 	#mc-faq {
+		padding-top:2em;
+		h2{
+			text-transform: uppercase;
+			font-weight: 600;
+			font-family: roboto;
+			font-size:2.5em;
+			border-bottom:1px solid #ccc;
+			display: inline-block;
+			margin-bottom:.5em;
+
+		}
 		text-align: center;
 		h3{font-family: roboto;
 			padding-top:20px;}
@@ -36,6 +47,7 @@
 #mc-overview{
 	text-align: center;
 	margin-top:3em;
+	margin-bottom:3em;
 	font-weight: 300;
 	hr{
 		margin:3em 0;

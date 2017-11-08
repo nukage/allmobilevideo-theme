@@ -46,11 +46,50 @@ All services are monitored and controlled via a state-of-the-art control center,
   </div>
 
 </section>
+<div class="bluebar">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-12"><ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" href="#gwoverview" role="tab" data-toggle="tab">OVERVIEW</a>
+  </li>
+
+  
+  <li class="nav-item">
+    <a class="nav-link" href="#services" role="tab" data-toggle="tab">
+
+SERVICES
+        
+    </a>
+  </li>
+ 
+ 
+  <li class="nav-item">
+    <a class="nav-link" href="#facilities" role="tab" data-toggle="tab">
+FACILITIES
+        
+    </a>
+  </li>
+ 
+</ul>
+</div>
+ 
+        </div>
+    </div>
+</div>
+
+
+
 
 <section class="gatewayinfo">
 	<div class="container">
 		<div class="row">
+
+        
 		<div class="col-8 bloglook">
+                   <div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade show active" id="gwoverview">
 			<div title="Page 1">
     <div>
         <div>
@@ -219,7 +258,140 @@ All services are monitored and controlled via a state-of-the-art control center,
             
         </div>
     </div>
-</div></div>
+</div>
+
+</div> 
+
+<div role="tabpanel" class="tab-pane fade" id="services">
+    
+    <h3>Services</h3>
+    <h4>Transmission</h4>
+    <ul>
+        <li>
+            25 Domestic and International Antennas in Carteret, NJ
+        </li>
+        <li>
+            30 Domestic and International Antennas in Cedar Hill, Texas
+        </li>
+        <li>
+            Digital Compression services utilizing Adtec, Ateme and
+            Ericsson Tandberg equipment
+        </li>
+        <li>
+            High-Definition encoding, decoding, transmission, record
+            and playback
+        </li>
+        <li>
+            Format Up, down and cross conversion - HD Frame Rate
+            Conversion utilizing For-A FRC8000
+        </li>
+        <li>
+            Six mobile Ku transmission / production trucks
+        </li>
+        <li>
+            Domestic and International C-Band and Ku space segment
+        </li>
+        <li>
+            Local and long haul fiber optic connectivity
+        </li>
+        <li>
+            Streaming and archiving services
+        </li>
+        <li>
+            LiveU, TVU and Zixi Pubic internet connectivity
+        </li>
+        </ul>
+        <h4>Video / Audio</h4>
+        <ul>
+            <li>
+                Program record / origination / automation
+            </li>
+            <li>
+                Program origination and emergency content server storage
+            </li>
+            <li>
+                Signal format up / down / cross conversion
+            </li>
+            <li>
+                Content origination and delivery at our two AMV New
+                York City Locations
+            </li>
+            <li>
+                High Definition programming services
+            </li>
+            <li>
+                Web service format encoding and archiving
+            </li>
+            <li>
+                Dolby audio encoding and decoding
+            </li>
+        </ul>
+         <h4>Voice / Data / Internet</h4>
+    <ul>
+        <li>
+            Internet connectivity available utilizing Verizon, Zayo, Windstream and Level 3
+        </li>
+        <li>
+            Sonet Ring connectivity for local loops
+        </li>
+        <li>
+            2,000 square feet of co-location space
+        </li>
+        <li>
+            Applications include Internet traffic, video, voice, data and
+            disaster recovery connections
+        </li>
+    </ul>
+    
+    </div><!--tab-pane-->
+<div role="tabpanel" class="tab-pane fade" id="facilities">
+    <h3>Facilities</h3>
+    <h4>Connectivity</h4>
+    <ul>
+        <li>
+            Fiber connectivity to and from AMV Westar, AMV Digital Media, Azzurro, The Switch, Level 3 and Encompass
+        </li>
+        <li>
+            Direct fiber connectivity available from many metropolitan area locations
+        </li>
+        <li>
+            Diverse fiber carrier utilizing Verizon, Zayo and Level 3 Sonet Rings
+        </li>
+        <li>
+            10G, GigE, Public IP, ASI and Uncompressed Video circuits
+        </li>
+        <li>
+            Located 12 miles from Manhattan
+        </li>
+        <li>
+            Mobile Ku transmission vehicles available
+        </li>
+    </ul>
+    <h4>Facility Power</h4>
+    <ul>
+        <li>
+            A 500 KVA Leibert Uninterruptible Power System (UPS) is in place along with backup battery protection
+        </li>
+        <li>
+            Automatic diesel generators with stored fuel will keep
+            the station operating normally for 14 days.
+            
+        </li>
+    </ul>
+    <h4>Facility Security</h4>
+    <ul>
+        <li>128X-zoom cameras monitor the exterior and interior of the facility. A card reader system is installed at the facility to gain access through the entire facility. Only authorized personnel are provided access to secured facilities.</li>
+       </ul>     
+        <h4>Monitor and Control System</h4>
+        <ul><li>A Maxview Earth Station Monitor and Control System (M&amp;C) is installed and operating all equipment at the site. The M&amp;C monitors all aspects of the facility with thresholds set to switch protection facilities online in the event of a problem. The system also monitors environmental facilities to alert the staff to air conditioning and power anomalies.</li>
+    </ul>
+    
+    
+    
+   
+    </div><!--tab-pane-->
+</div>
+</div>
 		<div class="col-4">
 
 <div class="videoWrapper">

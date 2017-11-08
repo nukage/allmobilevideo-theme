@@ -41,7 +41,10 @@ else{
 			?>
 			</div>
 			<div class="col-lg-4">
-				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+				<!-- the_title( '<h2 class="entry-title">', '</h2>' ); --> 
+				<div class="product-nav-title">
+				<?php amv_product_navigation() ?>
+				</div>
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>
 					<?php echo (types_render_field( 'subtitle' )) ?>
@@ -100,7 +103,7 @@ else{
   <div role="tabpanel" class="tab-pane fade show active" id="overview"><?php
 			the_content();
 
-			 
+			 amv_product_navigation();
 		?></div>
 
 

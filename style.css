@@ -169,7 +169,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   width: 30%; }
 
 .page-template-page-master-control #mc-faq {
+  padding-top: 2em;
   text-align: center; }
+  .page-template-page-master-control #mc-faq h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: roboto;
+    font-size: 2.5em;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: .5em; }
   .page-template-page-master-control #mc-faq h3 {
     font-family: roboto;
     padding-top: 20px; }
@@ -183,6 +192,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #mc-overview {
   text-align: center;
   margin-top: 3em;
+  margin-bottom: 3em;
   font-weight: 300; }
   #mc-overview hr {
     margin: 3em 0; }
@@ -417,7 +427,7 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
-.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
+.single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
   padding-top: 4em;
   padding-bottom: .7em;
   font-size: 2.5em;
@@ -1388,7 +1398,7 @@ img {
 .bloglook {
   padding-top: 2em;
   padding-bottom: 2em; }
-  .bloglook p {
+  .bloglook p, .bloglook li {
     font-weight: 400;
     font-family: helvetica;
     color: #777;

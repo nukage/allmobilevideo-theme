@@ -26,6 +26,7 @@ get_header(); ?>
   <div class="pb-xl-5"></div>
 </div>
     <div class="sectionherooverlay">
+
           <h3>WESTAR SATELLITE SERVICES</h3>
         <h4>
 Westar provides customers with national video contribution and distribution over satellite or IP.</h4>
@@ -70,10 +71,10 @@ Westar provides customers with national video contribution and distribution over
 	</div>
 </section>
 <section id='services'>
-	<div class="container">
+	<div class="container"><h3>WESTAR SATELLITE SERVICES FEATURES</h3>
 		<div class="row">
-			<div class="services-content">
-				<h3>WESTAR SATELLITE SERVICES FEATURES</h3>
+			<div class="services-content col-md-6">
+				
 				<ul>
 					<li>30 Antennas accessing Domestic &amp; International Satellites</li>
 					<li>Video Switching Hubs in: Dallas, Washington D.C. &amp; New York City</li>
@@ -84,6 +85,11 @@ Westar provides customers with national video contribution and distribution over
 					<li>Standards Conversion</li>
 					<li>Video Streaming</li>
 				</ul>
+			</div>
+			<div class="col-md-6">
+				<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/In6U9NUzMKE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
 			</div>
 		</div>
 	</div>

@@ -777,7 +777,7 @@ a:hover .description{
 	}
 		
 		background-size:cover;
-		background-position: center center; 
+		background-position: center center;  
  
 		}
 
@@ -1204,14 +1204,14 @@ margin:40px auto;}
 .bloglook {
 	padding-top:2em;
 	padding-bottom:2em;
-	p{
+	p, li{
 		font-weight: 400;
 		font-family: helvetica;
 		color:#777;
 		font-size: 14px;
 	}
 	h3{
-		padding-bottom:.5em;
+		padding-bottom:.5em; 
 	}
 	h4{
 		font-size:18px;
