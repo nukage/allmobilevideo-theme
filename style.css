@@ -427,23 +427,59 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
+.single-mobile .tooltip-inner img, .single-stage .tooltip-inner img, .single-rental .tooltip-inner img {
+  -webkit-box-shadow: 14px 14px 25px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 14px 25px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 14px 25px -9px rgba(0, 0, 0, 0.75); }
+
+.single-mobile .product-hover-title, .single-stage .product-hover-title, .single-rental .product-hover-title {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  width: 160px;
+  text-shadow: 2px 2px 0px black;
+  text-align: center;
+  padding: 5px 0; }
+
 .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
-  padding-top: 4em;
   padding-bottom: .7em;
-  font-size: 2.5em;
+  position: relative;
   text-transform: uppercase;
-  line-height: 1.2em; }
+  text-align: center; }
+  @media (min-width: 1200px) {
+    .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
+      margin-top: 10em; } }
+  @media (max-width: 1199px) {
+    .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
+      margin-top: 8em; } }
+  @media (max-width: 992px) {
+    .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
+      margin-top: 0em; } }
+  .single-mobile .sectionoverlay .product-nav-title a[rel=prev], .single-stage .sectionoverlay .product-nav-title a[rel=prev], .single-rental .sectionoverlay .product-nav-title a[rel=prev] {
+    background: url("img/chevron-left.png") no-repeat; }
+  .single-mobile .sectionoverlay .product-nav-title a[rel=next], .single-stage .sectionoverlay .product-nav-title a[rel=next], .single-rental .sectionoverlay .product-nav-title a[rel=next] {
+    background: url("img/chevron-right.png") no-repeat; }
+  .single-mobile .sectionoverlay .product-nav-title a[rel=prev], .single-mobile .sectionoverlay .product-nav-title a[rel=next], .single-stage .sectionoverlay .product-nav-title a[rel=prev], .single-stage .sectionoverlay .product-nav-title a[rel=next], .single-rental .sectionoverlay .product-nav-title a[rel=prev], .single-rental .sectionoverlay .product-nav-title a[rel=next] {
+    text-indent: -999em;
+    display: inline-block;
+    height: 43px;
+    width: 30px;
+    position: absolute;
+    top: 9px;
+    margin-left: -15px;
+    opacity: .5; }
+  .single-mobile .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-mobile .sectionoverlay .product-nav-title a[rel=next]:hover, .single-stage .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-stage .sectionoverlay .product-nav-title a[rel=next]:hover, .single-rental .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-rental .sectionoverlay .product-nav-title a[rel=next]:hover {
+    opacity: 1; }
+
+.single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
+  font-size: 2.5em;
+  display: inline-block;
+  padding: 20px 30px; }
 
 .single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h4 {
   font-size: 1em; }
 
-@media (max-width: 1199px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-    padding-top: 3em; } }
-
 @media (max-width: 992px) {
-  .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-    padding-top: 0; }
   .single-mobile .sectionoverlay .contactbtn, .single-stage .sectionoverlay .contactbtn, .single-rental .sectionoverlay .contactbtn {
     margin: 2% 33%;
     width: 33%; } }

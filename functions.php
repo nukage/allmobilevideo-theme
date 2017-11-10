@@ -123,10 +123,14 @@ function allmobilevideo_theme_scripts() {
 	wp_enqueue_script( 'isotope-settings-custom', get_theme_file_uri( '/js/isotope.settings-custom.js' ), array( 'isotope' ), '1.0', true );
 	wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', array() , false, true );
 	wp_enqueue_script( 'wow-settings', get_template_directory_uri() . '/js/wow-settings.js', array() , false, true );
+
+	wp_register_script( 'Tether', get_template_directory_uri() . '/js/tether.min.js', array(), '1.0.0', true );
+     wp_enqueue_script('Tether');
 	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );
 		wp_enqueue_script( 'SmoothScroll', get_template_directory_uri() . '/js/SmoothScroll.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
+
 
 	wp_enqueue_script( 'allmobilevideo-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -216,14 +220,36 @@ function dynamic_contact($postID){ ?>
 
 function amv_product_navigation(){
 
-	  previous_post_link('<i class="fa fa-chevron-left" aria-hidden="true"></i>%link'); 
-the_title( '<h2 class="entry-title">', '</h2>' );
- 
+ $next_post = get_next_post();
+ $next_post_url = get_permalink($next_post->ID);
+ $next_post_thumb = get_the_post_thumbnail($next_post->ID,'thumbnail');
+ $next_post_title = get_the_title($next_post->ID);
 
-next_post_link();
+
+ $previous_post = get_previous_post();
+ $previous_post_url = get_permalink($previous_post->ID);
+ $previous_post_thumb = get_the_post_thumbnail($previous_post->ID,'thumbnail');
+ $previous_post_title = get_the_title($previous_post->ID);
+?>
+
+    
+<a rel='prev' href='
+<?php echo $previous_post_url?>' 
+data-toggle='tooltip' data-html='true' data-placement='left' title='
+<?php echo $previous_post_thumb; ?>
+<span class="product-hover-title">
+<?php echo $previous_post_title . "</span>"   ?>'>ARROW</a>
+
+<?php the_title( '<h2 class="entry-title">', '</h2>' );?>
+<a rel='next' href='
+<?php echo $next_post_url?>' 
+data-toggle='tooltip' data-html='true' data-placement='right' title='
+<?php echo $next_post_thumb; ?>
+<span class="product-hover-title">
+<?php echo $next_post_title . "</span>"   ?>'>ARROW</a>
 
 
-};
+<?php };
 
 function amv_product_navi(){
 

@@ -176,3 +176,17 @@ else{
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- intialize  tooltips  -->
+  <script type="text/javascript">
+    
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+    $('[data-toggle="tooltip"]').on('click', function () {
+    $(this).tooltip('hide')
+})
+
+
+  </script>
+
