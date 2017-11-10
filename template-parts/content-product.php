@@ -103,7 +103,7 @@ else{
   <div role="tabpanel" class="tab-pane fade show active" id="overview"><?php
 			the_content();
 
-			 amv_product_navigation();
+	 
 		?></div>
 
 
