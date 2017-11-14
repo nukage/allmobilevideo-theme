@@ -211,7 +211,13 @@ function dynamic_contact($postID){ ?>
 			<div class="col-md-6">
 					<h3 class="mb-4">Send us a Message</h3>
 	                <p>Simply fill out the quick form below with your contact info and a member of our team will be back in touch with you ASAP, usually within 1 business day. Thank you for visiting us.</p>
-	                <?php echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' ); ?>
+	                <?php if ($postID == 195 || $postID == 216 ) {
+	                 
+	                echo do_shortcode( '[contact-form-7 id="396" title="Westar"]' );
+
+	            } else {
+	               echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' );
+	            }  ?>
 	         </div>
         </div>
     </div>
@@ -393,4 +399,14 @@ function wpml_hard_link($atts) {
      
 }
 
-
+add_action( 'wp_footer', 'thankyou_wp_footer' );
+ 
+function thankyou_wp_footer() {
+?>
+<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = '/thank-you/';
+}, false );
+</script>
+<?php
+}

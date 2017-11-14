@@ -426,9 +426,7 @@ li{
  .page-template-page-satellite .sectionhero {
 			background-image: url("img/transport-hero-1.jpg");
  }
- .page-template-page-gateway .sectionhero {
-			background-image: url("img/gateway-hero-1.jpg");
- }
+
  .page-template-page-master-control .sectionhero {
 			background-image: url("img/westar-room.jpg");
  }
@@ -1225,3 +1223,28 @@ margin:40px auto;}
  	max-width: 800px;
  	margin:auto;
  }
+
+
+	.page-default-top{
+		background-image: url("img/news-headerbg.jpg");
+		background-size:cover;
+margin-bottom:20px;
+		background-position: center bottom; 
+		background-attachment: fixed;
+		h1,h2{
+			color:white;
+			text-align: center;
+		}
+		h1{
+			font-size:2.8em;
+			text-transform: uppercase;
+			font-weight: 600;
+			padding-top:3.5em;
+			padding-bottom:3em;
+		}
+		h2{
+			font-size:1.2em;
+			padding-bottom:6em;
+
+		}
+}

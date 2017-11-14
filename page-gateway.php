@@ -32,15 +32,15 @@ get_header(); ?>
 
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext" >
     <h1>Complete Connectivity to the Broadcasting Market</h1>
-  <h2>AMV Gateway’s teleport provides a superior mix of data and video service. Both domestic and international antennas are available as well as multi-format global fiber connectivity. </h2>
+<!--   <h2>AMV Gateway’s teleport provides a superior mix of data and video service. Both domestic and international antennas are available as well as multi-format global fiber connectivity. </h2> -->
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
 
     <div class="sectionherooverlay">
-          <h3>AMV GATEWAY TELEPORT SERVICES</h3>
-        <h4>
-All services are monitored and controlled via a state-of-the-art control center, which is staffed with experienced technical personnel twenty-four hours a day.</h4>
+          <h3 style="padding-top:.5em;">AMV GATEWAY TELEPORT SERVICES</h3>
+<!--         <h4>
+All services are monitored and controlled via a state-of-the-art control center, which is staffed with experienced technical personnel twenty-four hours a day.</h4> -->
     </div>
 
   </div>
@@ -87,14 +87,19 @@ FACILITIES
 		<div class="row">
 
         
-		<div class="col-8 bloglook">
+		<div class="col-md-8 bloglook">
                    <div class="tab-content">
   <div role="tabpanel" class="tab-pane fade show active" id="gwoverview">
 			<div title="Page 1">
     <div>
         <div>
-            
-              <h3>  Services available at AMV Gateway include: </h3>
+            <h4>Teleport Services</h4>
+              <p>AMV’s teleport provides complete connectivity to the broadcasting market with a
+superior mix of data and video service. Both domestic and international
+antennas are available as well as multi-format global fiber connectivity. All
+services are monitored and controlled via a multi-million dollar state-of-the-art
+control center, which is staffed with experienced technical personnel twenty-four
+hours a day.</p>
             
             <h4>Video / Audio</h4>
             <ul>
@@ -392,7 +397,7 @@ FACILITIES
     </div><!--tab-pane-->
 </div>
 </div>
-		<div class="col-4">
+		<div class="col-md-4 pb-5 pb-md-0">
 
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pQL2r2voTio?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

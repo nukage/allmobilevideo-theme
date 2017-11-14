@@ -1,4 +1,5 @@
 
+
 <section class="page-default-top">
 	<div class="container">
 <?php 	the_title( '<h1>', '</h1>' ); ?>
@@ -7,7 +8,7 @@
 <section class="page-default">
 <div class="container">
 <div class="row">
-<div class="col-md-9">
+<div class="col-md-12">
 <?php if (has_post_thumbnail):
         
         the_post_thumbnail( 'pr-slider-image', [  'title' => 'Featured image'] ); 
@@ -37,11 +38,7 @@
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 </div>
-<div class="col-md-3">
-<?php
- get_sidebar(); ?>
-
-</div>
+ 
 </div>
 </div>
 
