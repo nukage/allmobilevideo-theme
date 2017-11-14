@@ -68,24 +68,24 @@
   <div class="row no-gutters isotope-container">
 <?php
  $query = new WP_query(
-    array(
+    // array(
+    //     'post_type' => array('mobile'),
+    //     'post_status' => 'publish',
+    //     'orderby' => 'title',
+    //     'order' => 'DESC',
+    //     'posts_per_page' => '-1'
+    //   )
+    // );
+
+  array(
         'post_type' => array('mobile'),
         'post_status' => 'publish',
-        'orderby' => 'title',
-        'order' => 'DESC',
+        'meta_key'      => 'wpcf-order',
+        'orderby'     => 'meta_value_num',
+        'order' => 'ASC',
         'posts_per_page' => '-1'
       )
     );
-
-  // array(
- //        'post_type' => array('mobile'),
- //        'post_status' => 'publish',
- //        'meta_key'      => 'wpcf-order',
- //        'orderby'     => 'meta_value_num',
- //        'order' => 'ASC',
- //        'posts_per_page' => '-1'
- //      )
- //    );
  $posts = $query->posts;
 
                 foreach ($posts as $post) {  ?>

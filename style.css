@@ -427,6 +427,15 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
+.single-mobile .post-153 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-rental .post-153 .product-nav-title {
+  overflow: hidden;
+  scroll: vertical; }
+  .single-mobile .post-153 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2 {
+    width: 90%; }
+    @media (min-width: 1200px) {
+      .single-mobile .post-153 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2 {
+        font-size: 2.0em; } }
+
 .single-mobile .tooltip-inner img, .single-stage .tooltip-inner img, .single-rental .tooltip-inner img {
   -webkit-box-shadow: 14px 14px 25px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 14px 14px 25px -9px rgba(0, 0, 0, 0.75);
@@ -445,7 +454,11 @@ section.icons {
   padding-bottom: .7em;
   position: relative;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  overflow: auto;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 1200px) {
     .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
       margin-top: 10em; } }
@@ -455,6 +468,9 @@ section.icons {
   @media (max-width: 992px) {
     .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
       margin-top: 0em; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
+      width: auto; } }
   .single-mobile .sectionoverlay .product-nav-title a[rel=prev], .single-stage .sectionoverlay .product-nav-title a[rel=prev], .single-rental .sectionoverlay .product-nav-title a[rel=prev] {
     background: url("img/chevron-left.png") no-repeat; }
   .single-mobile .sectionoverlay .product-nav-title a[rel=next], .single-stage .sectionoverlay .product-nav-title a[rel=next], .single-rental .sectionoverlay .product-nav-title a[rel=next] {
@@ -474,7 +490,11 @@ section.icons {
 .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
   font-size: 2.5em;
   display: inline-block;
-  padding: 20px 30px; }
+  padding: 10px 30px;
+  line-height: 50px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
+      font-size: 1.5em; } }
 
 .single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h4 {
   font-size: 1em; }

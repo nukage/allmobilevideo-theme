@@ -31,8 +31,13 @@
               <a class="email" href="mailto:contact@amvchelsea.com" target="_blank">CONTACT@AMVCHELSEA.COM</a>
             </li>
           </ul>
-          <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
-            <input class="form-control " type="text" placeholder="Search">
+
+     
+
+
+
+          <form role="search" method="get"  action="<?php echo get_site_url() ; ?>"  class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
+            <input name="s" id="s"  class="form-control" type="text" placeholder="Search">
             <button class="btn  my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
@@ -87,8 +92,9 @@
               <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>
             </li>
           </ul>
-          <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up">
-            <input class="form-control" type="text" placeholder="Search">
+    
+          <form role="search" method="get"  class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up" action="<?php echo get_site_url() ; ?>">
+            <input name="s" id="s"  class="form-control" type="text" placeholder="Search">
             <button class="btn  my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>

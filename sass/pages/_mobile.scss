@@ -1,6 +1,21 @@
 // MOBILE AND STAGE PAGES
 
+
 .single-mobile, .single-stage, .single-rental {
+
+	//SPECIAL RULE FOR DM2K
+	.post-153 .product-nav-title {
+		overflow: hidden;
+		scroll:vertical;
+		h2{
+			width:90%;
+ 				@media(min-width:1200px){
+ 					font-size:2.0em;
+ 					 
+ 				}
+ 			}
+ 				
+		}
 .tooltip{
 	 
 
@@ -24,12 +39,15 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 		 	 text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 		 	text-align: center;
 		 	padding:5px 0;
+
 		 }
 
 
 
 	.sectionoverlay {
+.product-nav-holder {
 
+}
 		.product-nav-title{
 			@media(min-width:1200px){
 				margin-top:10em;
@@ -46,6 +64,14 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 			text-transform: uppercase;
 			 
 			text-align: center;
+				overflow: auto;
+				width:350px;
+		 	@media(min-width:992px) and  (max-width:1200px) {
+				width:auto;
+			}
+				margin-left:auto;
+				margin-right:auto;
+		  
 			a[rel=prev]{
 				background:url('img/chevron-left.png') no-repeat;
 
@@ -84,11 +110,17 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 				// }
 
 		}
+		
 		h2{
 			font-size:2.5em;
 			display: inline-block;
-			padding:20px 30px;
-			
+			padding:10px 30px;
+			 
+			line-height: 50px;
+
+			@media(min-width:992px) and  (max-width:1200px) {
+				font-size:1.5em;
+			}
 		}
 		h4{
 			font-size:1em;

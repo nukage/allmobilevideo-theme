@@ -230,26 +230,31 @@ function amv_product_navigation(){
  $previous_post_url = get_permalink($previous_post->ID);
  $previous_post_thumb = get_the_post_thumbnail($previous_post->ID,'thumbnail');
  $previous_post_title = get_the_title($previous_post->ID);
-?>
 
-    
-<a rel='prev' href='
+
+?>
+<?php if ($previous_post){ ?>
+	<a rel='prev' href='
 <?php echo $previous_post_url?>' 
 data-toggle='tooltip' data-html='true' data-placement='left' title='
 <?php echo $previous_post_thumb; ?>
 <span class="product-hover-title">
 <?php echo $previous_post_title . "</span>"   ?>'>ARROW</a>
+<?php } ;
+    
 
-<?php the_title( '<h2 class="entry-title">', '</h2>' );?>
+
+  the_title( '<h2 class="entry-title">', '</h2>' );?>
+  <?php if ($next_post){ ?>
 <a rel='next' href='
 <?php echo $next_post_url?>' 
 data-toggle='tooltip' data-html='true' data-placement='right' title='
 <?php echo $next_post_thumb; ?>
 <span class="product-hover-title">
 <?php echo $next_post_title . "</span>"   ?>'>ARROW</a>
+<?php } ;
 
-
-<?php };
+  };
 
 function amv_product_navi(){
 
