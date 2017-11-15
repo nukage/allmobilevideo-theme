@@ -16,7 +16,7 @@ if (has_post_thumbnail):
     <?php 
     endif;
     echo '<a href="' . $full_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" ';?>
-     target="_blank"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> </a></p>
+     target="_blank" class="hidden"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> </a></p>
           
 
         
@@ -50,7 +50,7 @@ if( class_exists('Dynamic_Featured_Image') ):
 
                         <?php 
                         endif; ?>
-                        <a href="<?php echo $images['full'] ?>" target="_blank"><span class="glyphicon glyphicon-download-alt" aria-hidden="true">
+                        <a class="hidden" href="<?php echo $images['full'] ?>" target="_blank"><span class="glyphicon glyphicon-download-alt" aria-hidden="true">
                         
                       </span> </a></p>
                  
@@ -97,7 +97,7 @@ if( class_exists('Dynamic_Featured_Image') ):
 
                        <li>
                        <?php echo "<img src = '" . $largeSizedImage . "' />"; ?>
-                  <p class="flex-caption"><a href="<?php echo $images['full'] ?>" target="_blank"></a></p>
+                  <p class="flex-caption"><a class="hidden" href="<?php echo $images['full'] ?>" target="_blank"></a></p>
                   <p></p>
                         </li>
 
