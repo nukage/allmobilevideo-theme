@@ -1488,3 +1488,12 @@ img {
   .page-default-top h2 {
     font-size: 1.2em;
     padding-bottom: 6em; }
+
+.caption {
+  display: none; }
+
+.flex-caption {
+  display: none; }
+
+.slider a {
+  display: none; }

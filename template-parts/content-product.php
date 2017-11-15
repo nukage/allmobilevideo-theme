@@ -50,7 +50,10 @@ else{
 					<?php echo (types_render_field( 'subtitle' )) ?>
 				</h3>
 			<?php } ?>
-			<a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
+			<?php if ( 'mobile' == get_post_type() ){
+				 echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/mobile/#contactform">Contact</a>' ;
+			}?>
+			
 			</div>
 		</div>
 		</div>
