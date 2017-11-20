@@ -49,7 +49,7 @@ get_header(); ?>
 		<div class="row">
 
         
-		<div class="col-md-8 bloglook">
+		<div class="col-12 bloglook">
                  	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -65,55 +65,7 @@ get_header(); ?>
 		?>
 	</div><!-- .entry-content -->
 </div>
-		<div class="col-4">
-
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pQL2r2voTio?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
-		 <section class='sidebarcontactinfo hidden-sm-down'>
-    <h4>Inquiries</h4>
-
-    <ul>
-    <li>
-		<ul>
-			<li>Lenny Laxer</li>
-			<li>o: <a target="_blank" href="tel:6462306996">(646)230-6996</a></li>
-			<li>m: <a target="_blank" href="tel:9172990205">(917)299-0205</a></li>
-			<li>e: <a target="_blank" href="mailto:llaxer@amvchelsea.com">llaxer@amvchelsea.com</a></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li>Michael Carberry</li>
-			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
-			<li>e: <a target="_blank" href="mailto:mcarberry@amvchelsea.com">mcarberry@amvchelsea.com</a></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li>Phil Venticinque</li>
-			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
-			<li>e: <a target="_blank" href="mailto:pventicinque@amvchelsea.com">pventicinque@amvchelsea.com</a></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li>Carl Lichtenberg</li>
-			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
-			<li>e: <a target="_blank" href="mailto:clichtenberg@amvchelsea.com">clichtenberg@amvchelsea.com</a></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li>Contact Numbers</li>
-			<li>Traffic: <a target="_blank" href="tel:7329693610">(732)969-3610</a></li>
-			<li>Main Office: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
-			<li>Simulcasting: <a target="_blank" href="tel:7329690978">(732)969-0978</a></li>
-		</ul>
-	</li>
-</ul>
- 
-    </section></div>
+	
 	</div></div>
 </section>
 
@@ -129,7 +81,8 @@ get_header(); ?>
 </div>
 
 </section>
-
+<section> <?php echo do_shortcode('[rev_slider alias="aboutpage"]')?></section>
+ 
 				<?php
 
 				// If comments are open or we have at least one comment, load up the comment template.

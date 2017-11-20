@@ -621,7 +621,7 @@ a:hover .description{
 	background: none;
 	border:none;
 	cursor:pointer;
-	width:90%;
+	width:89%;
 	margin-left:30px;
 	margin-bottom:20px;
 	li{
@@ -1059,6 +1059,10 @@ margin:40px auto;}
     ul{list-style: none;
     	margin:0;padding:0;
     }
+    li{
+    	list-style: none;
+    	margin-bottom:2em;
+    }
     ul li ul li:first-of-type {font-weight: 400;}
     ul ul{margin-bottom:1.5em ;}
     ul li {
@@ -1228,7 +1232,7 @@ margin:40px auto;}
 	.page-default-top{
 		background-image: url("img/news-headerbg.jpg");
 		background-size:cover;
-margin-bottom:20px;
+		margin-bottom:20px;
 		background-position: center bottom; 
 		background-attachment: fixed;
 		h1,h2{
@@ -1260,4 +1264,41 @@ margin-bottom:20px;
 
 .slider a.hidden {
 	display: none;
+}
+
+.page-template-page-about {
+		.page-default-top{
+			background-image: url("img/about-hero-1.jpg");
+			h1{
+				padding:4em 0;
+			}
+		}
+		.bloglook {
+			padding: 2em 0;
+			p{
+				font-size:17px;
+				font-weight: 300;
+			}
+	@media (max-width: 999px){
+		blockquote {
+			visibility: hidden !important;
+			display: none !important;
+			 
+		}
+	}
+	@media (min-width: 1000px){
+		blockquote {
+				background:#eee;
+				float:right;
+				text-align: right;
+				width:16em;
+				border-radius: 5px;
+			p{
+					font-size:20px;
+			}
+		}
+
+	}
+		
+	}
 }

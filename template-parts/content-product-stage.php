@@ -41,13 +41,15 @@ else{
 			?>
 			</div>
 			<div class="col-lg-4">
-				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+				<div class="product-nav-title">
+						<?php amv_product_navigation('stage') ?>
+				</div>
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>
 					<?php echo (types_render_field( 'subtitle' )) ?>
 				</h3>
 			<?php } ?>
-			<a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
+			<?php  echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/stage/#contactform">Contact</a>' ; ?>
 			</div>
 		</div>
 		</div>
@@ -190,3 +192,18 @@ else{
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- intialize  tooltips  -->
+  <script type="text/javascript">
+    
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+    $('[data-toggle="tooltip"]').on('click', function () {
+    $(this).tooltip('hide')
+})
+
+
+  </script>
+
+

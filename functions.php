@@ -224,21 +224,34 @@ function dynamic_contact($postID){ ?>
 </section>
 <?php };
 
-function amv_product_navigation(){
+function amv_product_navigation($thetype){
 
  $next_post = get_next_post();
+ if ($next_post == NULL){ 
+ 
+$next_post_q = get_posts(array('numberposts' => 1, 'post_type' => array($thetype), 'order' => 'ASC'));
+$next_post = $next_post_q[0];
+};
  $next_post_url = get_permalink($next_post->ID);
  $next_post_thumb = get_the_post_thumbnail($next_post->ID,'thumbnail');
  $next_post_title = get_the_title($next_post->ID);
 
 
  $previous_post = get_previous_post();
+if ($previous_post == NULL){ 
+ 
+$previous_post_q = get_posts(array('numberposts' => 1, 'post_type' => array($thetype)));
+$previous_post = $previous_post_q[0];
+};
+
+
  $previous_post_url = get_permalink($previous_post->ID);
  $previous_post_thumb = get_the_post_thumbnail($previous_post->ID,'thumbnail');
  $previous_post_title = get_the_title($previous_post->ID);
 
 
 ?>
+
 <?php if ($previous_post){ ?>
 	<a rel='prev' href='
 <?php echo $previous_post_url?>' 
@@ -246,7 +259,11 @@ data-toggle='tooltip' data-html='true' data-placement='left' title='
 <?php echo $previous_post_thumb; ?>
 <span class="product-hover-title">
 <?php echo $previous_post_title . "</span>"   ?>'>ARROW</a>
-<?php } ;
+<?php } else{
+	$latest = get_posts(array('numberposts' => 1));
+	$url = get_permalink($latest[0]->ID);
+	echo "<a href='" . $url . "'>ARROW</a>";
+} ;
     
 
 

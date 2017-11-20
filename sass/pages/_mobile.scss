@@ -4,11 +4,13 @@
 .single-mobile, .single-stage, .single-rental {
 
 	//SPECIAL RULE FOR DM2K
-	.post-153 .product-nav-title {
+	.post-153 .product-nav-title, .post-464 .product-nav-title, .post-147 .product-nav-title {
 		overflow: hidden;
 		scroll:vertical;
 		h2{
 			width:90%;
+			top:-20px;
+			position: relative;
  				@media(min-width:1200px){
  					font-size:2.0em;
  					 
@@ -90,7 +92,8 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 				position: absolute;
 				top:9px;
 				margin-left:-15px;
-				opacity: .5
+				opacity: .5;
+				z-index:2;
 				
 					 
 				}

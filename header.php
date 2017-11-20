@@ -59,12 +59,12 @@
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/news">News</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile &amp; Rentals <span class="sr-only">(current)</span></a>
-              <div class="dropdown-menu" aria-labelledby="mobile-rentals">
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile">Mobile</a>
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/rental">Rentals</a>
- 
+            
+              <li class="nav-item">
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/mobile">Mobile</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/rental">Rentals</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/stage">Stages</a>
@@ -81,7 +81,7 @@
             </li>
             
                      <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/satellite-services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span></a>
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span></a>
               <div class="dropdown-menu" aria-labelledby="mobile-rentals">
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/gateway">AMV Gateway</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Westar Satellite Services</a>

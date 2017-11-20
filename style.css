@@ -427,13 +427,15 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
-.single-mobile .post-153 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-rental .post-153 .product-nav-title {
+.single-mobile .post-153 .product-nav-title, .single-mobile .post-464 .product-nav-title, .single-mobile .post-147 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-stage .post-464 .product-nav-title, .single-stage .post-147 .product-nav-title, .single-rental .post-153 .product-nav-title, .single-rental .post-464 .product-nav-title, .single-rental .post-147 .product-nav-title {
   overflow: hidden;
   scroll: vertical; }
-  .single-mobile .post-153 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2 {
-    width: 90%; }
+  .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2 {
+    width: 90%;
+    top: -20px;
+    position: relative; }
     @media (min-width: 1200px) {
-      .single-mobile .post-153 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2 {
+      .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2 {
         font-size: 2.0em; } }
 
 .single-mobile .tooltip-inner img, .single-stage .tooltip-inner img, .single-rental .tooltip-inner img {
@@ -483,7 +485,8 @@ section.icons {
     position: absolute;
     top: 9px;
     margin-left: -15px;
-    opacity: .5; }
+    opacity: .5;
+    z-index: 2; }
   .single-mobile .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-mobile .sectionoverlay .product-nav-title a[rel=next]:hover, .single-stage .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-stage .sectionoverlay .product-nav-title a[rel=next]:hover, .single-rental .sectionoverlay .product-nav-title a[rel=prev]:hover, .single-rental .sectionoverlay .product-nav-title a[rel=next]:hover {
     opacity: 1; }
 
@@ -1034,7 +1037,7 @@ img {
   background: none;
   border: none;
   cursor: pointer;
-  width: 90%;
+  width: 89%;
   margin-left: 30px;
   margin-bottom: 20px; }
   #carousel img {
@@ -1362,6 +1365,9 @@ img {
     list-style: none;
     margin: 0;
     padding: 0; }
+  .dynamic_contact li {
+    list-style: none;
+    margin-bottom: 2em; }
   .dynamic_contact ul li ul li:first-of-type {
     font-weight: 400; }
   .dynamic_contact ul ul {
@@ -1495,5 +1501,29 @@ img {
 .flex-caption {
   display: none; }
 
-.slider a {
+.slider a.hidden {
   display: none; }
+
+.page-template-page-about .page-default-top {
+  background-image: url("img/about-hero-1.jpg"); }
+  .page-template-page-about .page-default-top h1 {
+    padding: 4em 0; }
+
+.page-template-page-about .bloglook {
+  padding: 2em 0; }
+  .page-template-page-about .bloglook p {
+    font-size: 17px;
+    font-weight: 300; }
+  @media (max-width: 999px) {
+    .page-template-page-about .bloglook blockquote {
+      visibility: hidden !important;
+      display: none !important; } }
+  @media (min-width: 1000px) {
+    .page-template-page-about .bloglook blockquote {
+      background: #eee;
+      float: right;
+      text-align: right;
+      width: 16em;
+      border-radius: 5px; }
+      .page-template-page-about .bloglook blockquote p {
+        font-size: 20px; } }
