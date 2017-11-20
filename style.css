@@ -150,6 +150,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   .customsearchbar1 {
     margin-left: 37%; } }
 
+#navbar2 .nav-pills .nav-item.show .nav-link {
+  background: transparent; }
+
+#navbar2 .nav-pills .dropdown-menu {
+  border-radius: 0;
+  border: 1px solid #ccc; }
+
+#navbar2 .dropdown-item {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+#navbar2 .dropdown-item:hover {
+  background: #17324F;
+  color: white; }
+
 /*--------------------------------------------------------------
 # Pages
 --------------------------------------------------------------*/

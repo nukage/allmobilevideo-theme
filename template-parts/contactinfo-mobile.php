@@ -15,7 +15,7 @@
       </li>
       <li>
         <ul><h5>Tom D'Angelo</h5>
-          <li><a target="_blank" href="mailto:tdeangelo@amvchelsea.com">tdeangelo@amvchelsea.com</a></li>
+          <li><a target="_blank" href="mailto:tdangelo@amvchelsea.com">tdangelo@amvchelsea.com</a></li>
           <li><a target="_blank" href="tel:2014884181">(646)486-8052</a> o</li>
           <li><a target="_blank" href="tel:9172991583">(917)299-1583</a> m</li>
           

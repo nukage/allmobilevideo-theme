@@ -93,3 +93,20 @@
 	}
 }
 
+#navbar2 {
+	.nav-pills .nav-item.show .nav-link {
+		background: transparent;
+		}
+		 .nav-pills  .dropdown-menu{
+			border-radius: 0;
+			border:1px solid #ccc;
+		}
+		 .dropdown-item{
+			font-size:12px;
+			text-transform: uppercase;
+		}
+		.dropdown-item:hover{
+			background:#17324F;
+			color:white;
+		}
+}
