@@ -1510,7 +1510,7 @@ img {
     font-size: 1.2em;
     padding-bottom: 6em; }
 
-.caption {
+.slider .caption {
   display: none; }
 
 .flex-caption {

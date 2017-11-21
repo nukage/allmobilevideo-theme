@@ -33,34 +33,11 @@
          <?php amv_list_taxonomies('numberofcameras', 'Number of Cameras') ?>
        </ul>
     </section><!-- .filter .widget -->
-    <section class='sidebarcontactinfo hidden-sm-down'>
-    <h4>Inquiries</h4>
-      <ul><li>
-        <ul><h5>Eric Duke</h5>
-          <li>t: <a target="_blank" href="tel:2127271234">(212) 727-1234</a></li>
-          <li>e: <a target="_blank" href="mailto:eduke@amvchelsea.com">eduke@amvchelsea.com</a></li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Lenny Laxer</h5>
-          <li>t: <a target="_blank" href="tel:6462306996">(646)230-6996</a></li>
-          <li>c: <a target="_blank" href="tel:9172990205">(917)299-0205</a></li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>Tom D'Angelo</h5>
-          <li>t: <a target="_blank" href="tel:6464868052">(646)486-8052</a></li>
-          <li>e: <a target="_blank" href="mailto:tdeangelo@amvchelsea.com">tdeangelo@amvchelsea.com</a></li>
-        </ul>
-      </li>
-      <li>
-        <ul><h5>General</h5>
-        <li>contact@amvchelsea.com</li>
-          <li>t: (212)727-1234</a></li>
-          <li>f: (212)255-6644</a></li>
-        </ul>
-      </li></ul>
-    </section>
+    <div class='hidden-sm-down'>
+ 
+
+      <?php get_template_part( 'template-parts/contactinfo',  'mobile' ); ?>
+    </div>
   </div>
 <div class="col-sm-12 col-md-9 col-lg-10">   
   <div id="noresults" class="invisible col-sm-6 offset-2"><p>There are no results for this combination of filters, try selecting different options or click below to clear the filters. </p>
@@ -68,15 +45,7 @@
   <div class="row no-gutters isotope-container">
 <?php
  $query = new WP_query(
-    // array(
-    //     'post_type' => array('mobile'),
-    //     'post_status' => 'publish',
-    //     'orderby' => 'title',
-    //     'order' => 'DESC',
-    //     'posts_per_page' => '-1'
-    //   )
-    // );
-
+ 
   array(
         'post_type' => array('mobile'),
         'post_status' => 'publish',
