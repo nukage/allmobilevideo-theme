@@ -410,6 +410,9 @@ section.icons {
 .news-single-content .entry-footer {
   padding-bottom: 20px; }
 
+.alignright {
+  float: right; }
+
 .post-type-archive-stage .sectionoverlay {
   background-color: rgba(0, 32, 105, 0.4); }
 
