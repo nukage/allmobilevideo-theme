@@ -9,18 +9,28 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<header>
+	<section class="news-top">
+		<div class="container">
+		<h1>Archives</h1>
+			<?php the_archive_title( '<h2 class="page-title">', '</h2>' );
+				 ?>
+		</div>
+	</section>
+</header>
+<div id="primary" class="content-area">
+					<main id="main" class="site-main" role="main">
+						<section class="news-main-content">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+
 
 		<?php
 		if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+ 
+	 
 
 			<?php
 			/* Start the Loop */
@@ -43,9 +53,41 @@ get_header(); ?>
 
 		endif; ?>
 
+
+
+
+
+</div>
+</div>
+<div class="col-md-3">
+<?php
+ get_sidebar(); ?>
+
+
+
+</div>
+</div>
+</div>
+</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+
 <?php
-get_sidebar();
+ 
 get_footer();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

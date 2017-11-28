@@ -9,7 +9,7 @@
 
 ?>
 
-<section class="no-results not-found"><a href="/wp-content/themes/allmobilevideo-theme/test.html">Proceed to Test</a>
+<section class="no-results not-found"> 
 	<header class="page-header">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'allmobilevideo-theme' ); ?></h1>
 	</header><!-- .page-header -->
@@ -22,9 +22,17 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'allmobilevideo-theme' ); ?></p>
-			<?php
-				get_search_form();
+		<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'allmobilevideo-theme' ); ?></p>
+
+					<?php
+						get_search_form();
+
+						the_widget( 'WP_Widget_Recent_Posts' );
+
+						// Only show the widget if site has multiple categories.
+			 
+				 
+
 
 		else : ?>
 

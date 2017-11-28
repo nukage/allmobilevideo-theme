@@ -8,16 +8,26 @@
  */
 
 get_header(); ?>
-
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<header>
+	<section class="news-top">
+		<div class="container">
+		
+			<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'allmobilevideo-theme' ), '</h1><h2>' . get_search_query() . '</h2>' ); ?></
+		</div>
+	</section>
+</header>
+<div id="primary" class="content-area">
+					<main id="main" class="site-main" role="main">
+						<section class="search-main-content">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
 
 		<?php
 		if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'allmobilevideo-theme' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
+			 
 
 			<?php
 			/* Start the Loop */
@@ -40,9 +50,30 @@ get_header(); ?>
 
 		endif; ?>
 
+
+
+
+
+</div>
+</div>
+<div class="col-md-3">
+<?php
+ get_sidebar(); ?>
+
+
+
+</div>
+</div>
+</div>
+</section>
 		</main><!-- #main -->
-	</section><!-- #primary -->
+	</div><!-- #primary -->
+
+ 
+
+
+ 
 
 <?php
-get_sidebar();
+ 
 get_footer();

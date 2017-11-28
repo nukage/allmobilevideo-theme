@@ -39,6 +39,13 @@
 		<div class="entry-meta">
 		<?php echo get_the_date(); ?>
 		</div><!-- .entry-meta -->
+		<div class="card-text excerpt">
+			<p><?php  
+
+echo(get_the_excerpt());
+		// the_excerpt(); 
+
+		?></p></div>
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->

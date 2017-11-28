@@ -415,6 +415,14 @@ function wpml_hard_link($atts) {
     } // We're done!
      
 }
+function wpdocs_excerpt_more( $more ) {
+    return sprintf( '...</p> <a class="read-more" href="%1$s">%2$s <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>',
+        get_permalink( get_the_ID() ),
+        __( 'Read More', 'textdomain' )
+    );
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
 
 add_action( 'wp_footer', 'thankyou_wp_footer' );
  
