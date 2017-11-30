@@ -807,6 +807,23 @@ img {
   background: rgba(255, 0, 0, 0.5);
   border: 1px solid rgba(255, 0, 0, 0.5); }
 
+.transport .custom-btn {
+  width: 210px;
+  border-radius: 0px;
+  margin: 0; }
+
+@media (min-width: 768px) {
+  .transport .custom-btn {
+    width: 210px;
+    border-radius: 0px;
+    margin: 0;
+    display: block;
+    float: right; }
+  .transport .btnholder {
+    float: right;
+    text-align: right;
+    width: 500px; } }
+
 .btn-tertiary {
   color: #fff;
   background: #FF072A; }

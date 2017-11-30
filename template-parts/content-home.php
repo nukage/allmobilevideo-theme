@@ -51,7 +51,7 @@
             <div class="col-sm-6 col-md-4  wow fadeInUp" data-wow-delay=".6s">
               <a href="#post" class="icon-links page-scroll">            <div class="homeicons"><img src="<?php echo get_template_directory_uri()?>/img/icons-film.png" alt="Generic placeholder image"></div>
               <h4>Post</h4>
-              <p>The technical expertise of our engineering staff is unmatched</p>
+              <p>Edit, Integrate, Distribute, Digitize &amp; Closed Caption – all in one location.</p>
             </a>
             </div><!-- /.col-sm-6 col-md-4 -->
             <div class="col-sm-6 col-md-4  wow fadeInUp" data-wow-delay=".7s">
@@ -76,7 +76,7 @@
               <div class="col-sm-6 col-md-4  wow fadeInUp" data-wow-delay="1s""> <a href="#transport" class="icon-links page-scroll">
                 <div class="homeicons"><img src="<?php echo get_template_directory_uri()?>/img/icons-videotransport.png" alt="Generic placeholder image"></div>
                 <h4>Video Transport / IP</h4>
-                <p>Westar provides your station the efficiencies of scale and expense savings once available to only the largest of broadcast groups.</p>
+                <p>Reliable Domestic or International video movement over Satellite, Fiber or IP</p>
               </a>
               </div><!-- /.col-sm-6 col-md-4 -->
             </div>
@@ -169,13 +169,16 @@
             <div class="col-md-5 text-center">
                   
                 </div>
-                <div class="col-md-7 descrip wow fadeInRight">
+                <div class="col-md-7 descrip wow fadeInRight ">
                   <h3>Video Transport / IP</h3>
                   <p>Westar provides your station the efficiencies of scale and expense savings once available to only the largest of broadcast groups. From Providence to Chicago, Florida to Arizona, Westar Master Control Services is presently partnering with network affiliates across the industry including CBS, PBS, CW, Univision, Azteca, Estrella, MeTV and more.</p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/gateway">AMV  <br>Gateway</a> 
+                  <div class="btnholder">
+                    <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/ip-services">IP<br>Services</a>
+                
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/gateway">AMV  <br>Gateway</a>
                    <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/satellite-services">Westar <br>Satellite Services</a>
                    <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/master-control">Westar  <br> Master Control</a>
-                </div>
+                </div></div>
                
               </div>
             </div>
