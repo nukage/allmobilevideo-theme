@@ -71,7 +71,8 @@
 				   ?>
 				<?php endif; ?>
 		
-			<a role="button" class="btn btn-primary custom-btn contactbtn" href="#" >Contact</a>
+				<?php echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/rental/#contactform">Contact</a>' ; ?>
+					
 			</div>
 		</div>
 		</div>

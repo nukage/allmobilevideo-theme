@@ -91,7 +91,107 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 
 <?php if ($current != 'rentals_product'){ ?>
-<section class="rental-product-categories container">
+
+ <section class="rental-product-categories container" >
+<h2 class="text-center" style="padding-bottom:20px;">Featured Systems</h2>
+
+            <div class="col-sm-12 rental-products">
+              <div class="row">
+<div class="col-sm-3 product">
+  <div class="imgholder mx-auto">
+    <a href="/mobile/hd-tapeless/">
+      
+      <img src="/wp-content/uploads/2017/08/1_S5030018-360x230.jpg" >
+    </a>
+  </div>
+  
+  <header class="entry-header">
+    <a class="description" href="/mobile/hd-tapeless/" rel="bookmark">HD Tapeless</a>                        <span class="field-model">Portable Production System</span>
+    </header><!-- .entry-header -->
+    <div class="entry-content">
+      </div><!-- .entry-content -->
+    </div>
+    <div class="col-sm-3 product">
+  <div class="imgholder mx-auto">
+    <a href="/mobile/hd-tapeless/">
+      
+      <img src="/wp-content/uploads/2017/08/dm2000-digital-audio4-360x230.jpg" >
+    </a>
+  </div>
+  
+  <header class="entry-header">
+    <a class="description" href="/mobile/dm2k-digital-audio/" rel="bookmark">DM2K Digital Audio </a>                        <span class="field-model">The Perfect Audio Companion</span>
+    </header><!-- .entry-header -->
+    <div class="entry-content">
+      </div><!-- .entry-content -->
+    </div>
+    <div class="col-sm-3 product">
+  <div class="imgholder mx-auto">
+    <a href="/mobile/dm2k-digital-audio/">
+      
+      <img src="/wp-content/uploads/2017/12/B10_3-360x230.jpg" >
+    </a>
+  </div>
+  
+  <header class="entry-header">
+    <a class="description" href="/mobile/blackcam-b10-system/" rel="bookmark">Blackcam B10 System</a>                        <span class="field-model">Rail Based Camera Tracking System</span>
+    </header><!-- .entry-header -->
+    <div class="entry-content">
+      </div><!-- .entry-content -->
+    </div>
+
+
+
+
+    <div class=" col-sm-3 product">
+      <div class="imgholder mx-auto">
+        <a href="../rentals/systems"><img class="img-responsive center-block" src="http://via.placeholder.com/275x178"></a>            </div>
+        <a class="description" href="/rentals/systems">Systems<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+        <div class=" col-sm-3 product">
+          <div class="imgholder mx-auto">
+            <a href="../rentals/cameras-lenses">                <img class="img-responsive center-block" src="/wp-content/uploads/2017/05/Fujinon_XA20sx8_5BERM_K3_Handheld_ENG_Style_885909.jpg">
+            </a>            </div>
+            <a class="description" href="/rentals/cameras-lenses">Cameras &amp; Lenses<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+            <div class=" col-sm-3 product">
+              <div class="imgholder mx-auto">
+                <a href="../rentals/coverters"><img class="img-responsive center-block" src="http://via.placeholder.com/275x178"></a>            </div>
+
+
+
+                                <a class="description" href="/rentals/coverters">Coverters<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+                                <div class=" col-sm-3 product">
+                                  <div class="imgholder mx-auto">
+                                    <a href="../rentals/terminal"><img class="img-responsive center-block" src="http://via.placeholder.com/275x178"></a>            </div>
+                                    <a class="description" href="/rentals/terminal">Terminal<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+                                    <div class=" col-sm-3 product">
+                                      <div class="imgholder mx-auto">
+                                        <a href="../rentals/decks"><img class="img-responsive center-block" src="http://via.placeholder.com/275x178"></a>            </div>
+                                        <a class="description" href="/rentals/decks">Decks<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+                                        <div class=" col-sm-3 product">
+                                          <div class="imgholder mx-auto">
+                                            <a href="../rentals/more"><img class="img-responsive center-block" src="http://via.placeholder.com/275x178"></a>            </div>
+                                            <a class="description" href="/rentals/more">More<img src="" alt=""  class="alignleft"/><br /><span class="solutions"></span></a>            </div><!--card-->
+                                            </div><!--row-->
+                                          </div>
+
+</section>
+
+<div class="container"> 
+<div class="row">
+
+  <div class="col-sm-12">
+    <img src="<?php echo get_template_directory_uri() . '/img/comingsoon-rentals-inventory.jpg'; ?>" alt="">
+  </div>
+</div>
+</div>
+<section class="rental-product-categories container" style="display: none;">
+
+
+
+
+
+
+
   <div class="row">
     <div class="col-sm-12 col-md-3 col-lg-2">
       <section class="mobile-filter widget">
@@ -173,7 +273,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 
 <!--   <article id="post-<php the_ID(); ?>" <php post_class(); ?>> -->
- <div class=" col-sm-3 product">
+ <div class="col-sm-3 product">
   <div class="imgholder mx-auto">
      <a href="<?php echo get_permalink(); ?>">
   <?php if (has_post_thumbnail()){?>
@@ -277,6 +377,10 @@ if (types_render_field( 'subtitle' )){ ?>
       
       };
       ?>
+
+      <?php 
+      $postID = 69;
+      dynamic_contact($postID) ?>
       <!-- Page Content -->
       
       <!--end page content -->

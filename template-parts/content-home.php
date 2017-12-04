@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-md-7 descrip wow fadeInRight ">
                   <h3>Video Transport / IP</h3>
-                  <p>Westar provides your station the efficiencies of scale and expense savings once available to only the largest of broadcast groups. From Providence to Chicago, Florida to Arizona, Westar Master Control Services is presently partnering with network affiliates across the industry including CBS, PBS, CW, Univision, Azteca, Estrella, MeTV and more.</p>
+                  <p>  Reliable Domestic or International video movement over Satellite, Fiber or IP</p>
                   <div class="btnholder">
                     <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/ip-services">IP<br>Services</a>
                 
