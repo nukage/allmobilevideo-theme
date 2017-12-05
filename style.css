@@ -453,7 +453,7 @@ section.icons {
   scroll: vertical; }
   .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2 {
     width: 90%;
-    top: -20px;
+    top: -10px;
     position: relative; }
     @media (min-width: 1200px) {
       .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2 {
@@ -474,7 +474,7 @@ section.icons {
   padding: 5px 0; }
 
 .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
-  padding-bottom: .7em;
+  padding-bottom: .6em;
   position: relative;
   text-transform: uppercase;
   text-align: center;
@@ -484,7 +484,7 @@ section.icons {
   margin-right: auto; }
   @media (min-width: 1200px) {
     .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
-      margin-top: 10em; } }
+      margin-top: 9em; } }
   @media (max-width: 1199px) {
     .single-mobile .sectionoverlay .product-nav-title, .single-stage .sectionoverlay .product-nav-title, .single-rental .sectionoverlay .product-nav-title {
       margin-top: 8em; } }
@@ -518,7 +518,8 @@ section.icons {
   line-height: 50px; }
   @media (min-width: 992px) and (max-width: 1200px) {
     .single-mobile .sectionoverlay h2, .single-stage .sectionoverlay h2, .single-rental .sectionoverlay h2 {
-      font-size: 1.5em; } }
+      font-size: 1.5em;
+      line-height: 35px; } }
 
 .single-mobile .sectionoverlay h4, .single-stage .sectionoverlay h4, .single-rental .sectionoverlay h4 {
   font-size: 1em; }
@@ -919,6 +920,9 @@ img {
 .page-template-page-master-control .sectionhero {
   background-image: url("img/westar-room.jpg"); }
 
+.page-template-page-ip-services .sectionhero {
+  background-image: url("img/ip-services-hero-2.jpg"); }
+
 .mobile-products #clearfilters {
   cursor: pointer;
   position: relative;
@@ -1085,10 +1089,6 @@ img {
   #carousel .flex-direction-nav {
     position: relative;
     top: -140px; }
-
-.single-rental #slider .slides {
-  border: 1px solid #ccc;
-  margin-top: 15px; }
 
 .single-rental #carousel .slides img {
   border: 1px solid #ccc;
@@ -1263,8 +1263,21 @@ img {
 
 .rental-product-categories, .rental-products {
   margin: 40px auto; }
+  .rental-product-categories .featured-systems .entry-header, .rental-products .featured-systems .entry-header {
+    margin-top: 5px;
+    color: black; }
+  .rental-product-categories .featured-systems .product:hover, .rental-products .featured-systems .product:hover {
+    transform: scale(1.05, 1.05); }
+  .rental-product-categories .featured-systems .product a, .rental-products .featured-systems .product a {
+    border-radius: 5px; }
+  .rental-product-categories .featured-systems .product a:hover, .rental-products .featured-systems .product a:hover {
+    transform: scale(1.05, 1.05);
+    opacity: .8;
+    display: block;
+    text-decoration: none; }
   .rental-product-categories .product, .rental-products .product {
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    transition: .1s all; }
     .rental-product-categories .product .description, .rental-products .product .description {
       color: black;
       font-family: Roboto;
@@ -1665,3 +1678,6 @@ img {
 
 .search-main-content article:last-of-type {
   border: none; }
+
+.page-template-page-ip-services .bloglook .listy li {
+  font-size: 23px; }

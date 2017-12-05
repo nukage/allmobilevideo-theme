@@ -303,7 +303,7 @@ hours a day.</p>
             Streaming and archiving services
         </li>
         <li>
-            LiveU, TVU and Zixi Pubic internet connectivity
+            LiveU, TVU and Zixi Public internet connectivity
         </li>
         </ul>
         <h4>Video / Audio</h4>

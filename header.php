@@ -77,7 +77,7 @@
               <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sales</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/sales">Sales</a>
             </li>
             
                      <li class="nav-item dropdown">

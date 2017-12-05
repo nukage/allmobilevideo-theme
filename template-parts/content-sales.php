@@ -30,7 +30,7 @@ $current = 'rentals_sub';
 <?php
 }
 
-else{ 
+else{
 // echo 'THIS IS A PRODUCT INDEX';
 $current = 'rentals_product';
 };
@@ -50,20 +50,8 @@ $categories = get_terms($args);
 
 <?php
 if ($cateID === 0){
-echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
-<div class="rental-text">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>AMV RENTALS DEPARTMENT</h1>
-        <h4>Trusted Since 1976.</h4>
-        <p>As the original and longest standing department of All Mobile Video, the Rentals Division personifies AMV’s approach to business. Everything we rent is carefully tested and maintained by a meticulous team of engineers and technicians. Customers are supported every step of the way from the budgeting phase, prep, and check- out straight through shoots and post production.</p>
-        <p>
-        Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way.</p>
-      </div>
-    </div>
-  </div>
-</div>
+echo do_shortcode( '[rev_slider alias="sales-slider"]' ); ?>
+
 <?php
 
 };
@@ -87,7 +75,16 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   </div>
 
 </section>
-
+<div class="rental-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>Logos Will Go Here</h3>
+        
+      </div>
+    </div>
+  </div>
+</div>
 <?php }?>
 
 

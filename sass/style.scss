@@ -455,6 +455,10 @@ li{
 			background-image: url("img/westar-room.jpg");
  }
 
+ .page-template-page-ip-services .sectionhero {
+			background-image: url("img/ip-services-hero-2.jpg");
+ }
+
  
 .mobile-products {
 #clearfilters{
@@ -662,8 +666,8 @@ a:hover .description{
 	}
 }
 .single-rental #slider .slides{
-	border:1px solid #ccc;
-	margin-top:15px;
+	// border:1px solid #ccc;
+	// margin-top:15px;
 
 }
 
@@ -887,16 +891,34 @@ a:hover .description{
 .rental-product-categories {
 margin:40px auto;}
 
-.rental-product-categories, .rental-products{ 
+.rental-product-categories, .rental-products { 
+
+	.featured-systems{
+		.entry-header{
+			margin-top:5px;
+			color:black;
+		}
+		.product:hover{transform: scale(1.05,1.05);}
+		.product a{border-radius:5px;}
+
+		.product a:hover{
+
+		transform: scale(1.05,1.05);
+		opacity: .8;
+		display: block;
+		text-decoration: none;
+	}
+	}
 	.product{
 		margin-bottom: 25px;
+		transition:.1s all;
 	
-	.description{
-		color:black;
-		font-family: Roboto;
-		top:10px;
-		position: relative;
-	}
+		.description{
+			color:black;
+			font-family: Roboto;
+			top:10px;
+			position: relative;
+		}
 }
 	margin:40px auto;
 
@@ -1458,3 +1480,9 @@ margin:40px auto;}
 		border:none;
 	}
 }
+//IP SERVICES
+ .page-template-page-ip-services {
+ 	.bloglook .listy li{
+ 		font-size:23px;
+ 	}
+ }

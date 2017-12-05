@@ -19,9 +19,24 @@
 	<section class="product-top">
 	<div class="sectionoverlay">
 	<div class="container ">
-		<h1 class="topheader">Rentals</h1>
+		<h1 class="topheader">
+					<?php if ( 'rental' == get_post_type() ) {
+					 echo 'Rentals';
+					} 
+					elseif('sales' == get_post_type()) {
+					echo 'Sales';
+					}
+					else{
+						echo 'Unknown Post Type';
+					}
+
+
+					?>
+
+
+		 		</h1>
 		<div class="product-hero row">
-			<div class="col-md-8 col-12"> <?php
+			<div class="col-lg-8 col-12"> <?php
 	get_template_part( 'template-parts/product', 'slideshow' );
 
 			?>
@@ -29,7 +44,7 @@
 
 			</div>
 			<div class="col-lg-4">
-				
+				<div class="product-nav-title">
 <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 				<?php if (types_render_field( 'subtitle' )){ ?>
 				<h3>
@@ -70,7 +85,7 @@
 
 				   ?>
 				<?php endif; ?>
-		
+		</div>
 				<?php echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/rental/#contactform">Contact</a>' ; ?>
 					
 			</div>

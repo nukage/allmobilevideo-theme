@@ -9,7 +9,7 @@
 		scroll:vertical;
 		h2{
 			width:90%;
-			top:-20px;
+			top:-10px;
 			position: relative;
  				@media(min-width:1200px){
  					font-size:2.0em;
@@ -52,7 +52,7 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 }
 		.product-nav-title{
 			@media(min-width:1200px){
-				margin-top:10em;
+				margin-top:9em;
 			}
 			@media(max-width:1199px) {
 		margin-top:8em;
@@ -61,7 +61,7 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 			margin-top:0em;
 		}
 
-			padding-bottom:.7em;
+			padding-bottom:.6em;
 			position:relative;
 			text-transform: uppercase;
 			 
@@ -123,6 +123,7 @@ box-shadow: 14px 14px 25px -9px rgba(0,0,0,0.75);
 
 			@media(min-width:992px) and  (max-width:1200px) {
 				font-size:1.5em;
+				line-height: 35px;
 			}
 		}
 		h4{
