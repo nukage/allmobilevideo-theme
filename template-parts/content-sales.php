@@ -79,7 +79,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3>Logos Will Go Here</h3>
+    <?php echo do_shortcode( '[rev_slider alias="sales-logos"]' ); ?> 
         
       </div>
     </div>
@@ -90,66 +90,67 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 <?php if ($current != 'rentals_product'){ ?>
 
- <section class="rental-product-categories container " >
-<h2 class="text-center" style="padding-bottom:20px;">Featured Systems</h2>
+ <section class="sales-product-categories container " >
+  <h1 align="center">AMV Sales</h1>
+<h3 class="text-center" style="padding-bottom:20px;">Featured Systems</h3>
 
             <div class="col-sm-12 rental-products ">
               <div class="row featured-systems">
 
                 <div class="col-sm-3 product">
-      <a href="/rental/boxx-meridian/">
+      <a href="/sales/newtek-tc-1/">
         <div class="imgholder mx-auto">
 
       
-      <img src="/wp-content/uploads/2017/12/boxx-meridian-360x230.jpg" >
+      <img src="/wp-content/uploads/2017/12/tc1-1-360x230.jpg" >
     
   </div>
   <header class="entry-header">
-    Boxx Meridian                     
-    <span class="field-model">Wireless Microwave Broadcast System</span>
+   New Tek TC1                   
+    <span class="field-model">Switching, streaming, recording in UHD</span>
   </header><!-- .entry-header -->
   </a>
 </div><!-- .product -->
 
 <div class="col-sm-3 product">
-      <a href="/mobile/hd-tapeless/">
+      <a href="/sales/panasonic-awhe130/">
   <div class="imgholder mx-auto">
 
       
-      <img src="/wp-content/uploads/2017/08/1_S5030018-360x230.jpg" >
+      <img src="/wp-content/uploads/2017/12/AWHE130-360x230.jpg" >
     
   </div>
   
   <header class="entry-header">
-     HD Tapeless                      <span class="field-model">Portable Production System</span>
+     Panasonic AWHE130                 <span class="field-model">Pan/Tilt/Zoom Camera</span>
     </header><!-- .entry-header -->
     </a>
     </div>
     <div class="col-sm-3 product">
-       <a href="/mobile/dm2k-digital-audio/">
+       <a href="/sales/sony-bvmx300/">
   <div class="imgholder mx-auto">
    
       
-      <img src="/wp-content/uploads/2017/08/dm2000-digital-audio4-360x230.jpg" >
+      <img src="/wp-content/uploads/2017/12/BVMX300-360x230.jpg" >
     
   </div>
   
   <header class="entry-header">
-   DM2K Digital Audio                      <span class="field-model">The Perfect Audio Companion</span>
+  Sony BVMX300                 <span class="field-model">4K OLED master monitor </span>
     </header><!-- .entry-header -->
     </a>
     </div>
 <div class="col-sm-3 product">
-   <a href="/rental/blackcam-b10-system/">
+   <a href="/sales/sony-hxcfb80/">
   <div class="imgholder mx-auto">
    
       
-      <img src="/wp-content/uploads/2017/12/B10_3-360x230.jpg" >
+      <img src="/wp-content/uploads/2017/12/Sony-HXCFB80-360x230.jpg" >
  
   </div>
   <header class="entry-header">
-    Blackcam B10 System                    
-    <span class="field-model">Rail Based Camera Tracking System</span>
+   Sony HXCFB80                 
+    <span class="field-model">HD Portable Camera </span>
   </header><!-- .entry-header -->
      </a>
 </div><!-- .product -->
@@ -168,12 +169,31 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
                                           </div>
 
 </section>
+<div class="rental-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+    <?php echo do_shortcode( '[rev_slider alias="sales-logos"]' ); ?> 
+        
+      </div>
+    </div>
+  </div>
+</div>
 
+<section class="sales-icons">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 icon"> <img src="<?php echo get_template_directory_uri() . '/img/icon 1.png'; ?>" alt=""></div>
+       <div class="col-md-4 icon"> <img src="<?php echo get_template_directory_uri() . '/img/icon 2.png'; ?>" alt=""></div>
+        <div class="col-md-4 icon"> <a href="http://stores.ebay.com/AMV-Broadcast-Sales" target="_blank"><img src="<?php echo get_template_directory_uri() . '/img/icon 4.png'; ?>" alt=""></a></div>
+    </div>
+  </div>
+</section>
 <div class="container"> 
 <div class="row">
 
   <div class="col-sm-12">
-    <img src="<?php echo get_template_directory_uri() . '/img/comingsoon-rentals-inventory.jpg'; ?>" alt="">
+    <img style="margin:80px 0" src="<?php echo get_template_directory_uri() . '/img/comingsoon-rentals-inventory.jpg'; ?>" alt="">
   </div>
 </div>
 </div>

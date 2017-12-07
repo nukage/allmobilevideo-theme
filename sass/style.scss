@@ -822,6 +822,9 @@ a:hover .description{
 .single-rental .product-top  {
 	background-image: url("img/rentals-titlebar.jpg");
 }
+.single-sales .product-top  {
+	background-image: url("img/rentals-titlebar.jpg");
+}
 .single-rental .sectionoverlay{
 			background-color:rgba(0,32,105,.8);
 		}
@@ -888,7 +891,7 @@ a:hover .description{
 			}
 		}
 
-.rental-product-categories {
+.rental-product-categories, .sales-product-categories {
 margin:40px auto;}
 
 .rental-product-categories, .rental-products { 
@@ -1485,4 +1488,25 @@ margin:40px auto;}
  	.bloglook .listy li{
  		font-size:23px;
  	}
+ }
+
+ .post-type-archive-sales{
+ 	.sales-icons{
+ 		padding:120px 0;
+		background: url('img/rentals-titlebar2.jpg');
+		background-size:cover;
+		background-attachment: fixed;
+		.icon{
+			text-align: center;
+			a{cursor:pointer; 
+				display: block;
+			};
+			a:hover {
+				opacity: .8;
+				cursor:pointer; 
+
+			}
+		}
+ 	}
+ 	  
  }
