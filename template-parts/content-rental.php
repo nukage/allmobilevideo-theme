@@ -22,9 +22,11 @@
 		<h1 class="topheader">
 					<?php if ( 'rental' == get_post_type() ) {
 					 echo 'Rentals';
+					 $post_type = 'rentals';
 					} 
 					elseif('sales' == get_post_type()) {
 					echo 'Sales';
+					$post_type = 'sales';
 					}
 					else{
 						echo 'Unknown Post Type';
@@ -170,15 +172,21 @@
 		</div>
 	<div class="col-12 col-md-4">
 
-	    <?php 
+ 
+
+			<?php if ( 'rental' == get_post_type() ) {
+					get_template_part( 'template-parts/contactinfo',  'rentals' );
+				 
+					} 
+					elseif('sales' == get_post_type()) {
+				get_template_part( 'template-parts/contactinfo',  'sales' );
+					}
+					else{
+						echo 'Unknown Post Type';
+					}
 
 
-  
-
-	get_template_part( 'template-parts/contactinfo',  'rentals' );
-
-			
-			?>
+					?>
 
 		
 	</div>

@@ -392,7 +392,7 @@ if (types_render_field( 'subtitle' )){ ?>
       ?>
 
       <?php 
-      $postID = 69;
+      $postID = 588;
       dynamic_contact($postID) ?>
       <!-- Page Content -->
       

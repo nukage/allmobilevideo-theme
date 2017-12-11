@@ -20,8 +20,8 @@
     <div class="col-lg-4 rtborder">
       <h3>AMV Headquarters</h3>
   <ul>
-    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a> 221</li>
-    <li>West 26th Street</li>
+    <li><a href="tel:2127271234" target="_blank">(212) 727-1234</a> </li>
+    <li>221 West 26th Street</li>
     <li>New York, NY 10001</li>
     <li>Fax: <a href="tel:2122556644" target="_blank">(212) 255-6644</a></li>
   </ul>
@@ -154,7 +154,7 @@
     <li><a href="tel:3107511911" target="_blank">(310) 751-1911</a></li>
     <li>12950 Culver Blvd. Suite 200</li>
     <li>Los Angeles, CA 90066</li>
-    <li>www.amvdm.com</a></li>
+    <li><a href="http://www.amvdm.com" target="_blank"></a>www.amvdm.com</a></li>
   </ul>
   <h4>Brian Bedard</h4>
   <ul>
