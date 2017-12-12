@@ -105,10 +105,10 @@ setTimeout(function() {
         } else{
             filters["videoformat"] = '*';
         };
-         if (hashFilter['audioformat'] != '*'){
-        filters["audioformat"] = hashFilter["audioformat"].substr(1);
+         if (hashFilter['bodystyle'] != '*'){
+        filters["bodystyle"] = hashFilter["bodystyle"].substr(1);
         } else{
-            filters["audioformat"] = '*';
+            filters["bodystyle"] = '*';
         };
          if (hashFilter['numberofcameras'] != '*'){
         filters["numberofcameras"] = hashFilter["numberofcameras"].substr(1);
@@ -119,7 +119,7 @@ setTimeout(function() {
         if ($(this).attr('id') == "clearfilters") {
           filters['mputype'] = '*';
           filters["videoformat"] = '*';
-          filters['audioformat'] = '*';
+          filters['bodystyle'] = '*';
           filters["numberofcameras"] = '*';
           $('#noresults').addClass('invisible');
         }
@@ -133,7 +133,7 @@ setTimeout(function() {
  console.log('the group is ' + filterGroup);
         // If the current data-filter attribute matches the current filter,
         console.log('currentFilter is ' + filters[filterGroup]);
-        if ( currentFilter == filters["mputype"] || currentFilter == filters["videoformat"] ||  currentFilter == filters["audioformat"]  || currentFilter == filters["numberofcameras"]) {
+        if ( currentFilter == filters["mputype"] || currentFilter == filters["videoformat"] ||  currentFilter == filters["bodystyle"]  || currentFilter == filters["numberofcameras"]) {
             // Reset group filter as the user has unselected the button
             filters[ filterGroup ] = "*";
         } else {
@@ -142,7 +142,7 @@ setTimeout(function() {
         }
 
         // Create new hash
-        var newHash = "mputype=" + encodeURIComponent( filters["mputype"] ) + "&videoformat=" + encodeURIComponent( filters["videoformat"] ) + "&audioformat=" + encodeURIComponent( filters["audioformat"] ) + "&numberofcameras=" + encodeURIComponent( filters["numberofcameras"] );
+        var newHash = "mputype=" + encodeURIComponent( filters["mputype"] ) + "&videoformat=" + encodeURIComponent( filters["videoformat"] ) + "&bodystyle=" + encodeURIComponent( filters["bodystyle"] ) + "&numberofcameras=" + encodeURIComponent( filters["numberofcameras"] );
         // If sort value exists, add it to hash
       
 
@@ -157,7 +157,7 @@ setTimeout(function() {
     function onHashChange() {
         var hashFilter = getHashFilter();
                 // Concatenate mputype and videoformat for Isotope filtering
-        var theFilter = hashFilter["mputype"] + hashFilter["videoformat"] + hashFilter["audioformat"] + hashFilter["numberofcameras"];
+        var theFilter = hashFilter["mputype"] + hashFilter["videoformat"] + hashFilter["bodystyle"] + hashFilter["numberofcameras"];
 
        if ( hashFilter ) {
         console.log('theFilter is ' + decodeURIComponent(theFilter) + '. Hashfilter[mputype] is ' + hashFilter['mputype']);
@@ -183,7 +183,7 @@ setTimeout(function() {
                        // Toggle checked status of filter buttons
             $( ".filter-list" ).find(".checked").removeClass("checked");
 
-            $( ".filter-list" ).find("[value='" + hashFilter["mputype"].substr(1) + "'],[value='" + hashFilter["numberofcameras"].substr(1) + "'],[value='" + hashFilter["audioformat"].substr(1) + "'],[value='" + hashFilter["videoformat"].substr(1) + "']").parent().addClass("checked");
+            $( ".filter-list" ).find("[value='" + hashFilter["mputype"].substr(1) + "'],[value='" + hashFilter["numberofcameras"].substr(1) + "'],[value='" + hashFilter["bodystyle"].substr(1) + "'],[value='" + hashFilter["videoformat"].substr(1) + "']").parent().addClass("checked");
         }
     } // onHashChange
 
@@ -200,7 +200,7 @@ setTimeout(function() {
         // Get filters (matches) and sort order (sorts)
         var mputype = location.hash.match( /mputype=([^&]+)/i );
         var videoformat = location.hash.match( /videoformat=([^&]+)/i );
-        var audioformat = location.hash.match( /audioformat=([^&]+)/i );
+        var bodystyle = location.hash.match( /bodystyle=([^&]+)/i );
         var numberofcameras = location.hash.match( /numberofcameras=([^&]+)/i );
 
         // Set up a hashFilter array
@@ -214,9 +214,9 @@ setTimeout(function() {
          if (hashFilter["videoformat"] != "*" ){
             hashFilter["videoformat"] = '.' + hashFilter["videoformat"];
          }
-         hashFilter["audioformat"] = audioformat ? audioformat[1] : "*";
-         if (hashFilter["audioformat"] != "*" ){
-            hashFilter["audioformat"] = '.' + hashFilter["audioformat"];
+         hashFilter["bodystyle"] = bodystyle ? bodystyle[1] : "*";
+         if (hashFilter["bodystyle"] != "*" ){
+            hashFilter["bodystyle"] = '.' + hashFilter["bodystyle"];
          }
           hashFilter["numberofcameras"] = numberofcameras ? numberofcameras[1] : "*";
          if (hashFilter["numberofcameras"] != "*" ){
@@ -272,7 +272,7 @@ setTimeout(function() {
   //        $('#noresults').addClass('invisible');
   //           filters["mputype"] = "*";
   //           filters["videoformat"] = "*";
-  //           filters["audioformat"] = "*";
+  //           filters["bodystyle"] = "*";
   //           filters["numberofcameras"] = "*";
   //           location.hash = newHash;
   //         }); 

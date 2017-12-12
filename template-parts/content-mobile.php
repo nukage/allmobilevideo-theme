@@ -29,7 +29,7 @@
        <ul class="row">
          <?php amv_list_taxonomies('mputype', 'Type') ?>
          <?php amv_list_taxonomies('videoformat', 'Video Format') ?>
-         <?php amv_list_taxonomies('audioformat', 'Audio Format') ?>
+         <?php amv_list_taxonomies('bodystyle', 'Body Style') ?>
          <?php amv_list_taxonomies('numberofcameras', 'Number of Cameras') ?>
        </ul>
     </section><!-- .filter .widget -->

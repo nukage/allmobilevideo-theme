@@ -1314,6 +1314,43 @@ img {
   .rental-text h3 {
     padding: 20px; }
 
+.sales-text {
+  font-family: Roboto;
+  text-align: center;
+  background: #1D1D1D;
+  color: white;
+  padding: 50px 0; }
+  .sales-text p {
+    font-weight: 200;
+    line-height: 30px; }
+  .sales-text h4 {
+    margin: 20px; }
+
+.logosection img {
+  max-height: 120px;
+  padding: 20px;
+  max-width: 250px;
+  -webkit-filter: grayscale(60%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all .3s;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.logosection img:hover {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  background: #092843; }
+
+.section-title {
+  color: #fff; }
+
+.section-title:hover {
+  opacity: .7;
+  color: #fff;
+  text-decoration: none; }
+
 .entry-meta {
   font-size: 14px;
   color: #454545;

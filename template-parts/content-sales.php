@@ -90,9 +90,9 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 <?php if ($current != 'rentals_product'){ ?>
 
- <section class="sales-product-categories container " >
-  <h1 align="center">AMV Sales</h1>
-<h3 class="text-center" style="padding-bottom:20px;">Featured Systems</h3>
+<section class="sales-product-categories container " >
+ 
+<h3 class="text-center" style="padding-bottom:20px;">Featured Products</h3>
 
             <div class="col-sm-12 rental-products ">
               <div class="row featured-systems">
@@ -169,16 +169,41 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
                                           </div>
 
 </section>
-<div class="rental-text">
+<section class="sales-text">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-    <?php echo do_shortcode( '[rev_slider alias="sales-logos"]' ); ?> 
-        
+      <div >
+        <h1>AMV BROADCAST SALES</h1>
+        <h4>Authorized Distributor for over 200 manufacturers</h4>
+        <p>As the "World’s Production Equipment Headquarters," AMV Broadcast Sales offers the world’s top production equipment at competitive prices along with expert installation, training and support. 
+       Let us show you that our manufacturer’s equipment will make a difference in the quality of your productions!  Demonstrations of equipment can be arranged on our premises or yours.</p>
       </div>
+
     </div>
   </div>
-</div>
+
+  <div class="container logosection">
+    <div class="row"> 
+        <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/aja.png" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Capture Cards, Converters, DAs, Frame Syncs, Recorders, Routers"></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/blackcam-long.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Cameras, Capture Cards, Teranex Converters, DAs, Recorders, Routers, Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/blackmagicdesign.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Cameras, Capture Cards, Teranex Converters, DAs, Recorders, Routers, Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/boxx.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="Dynamic, Discreet HD and 4K PTZ and Track Camera Systems that can be installed in floors or flown" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/cinedeck.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="HD and 4K Tapeless Recorders, SetMeUp MulitChannel Live Recording System with Axle Automatic Media Management" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/evertz.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Converters, DAs, Generators, Multiviewers, Routers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/grassvalley.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Cameras, Switchers, Replay, Graphics DAs, Multiviewers, Routers, and Automated Production" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/ikegami.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Converters, DAs, Frame Syncs, Legalizers, Multiviewers, Routers, Scopes" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/leader.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Studio/EFP, Portable Cameras, POV Cameras and Monitors" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/imagine.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Waveform Monitors, Vectorscopes, Rasterizers, and Sync Generators" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/NewTek.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition Tricaster Production Switchers with Virtual Sets and Streaming Capability, 3Play Sports Production Systems, Low Cost Portable Mini Production Systems, TalkShow Video Calling Production Systems" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/Panasonic.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Studio/EFP Portable, PTZ Cameras, Monitors, and Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/snell.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition Standards Converters Playout, Routing, Mulitviewers, Modular Infrastructure HD and 4K Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/sony.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Studio/EFP Portable, PTZ Cameras, OLED Monitors, HD and 4K Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/tektronix.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Waveform Monitors, Vectorscopes, Rasterizers, and Sync Generators" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="http://www.amv.dev/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="(LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-4"><img src="http://www.amv.dev/wp-content/uploads/2017/12/thor.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="Specializing in Turnkey Solutions in Broadcast CATV Complete Line of Encoding & Decoding Equipment -Easily Transport any Signal over IP, Fiber and RF" alt=""></div>
+      </div>
+  </div>
+</section>
 
 <section class="sales-icons">
   <div class="container">
@@ -386,11 +411,21 @@ if (types_render_field( 'subtitle' )){ ?>
           </div>
         </div>
       </section>
+
       <?php
       
       };
       ?>
-
+<div class="rental-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+    <?php echo do_shortcode( '[rev_slider alias="sales-logos"]' ); ?> 
+        
+      </div>
+    </div>
+  </div>
+</div>
       <?php 
       $postID = 588;
       dynamic_contact($postID) ?>
@@ -412,3 +447,20 @@ if (types_render_field( 'subtitle' )){ ?>
         ?>
         </footer><!-- .entry-footer -->
         <?php endif; ?>
+ <!-- jQuery -->
+
+<!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+<!-- 
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.min.js">\x3C/script>')</script> -->
+         <!-- intialize  tooltips  -->
+  <script type="text/javascript">
+    
+  jQuery( document ).ready( function($) {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+    $('[data-toggle="tooltip"]').on('click', function () {
+    $(this).tooltip('hide')
+})
+
+
+  </script>

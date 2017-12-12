@@ -21,10 +21,10 @@
 			<div class="container ">
 				<h1 class="topheader">
 					<?php if ( 'stage' == get_post_type() ) {
-					 echo 'Stages';
+					 echo '<a href="/stage" class="section-title">Stages</a>';
 					} 
 					elseif('mobile' == get_post_type()) {
-					echo 'Mobile';
+					echo '<a href="/mobile" class="section-title">Mobile</a>';
 					}
 					else{
 						echo 'Unknown Post Type';

@@ -21,11 +21,11 @@
 	<div class="container ">
 		<h1 class="topheader">
 					<?php if ( 'rental' == get_post_type() ) {
-					 echo 'Rentals';
+					 echo '<a href="/rental" class="section-title">Rentals</a>';
 					 $post_type = 'rentals';
 					} 
 					elseif('sales' == get_post_type()) {
-					echo 'Sales';
+					echo '<a href="/sales" class="section-title">Sales</a>';
 					$post_type = 'sales';
 					}
 					else{
