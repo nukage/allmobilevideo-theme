@@ -69,8 +69,8 @@
                 <li><a href="http://www.twitter.com"><span>Twitter</span></a></li>
                 <li><a href="http://www.linkedin.com"><span>LinkedIn</span></a></li></ul>
                 <div class="clearfix"></div>
-                <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
-                  <input class="form-control footersearch" type="text" placeholder="Search">
+                <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down" action="<?php echo get_site_url() ; ?>" role="search" method="get" >
+                  <input class="form-control footersearch" type="text" placeholder="Search" name="s" >
                   <button class="btn  my-2 my-sm-0" type="submit">Search</button>
                 </form>
               </div>

@@ -337,6 +337,7 @@ color:#fff;
 }
 .btn-outline-secondary:hover{
 	background:lighten(#124886, 20%);
+	border: 1px solid lighten(#124886, 20%);
 	 
 }
 
@@ -389,7 +390,7 @@ li{
 		}
 		h2{
 			font-size:17px;
-			font-weight: 200;
+			font-weight: 400;
 			padding-bottom:2em;
 			line-height:26px;
 		}
@@ -1231,7 +1232,7 @@ margin:40px auto;}
 	margin-bottom:6em;
 	font-size: 1.5em;
 	border-radius:.2em;
-	font-weight:200;
+	font-weight:400;
 }
 .page-template-page-post {
 	.transfersuite{

@@ -319,7 +319,7 @@ section.icons {
     margin-bottom: 20px; }
 
 .infoboxes {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 2em; }
   .infoboxes p {
     margin-bottom: 2em; }
@@ -330,6 +330,8 @@ section.icons {
     color: white;
     background: #333;
     text-align: right; }
+    .infoboxes .dark p {
+      color: white; }
   .infoboxes .ibox {
     padding-top: 5em;
     padding-bottom: 5em;
@@ -448,15 +450,15 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
-.single-mobile .post-153 .product-nav-title, .single-mobile .post-464 .product-nav-title, .single-mobile .post-147 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-stage .post-464 .product-nav-title, .single-stage .post-147 .product-nav-title, .single-rental .post-153 .product-nav-title, .single-rental .post-464 .product-nav-title, .single-rental .post-147 .product-nav-title, .single-sales .post-153 .product-nav-title, .single-sales .post-464 .product-nav-title, .single-sales .post-147 .product-nav-title {
+.single-mobile .post-153 .product-nav-title, .single-mobile .post-464 .product-nav-title, .single-mobile .post-147 .product-nav-title, .single-mobile .post-149 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-stage .post-464 .product-nav-title, .single-stage .post-147 .product-nav-title, .single-stage .post-149 .product-nav-title, .single-rental .post-153 .product-nav-title, .single-rental .post-464 .product-nav-title, .single-rental .post-147 .product-nav-title, .single-rental .post-149 .product-nav-title, .single-sales .post-153 .product-nav-title, .single-sales .post-464 .product-nav-title, .single-sales .post-147 .product-nav-title, .single-sales .post-149 .product-nav-title {
   overflow: hidden;
   scroll: vertical; }
-  .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2 {
+  .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2 {
     width: 90%;
     top: -10px;
     position: relative; }
     @media (min-width: 1200px) {
-      .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2 {
+      .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2 {
         font-size: 2.0em; } }
 
 .single-mobile .tooltip-inner img, .single-stage .tooltip-inner img, .single-rental .tooltip-inner img, .single-sales .tooltip-inner img {
@@ -840,7 +842,8 @@ img {
   color: #fff; }
 
 .btn-outline-secondary:hover {
-  background: #1e78e0; }
+  background: #1e78e0;
+  border: 1px solid #1e78e0; }
 
 .contact {
   padding-top: 4em;
@@ -879,7 +882,7 @@ img {
     text-transform: uppercase; }
   .sectionoverlay h2 {
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 400;
     padding-bottom: 2em;
     line-height: 26px; }
 
@@ -1528,7 +1531,7 @@ img {
   margin-bottom: 6em;
   font-size: 1.5em;
   border-radius: .2em;
-  font-weight: 200; }
+  font-weight: 400; }
 
 .page-template-page-post .transfersuite {
   background: url("img/post-transfersuite.jpg");

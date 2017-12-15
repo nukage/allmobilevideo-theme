@@ -115,7 +115,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 </div><!-- .product -->
 
 <div class="col-sm-3 product">
-      <a href="/mobile/hd-tapeless/">
+      <a href="/rental/tapeless-video/">
   <div class="imgholder mx-auto">
 
       
@@ -124,12 +124,12 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   </div>
   
   <header class="entry-header">
-     HD Tapeless                      <span class="field-model">Portable Production System</span>
+     Tapeless Video                   <span class="field-model">Portable Production System</span>
     </header><!-- .entry-header -->
     </a>
     </div>
     <div class="col-sm-3 product">
-       <a href="/mobile/dm2k-digital-audio/">
+       <a href="/rental/dm2k-digital-audio/">
   <div class="imgholder mx-auto">
    
       

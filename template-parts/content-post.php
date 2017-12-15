@@ -148,6 +148,7 @@
 <li>  Broadcast QC</li>
 <li>  Dolby E encoding/decoding</li>
 <li>  AC3 encoding</li>
+<li> <a href="/mobile/nellie">Mobile editing</a></li>
 </ul>
         </div>
 

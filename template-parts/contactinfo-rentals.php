@@ -11,11 +11,9 @@
 			</ul>
 		</li>
 		<li>
-			<h5>Lee Blanco</h5>
+			<h5>Rental Inquiries</h5>
 			<ul>
-				<li><a href="mailto:lblanco@amvchelsea.com" target="_blank">lblanco@amvchelsea.com</a></li>
-				<li><a href="tel:2014884181" target="_blank">(201) 488-4181</a> o</li>
-				<li><a href="tel:9172990206" target="_blank">(917) 299-0206</a> m</li>
+				<li><a href="mailto:rentals@amvchelsea.com" target="_blank">rentals@amvchelsea.com</a></li>
 			</ul>
 		</li>
 		<li>

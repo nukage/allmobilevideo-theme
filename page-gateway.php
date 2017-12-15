@@ -421,13 +421,7 @@ hours a day.</p>
 			<li>e: <a target="_blank" href="mailto:mcarberry@amvchelsea.com">mcarberry@amvchelsea.com</a></li>
 		</ul>
 	</li>
-	<li>
-		<ul>
-			<li>Phil Venticinque</li>
-			<li>t: <a target="_blank" href="tel:7329693700">(732)969-3700</a></li>
-			<li>e: <a target="_blank" href="mailto:pventicinque@amvchelsea.com">pventicinque@amvchelsea.com</a></li>
-		</ul>
-	</li>
+
 	<li>
 		<ul>
 			<li>Carl Lichtenberg</li>
