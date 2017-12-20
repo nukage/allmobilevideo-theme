@@ -57,7 +57,7 @@
             <div class="col-sm-6 col-md-4  wow fadeInUp" data-wow-delay=".7s">
               <a href="#sales" class="icon-links page-scroll">           <div class="homeicons"><img src="<?php echo get_template_directory_uri()?>/img/icons-cam.png" alt="Generic placeholder image"></div>
               <h4>Sales</h4>
-              <p>Top production equipment at competitive prices</p>
+              <p>World’s Production Equipment Headquarters</p>
             </a>
             </div><!-- /.col-sm-6 col-md-4 -->
             <div class="col-sm-6 col-md-4  wow fadeInUp" data-wow-delay=".8s">
@@ -122,8 +122,8 @@
                   <img class="img-responsive  wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-post.png" alt="">
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
-                  <h3>Post Production</h3>
-                  <p>Chelsea Post is one of the most comprehensively equipped facilities in the country. Post production technology and work flow is constantly changing and we pride ourselves on being at the forefront of this evolution. </p>
+                  <h3>Post </h3>
+                  <p>Seamless integration with live events, international distribution on multiple platforms, and the ability to provide a project home for multi-edit series – always innovative, always personally customized.</p>
                    <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/post">View Post</a> 
                 </div>
                 <div class="col-md-6 text-center  hidden-sm-down">

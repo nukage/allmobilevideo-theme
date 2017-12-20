@@ -21,15 +21,16 @@ get_header(); ?>
   <div class="sectionoverlay">
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
     <h1>A COMPLETE RANGE OF VIDEO AND IP SERVICES</h1>
-  <h2>Westar Satellite Services specializes in providing the broadcast industry with a complete range of video and IP services. We back up our services with a team of dedicated professionals and years of experience in the video transport industry.</h2>
+<!--   <h2>Westar Satellite Services specializes in providing the broadcast industry with a complete range of video and IP services. We back up our services with a team of dedicated professionals and years of experience in the video transport industry.</h2> -->
+          <h4>
+Westar provides customers with national video contribution and distribution over satellite or IP.</h4>
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
     <div class="sectionherooverlay">
 
           <h3>WESTAR SATELLITE SERVICES</h3>
-        <h4>
-Westar provides customers with national video contribution and distribution over satellite or IP.</h4>
+
     </div>
   </div>
 </section>

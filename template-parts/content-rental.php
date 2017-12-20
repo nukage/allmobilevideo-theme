@@ -88,7 +88,22 @@
 				   ?>
 				<?php endif; ?>
 		</div>
-				<?php echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/rental/#contactform">Contact</a>' ; ?>
+		<?php if ( 'rental' == get_post_type() ) {
+					 echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/rental/#contactform">Contact</a>' ;
+				 
+					}  
+					elseif('sales' == get_post_type()) {
+					echo '<a role="button" class="btn btn-primary custom-btn contactbtn" href="' . get_home_url() . '/sales/#contactform">Contact</a>' ;
+			 
+					} 
+					else{
+						echo 'Unknown Post Type';
+					} 
+
+					?>
+
+
+ 
 					
 			</div>
 		</div>

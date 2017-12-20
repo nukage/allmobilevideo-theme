@@ -23,28 +23,20 @@ get_header(); ?>
 
 <section class="sectionhero">
   <div class="sectionoverlay">
-<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
-    <h1>CENTRALIZED MASTER CONTROL SERVICES</h1>
-  <h2>Master control center, media management, and business services for independent, small group, and public television broadcasters.</h2>
-  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
-  <div class="pb-xl-5"></div>
-</div>
-
+	<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
+	    <h1>CENTRALIZED MASTER CONTROL SERVICES</h1>
+	<!--   <h2>Master control center, media management, and business services for independent, small group, and public television broadcasters.</h2> -->
+	     <h4>Master control center, media management for independent, small group, and public television broadcasters.</h4>
+	  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
+	  <div class="pb-xl-5"></div>
+	</div>
     <div class="sectionherooverlay">
           <h3>MASTER CONTROL SERVICES</h3>
-        <h4>
-Master control center, media management, and business services for independent, small group, and public television broadcasters.</h4>
     </div>
-
   </div>
-
 </section>
-
-
-
 <!-- Tab panes -->
 <div>
-
 	<div class="container">
 		<section id="mc-overview">
 		<div class="row">
@@ -60,7 +52,6 @@ Master control center, media management, and business services for independent, 
 				<h4>YOUR RESULTS</h4>
 				<p>By eliminating capital expenditures and reducing operational expenses, Westar Master Control Services allows your station to focus resources on the future and doing what you do best.</p>
 			</div>
-		
 <!-- 		<hr>
 	<h4>TRAFFIC MEDIA MANAGEMENT</h4>
 		<div class="row traffic-media-management">

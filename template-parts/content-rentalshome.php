@@ -143,32 +143,18 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
     </a>
     </div>
 <div class="col-sm-3 product">
-   <a href="/rental/blackcam-b10-system/">
-  <div class="imgholder mx-auto">
-   
-      
-      <img src="/wp-content/uploads/2017/12/B10_3-360x230.jpg" >
- 
-  </div>
+   <a href="/rental/blackcam/">
+      <div class="imgholder mx-auto">
+        <img src="/wp-content/uploads/2017/12/B10_3-360x230.jpg" >
+      </div>
   <header class="entry-header">
-    Blackcam B10 System                    
+    Blackcam                   
     <span class="field-model">Rail Based Camera Tracking System</span>
   </header><!-- .entry-header -->
      </a>
 </div><!-- .product -->
-
-
-
-
-
-     
- 
- 
-                    
-                             
-                        
-                                            </div><!--row-->
-                                          </div>
+</div><!--row-->
+</div>
 
 </section>
 

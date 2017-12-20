@@ -33,7 +33,7 @@
                 <h6>BROADCAST SALES</h6>
                 <ul>
                   <li><a href="<?php echo get_home_url(); ?>/sales">Equipment Sales</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/sales">Integrations</a></li>
+                  <li><a href="http://stores.ebay.com/AMV-Broadcast-Sales">Ebay Store</a></li>
                 </ul>
               </div>
               <div class="col-md-2 col-sm-6 col-lg-2 text-sm-left text-left col-5 offset-1 offset-sm-0 ">
@@ -47,7 +47,7 @@
                   <li><a href="<?php echo get_home_url(); ?>/gateway/">AMV Gateway</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/satellite-services/">AMV Satellite Services</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/master-control/">AMV Master Control</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>http://amvdm.com/" target="_blank">AMV Digital Media</a></li>
+                  <li><a href="http://amvdm.com/" target="_blank">AMV Digital Media</a></li>
                 </ul>
                  
               </div>
@@ -65,9 +65,9 @@
               </div>
               <div class="col-md-4 col-sm-12  footersocialinfo text-sm-left text-left text-md-left pt-sm-3 pt-md-0 col-lg-3 offset-3 offset-sm-0 pt-4 pt-sm-0 ">
                 <h6>Follow Us:</h6>
-                <ul><li><a href="http://www.facebook.com"><span>Facebook</span></a></li>
-                <li><a href="http://www.twitter.com"><span>Twitter</span></a></li>
-                <li><a href="http://www.linkedin.com"><span>LinkedIn</span></a></li></ul>
+                <ul><li><a href="https://www.facebook.com/allmobilevideo/" target="_blank"><span>Facebook</span></a></li>
+                <li><a href="https://twitter.com/allmobilevideo" target="_blank"><span>Twitter</span></a></li>
+                <li><a href="https://www.linkedin.com/company/all-mobile-video" target="_blank"><span>LinkedIn</span></a></li></ul>
                 <div class="clearfix"></div>
                 <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down" action="<?php echo get_site_url() ; ?>" role="search" method="get" >
                   <input class="form-control footersearch" type="text" placeholder="Search" name="s" >

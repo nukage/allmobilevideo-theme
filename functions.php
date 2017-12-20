@@ -217,6 +217,10 @@ function dynamic_contact($postID){ ?>
 
 	            } elseif($postID == 69){
 	            	 echo do_shortcode( '[contact-form-7 id="601" title="Rentals"]' );
+					}elseif($postID == 588){
+	            	 echo do_shortcode( '[contact-form-7 id="609" title="Sales"]' );
+
+
 	            }else {
 	               echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' );
 	            }  ?>

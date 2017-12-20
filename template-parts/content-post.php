@@ -11,14 +11,15 @@
 <section class="sectionhero">
   <div class="sectionoverlay">
 <div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext">
-    <h1>the technical expertise of our engineering staff is unmatched</h1>
-  <h2 >Chelsea Post is one of the most comprehensively equipped facilities in the country. Post production technology and work flow is constantly changing and we pride ourselves on being at the forefront of this evolution. </h2>
+    <h1>CREATING SOLUTIONS FOR COMPLEX AND DEMANDING PROJECTS</h1>
+<!--   <h2 >Chelsea Post is one of the most comprehensively equipped facilities in the country. Post production technology and work flow is constantly changing and we pride ourselves on being at the forefront of this evolution. </h2> -->
+  <h4>Seamless integration with live events, international distribution on multiple platforms, providing a project home for multi-edit series – always innovative, always personally customized.</h4>
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
     <div class="sectionherooverlay">
           <h3>Post</h3>
-        <h4>Chelsea Post is one of the most comprehensively equipped facilities in the country. </h4>
+      
     </div>
   </div>
 </section>
