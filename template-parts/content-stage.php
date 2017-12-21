@@ -47,6 +47,15 @@
   <div class="row no-gutters isotope-container">
 
 <?php
+ $chelsea = $_REQUEST['chelsea'];
+ if ($chelsea == 1){
+  echo '<style>
+.product:nth-of-type(6){
+  display:none;
+}
+  </style>';
+
+ }
 
  $query = new WP_query(
     array(

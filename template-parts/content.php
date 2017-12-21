@@ -37,7 +37,7 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-		<?php echo get_the_date(); ?>
+		<?php //echo get_the_date(); ?>
 		</div><!-- .entry-meta -->
 		<div class="card-text excerpt">
 			<p><?php  

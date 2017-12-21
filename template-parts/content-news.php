@@ -11,7 +11,7 @@
 
 <section class="news-top">
 	<div class="container">
-		<h1>NEWS</h1>
+		<h1><a class="section-title" href="/news/">NEWS</a></h1>
 		<h2>AMV News Updates</h2>
 	</div>
 </section>
@@ -34,8 +34,8 @@
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php allmobilevideo_theme_posted_on(); ?>
+		<!--<div class="entry-meta">
+			<?php //allmobilevideo_theme_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>

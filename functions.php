@@ -382,9 +382,9 @@ function social_icons() { ?>
 <div class="sidebar_social">
 <h2 class="widget-title">Follow Us</h2>
 	<ul>
-		<li><a href="http://www.facebook.com"><span>Facebook</span></a></li>
-		<li><a href="http://www.twitter.com"><span>Twitter</span></a></li>
-		<li><a href="http://www.linkedin.com"><span>LinkedIn</span></a></li>
+		<li><a target="_blank" href="https://www.facebook.com/allmobilevideo/"><span>Facebook</span></a></li>
+		<li><a target="_blank" href="https://twitter.com/allmobilevideo"><span>Twitter</span></a></li>
+		<li><a target="_blank" href="https://www.linkedin.com/company/all-mobile-video"><span>LinkedIn</span></a></li>
 	</ul>
 </div>
 <div class="clearfix"></div>

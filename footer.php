@@ -26,7 +26,7 @@
                 <ul>
                   <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-production">Production</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-carry-pack">Carry-Packs</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink">KU Trucks</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink">Uplink</a></li>
                    <li><a href="<?php echo get_home_url(); ?>/rental">Rentals</a></li>
                 </ul>
                
@@ -40,28 +40,27 @@
                  <h6>Sound Stages</h6>
                 <ul>
                   <li><a href="<?php echo get_home_url(); ?>/stage/">Chelsea Television Studios </a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/stage/unitel-57/">Unitel Studios</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/stage/studio-57/">Studio 57</a></li>
                 </ul>
-                 <h6>Video Transport / IP</h6>
+                  <h6>Post-Production</h6>
+                     <ul>
+                  <li><a href="<?php echo get_home_url(); ?>/post#services">Services</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/post#features">Equipment &amp; Capabilities  </a></li>
+                </ul>
+                
+                 
+              </div>
+              <div class="offset-md-5 offset-lg-0 col-md-3 col-sm-6 col-lg-2 text-sm-left text-left col-5  offset-sm-0">
+                <h6>Video Transport / IP</h6>
                 <ul>
                   <li><a href="<?php echo get_home_url(); ?>/gateway/">AMV Gateway</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/satellite-services/">AMV Satellite Services</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/master-control/">AMV Master Control</a></li>
                   <li><a href="http://amvdm.com/" target="_blank">AMV Digital Media</a></li>
                 </ul>
-                 
-              </div>
-              <div class="offset-md-5 offset-lg-0 col-md-3 col-sm-6 col-lg-2 text-sm-left text-left col-5  offset-sm-0">
-               
-                <h6>Post-Production</h6>
-                <ul>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Editorial</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Audio</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Deliverables/Duplication</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Capture/Export/Transcode</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Large File Transfer</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/post">Digital Assets</a></li>
-                </ul>
+              
+
+    
               </div>
               <div class="col-md-4 col-sm-12  footersocialinfo text-sm-left text-left text-md-left pt-sm-3 pt-md-0 col-lg-3 offset-3 offset-sm-0 pt-4 pt-sm-0 ">
                 <h6>Follow Us:</h6>
@@ -78,8 +77,8 @@
              <div class="row">
             <div class="col-lg-12 pr-5 text-right">
               <ul>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms &amp; Conditions</a></li>
+                <li><a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></li>
+                <li><a href="<?php echo get_home_url(); ?>/terms-conditions">Terms &amp; Conditions</a></li>
                 <li>© 2017 • All Mobile Video • All Rights Reserved</li>
               </ul>
               

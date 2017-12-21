@@ -51,14 +51,7 @@
         <a class="navbar-brand" href="<?php echo get_home_url(); ?>">All Mobile Video</a>
         <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
           <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="<?php echo get_home_url(); ?>/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="/about">Our Company</a>
-             <!--    <a class="dropdown-item" href="#">Credits</a> -->
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/news">News</a>
-              </div>
-            </li>
+            
             
               <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/mobile">Mobile</a>
@@ -89,9 +82,18 @@
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/ip-services">IP Services</a>
  
             </li>
+                      <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="<?php echo get_home_url(); ?>/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="/about">Our Company</a>
+             <!--    <a class="dropdown-item" href="#">Credits</a> -->
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/news">News</a>
+              </div>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/contact">Contact</a>
             </li>
+
           </ul>
     
           <form role="search" method="get"  class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up" action="<?php echo get_site_url() ; ?>">
@@ -101,3 +103,4 @@
         </div>
       </div>
     </nav>
+<div class="top-push"></div>

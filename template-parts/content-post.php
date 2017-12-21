@@ -23,7 +23,7 @@
     </div>
   </div>
 </section>
-<section class="icons pt-5">
+<section class="icons pt-5" id="services">
       <div class="container">
                 <div class="row">
           <div class="col-sm-6 col-md-4 wow fadeInUp iconbox" data-wow-delay=".5s"> 

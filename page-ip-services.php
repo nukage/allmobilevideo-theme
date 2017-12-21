@@ -85,6 +85,9 @@ All services are monitored and controlled via a state-of-the-art control center,
         <li>
            LiveU,TVU and Zixi available
         </li>
+        <li>
+        	Visit <a href="/digital-media" target="_blank">AMV Digital Media</a> for more IP solutions
+        </li>
 
         </ul><hr style="margin-top:30px;">
          <h3 style="padding-top:30px;"> AMV IP Services features products from:</h3>
