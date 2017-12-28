@@ -1790,3 +1790,21 @@ img {
     .post-type-archive-sales .sales-icons .icon a:hover {
       opacity: .8;
       cursor: pointer; }
+
+.product-content .gallery {
+  overflow: auto;
+  margin: 20px 0; }
+  .product-content .gallery figure {
+    margin: 0; }
+
+.product-content .gallery-columns-3 .gallery-icon {
+  overflow: hidden;
+  float: left;
+  width: 20%; }
+  .product-content .gallery-columns-3 .gallery-icon img {
+    width: 100%;
+    height: auto;
+    transition: .5s all; }
+
+.product-content .gallery-columns-3 .gallery-icon img:hover {
+  transform: scale(1.1, 1.1); }

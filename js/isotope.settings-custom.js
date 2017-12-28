@@ -202,9 +202,18 @@ setTimeout(function() {
         var videoformat = location.hash.match( /videoformat=([^&]+)/i );
         var bodystyle = location.hash.match( /bodystyle=([^&]+)/i );
         var numberofcameras = location.hash.match( /numberofcameras=([^&]+)/i );
-
+        var scroll = location.hash.match( /scroll=([^&]+)/i );  
+        
         // Set up a hashFilter array
         var hashFilter = {};
+
+           hashFilter["scroll"] = scroll ? scroll[1] : "*";
+        if (hashFilter["scroll"] != "*" ){
+                 $('html, body').animate({
+        scrollTop: $("#scrollhere").offset().top
+    }, 1000);
+         }
+     
         // Populate array with matches and sorts using ternary logic
         hashFilter["mputype"] = mputype ? mputype[1] : "*";
         if (hashFilter["mputype"] != "*" ){

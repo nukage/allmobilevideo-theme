@@ -137,6 +137,24 @@
     </a>
   </li>
   <?php };?>
+   <?php if (types_render_field( 'rental-tab-3-content' )){ ?>
+  <li class="nav-item">
+    <a class="nav-link" href="#tab3" role="tab" data-toggle="tab">
+
+   <?php echo(types_render_field( 'rental-tab-3-title' )); ?>
+    	
+    </a>
+  </li>
+  <?php };?>
+   <?php if (types_render_field( 'rental-tab-4-content' )){ ?>
+  <li class="nav-item">
+    <a class="nav-link" href="#tab4" role="tab" data-toggle="tab">
+
+   <?php echo(types_render_field( 'rental-tab-4-title' )); ?>
+    	
+    </a>
+  </li>
+  <?php };?>
 </ul>
 </div>
 <div class="col-sm-4 bluecontact hidden-sm-down">Contact</div>
@@ -158,22 +176,23 @@
 			the_content();
 
 			 
-		?></div> <div role="tabpanel" class="tab-pane fade" id="tab1">
+		?></div> 
 
-
+		<div role="tabpanel" class="tab-pane fade" id="tab1">
 		 <?php if (types_render_field( 'rental-tab-1-content' )){ ?>
- 
-
-   <?php echo(types_render_field( 'rental-tab-1-content' )); ?>
+  		 <?php echo(types_render_field( 'rental-tab-1-content' )); ?>
     	  <?php };?>
-</div>  <div role="tabpanel" class="tab-pane fade" id="tab2">
-
-	 <?php if (types_render_field( 'rental-tab-2-content' )){ ?>
-
-
-   <?php echo(types_render_field( 'rental-tab-2-content' )); ?>
-    	  <?php };?>
-</div>
+		</div>  
+		<div role="tabpanel" class="tab-pane fade" id="tab2">
+			<?php if (types_render_field( 'rental-tab-2-content' )){ ?>
+		   <?php echo(types_render_field( 'rental-tab-2-content' )); ?>
+		  	<?php };?>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="tab3">
+			<?php if (types_render_field( 'rental-tab-3-content' )){ ?>
+		   <?php echo(types_render_field( 'rental-tab-3-content' )); ?>
+		  	<?php };?>
+		</div>
 
 
 

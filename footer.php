@@ -24,9 +24,9 @@
               <div class="col-md-3 col-sm-6 col-lg-2 text-sm-left text-left col-5   offset-sm-0">
                 <h6>Mobile &amp; Rentals</h6>
                 <ul>
-                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-production">Production</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-carry-pack">Carry-Packs</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink">Uplink</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-production&scroll=1">Production</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-carry-pack&scroll=1">Carry-Packs</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink&scroll=1">Uplink</a></li>
                    <li><a href="<?php echo get_home_url(); ?>/rental">Rentals</a></li>
                 </ul>
                

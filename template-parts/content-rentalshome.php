@@ -124,7 +124,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   </div>
   
   <header class="entry-header">
-     Tapeless Video                   <span class="field-model">Portable Production System</span>
+     Tapeless Video Carrypack                   <span class="field-model">Portable Production System</span>
     </header><!-- .entry-header -->
     </a>
     </div>
@@ -138,7 +138,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   </div>
   
   <header class="entry-header">
-   DM2K Digital Audio                      <span class="field-model">The Perfect Audio Companion</span>
+   DM2K Digital Audio Carrypack                      <span class="field-model">The Perfect Audio Companion</span>
     </header><!-- .entry-header -->
     </a>
     </div>

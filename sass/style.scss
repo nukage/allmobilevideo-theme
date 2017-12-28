@@ -1616,3 +1616,27 @@ transform: scale(1,1) translate(0%,  0%);
  	}
  	  
  }
+ .product-content{
+.gallery{
+	overflow: auto;
+	margin: 20px 0;
+	figure{margin:0;}
+}
+ .gallery-columns-3 {
+ 	.gallery-icon{
+ 		overflow: hidden;
+ 		float:left;
+ 		width: 20%;
+ 
+ 		img{
+ 			width:100%;
+ 			height:auto;
+ 			transition: .5s all;
+ 		}
+ 		}
+ 		.gallery-icon img:hover{
+ 			transform:scale(1.1,1.1)
+ 		}
+ 	
+ }
+ }
