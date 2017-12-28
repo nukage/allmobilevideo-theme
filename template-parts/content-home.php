@@ -198,7 +198,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.704196785838!2d-73.9974590488192!3d40.74653397922675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259baa94ccc93%3A0x226963c36d090dce!2sAll+Mobile+Video!5e0!3m2!1sen!2sus!4v1498850989502" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
               </p>
               </div>
-              <div class="col-6">
+              <div class="col-sm-6">
 <h3 class="mb-4">Send us a Message</h3>
                 <p>Simply fill out the quick form below with your contact info and a member of our team will be back in touch with you ASAP, usually within 1 business day. Thank you for visiting us.</p>
                 <?php echo do_shortcode( '[contact-form-7 id="202" title="Contact form 1"]' ); ?>
