@@ -586,12 +586,13 @@ a:hover .description{
 	}
 	padding:5px;
 	background: rgba(233,236,245,.33);
-	h4,h5{font-size:12px;}
+	h4,h5{font-size:14px;}
 	h5{margin:0;padding:0;}
 	ul{margin-bottom: 15px;}
 	li, ul {
 		@extend .notlist;
- 		font-size:12px;
+ 		font-size:13px;
+ 		font-weight: 400;
 	}
 
 
@@ -1046,7 +1047,7 @@ margin:40px auto;}
 		.entry-content{
 		font-size:16px;
 	 	color:#454545;
-	 font-weight:200;
+	 font-weight:300;
 	p{
   // width: 250px;
   // height:2em;
@@ -1550,7 +1551,7 @@ transform: scale(1,1) translate(0%,  0%);
 		    display: -webkit-box;
 		    -webkit-line-clamp: 4;
 		    -webkit-box-orient: vertical;
-		    font-weight:200;
+		    font-weight:300;
 		    font-family: roboto;
 		    line-height: 23px;
 		    color:#333333;

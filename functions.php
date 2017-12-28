@@ -126,7 +126,7 @@ function allmobilevideo_theme_scripts() {
 
 	wp_register_script( 'Tether', get_template_directory_uri() . '/js/tether.min.js', array(), '1.0.0', true );
      wp_enqueue_script('Tether');
-	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array(), '20151215', true );
 		wp_enqueue_script( 'SmoothScroll', get_template_directory_uri() . '/js/SmoothScroll.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
@@ -375,6 +375,11 @@ function content($limit) {
   $content = apply_filters('the_content', $content); 
   $content = str_replace(']]>', ']]&gt;', $content);
   return $content;
+}
+
+//add_filter('WP_SMUSH_API_TIMEOUT',  'wpmu_api_timeout');
+function wpmu_api_timeout() {
+ return 300;
 }
 
 // Add Shortcode

@@ -64,6 +64,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Extends
 --------------------------------------------------------------*/
+.modal-open .navbar2 {
+  transform: translateY(-100%); }
+
 .navbar-brand {
   background-image: url(img/amv-logo-1-hq.png);
   background-repeat: no-repeat;
@@ -85,7 +88,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   top: 50px;
   z-index: 1;
   width: 100%;
-  transition: .1s background;
+  transition: .3s all;
   background-color: #222222; }
   .navbar2 .navbar-nav .nav-link {
     font-weight: 300;
@@ -1033,14 +1036,15 @@ img {
   .sidebarcontactinfo a {
     color: #444; }
   .sidebarcontactinfo h4, .sidebarcontactinfo h5 {
-    font-size: 12px; }
+    font-size: 14px; }
   .sidebarcontactinfo h5 {
     margin: 0;
     padding: 0; }
   .sidebarcontactinfo ul {
     margin-bottom: 15px; }
   .sidebarcontactinfo li, .sidebarcontactinfo ul {
-    font-size: 12px; }
+    font-size: 13px;
+    font-weight: 400; }
 
 #noresults {
   transition: all .3s;
@@ -1382,7 +1386,7 @@ img {
 .entry-content {
   font-size: 16px;
   color: #454545;
-  font-weight: 200; }
+  font-weight: 300; }
   .entry-content img {
     height: auto; }
 
@@ -1749,7 +1753,7 @@ img {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    font-weight: 200;
+    font-weight: 300;
     font-family: roboto;
     line-height: 23px;
     color: #333333; }

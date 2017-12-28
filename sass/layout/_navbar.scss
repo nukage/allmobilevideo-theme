@@ -1,4 +1,7 @@
 
+.modal-open .navbar2 {
+transform: translateY(-100%)
+}
 .navbar-brand{
 	background-image: url(img/amv-logo-1-hq.png);
 	background-repeat: no-repeat;
@@ -22,8 +25,9 @@
 	top:50px;
 	z-index: 1;
 	width:100%;
-	transition: .1s background;
+	transition: .3s all;
 	background-color:#222222;
+
 	.navbar-nav .nav-link{
 		font-weight: 300;
 	font-size:14px;
