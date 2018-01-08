@@ -145,7 +145,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 <div class="col-sm-3 product">
    <a href="/rental/blackcam/">
       <div class="imgholder mx-auto">
-        <img src="/wp-content/uploads/2017/12/B10_3-360x230.jpg" >
+        <img src="/wp-content/uploads/2018/01/9029465242_1709aa161f_o-360x230.jpg" >
       </div>
   <header class="entry-header">
     Blackcam                   
