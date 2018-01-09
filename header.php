@@ -53,9 +53,14 @@
           <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
             
             
-              <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_home_url(); ?>/mobile">Mobile</a>
-            </li>
+         
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile<span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="mobile">
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile">Mobile Production</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile-specs">Spec Sheets</a>
+              </li>
               <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/rental">Rentals</a>
             </li>
@@ -72,16 +77,15 @@
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/sales">Sales</a>
             </li>
-            
-                     <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span></a>
-              <div class="dropdown-menu" aria-labelledby="mobile-rentals">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="video-transport-ip">
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/gateway">AMV Gateway</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Westar Satellite Services</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/master-control">Westar Master Control</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/ip-services">IP Services</a>
- 
-            </li>
+              </li>
                       <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="<?php echo get_home_url(); ?>/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">

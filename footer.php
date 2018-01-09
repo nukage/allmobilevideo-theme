@@ -28,6 +28,7 @@
                   <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-carry-pack&scroll=1">Carry-Packs</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink&scroll=1">Uplink</a></li>
                    <li><a href="<?php echo get_home_url(); ?>/rental">Rentals</a></li>
+                   <li><a href="<?php echo get_home_url(); ?>/mobile-specs">Truck Spec Sheets</a></li>
                 </ul>
                
                 <h6>BROADCAST SALES</h6>
