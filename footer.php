@@ -13,7 +13,7 @@
 
 	   <footer class="main-footer">
           <div class="container">
-            <div class="row">
+            <div class="row ftmain">
               <div class="col-xl-3 col-lg-3 col-md-5  col-sm-6    footercontactinfo  offset-3 offset-sm-0 col-8">
                 <ul>
                   <li><a class="mobile" href="tel:2127271234" target="_blank"> <span class="hidden-lg-down">Contact Us: </span>(212) 727-1234</a></li>
