@@ -46,7 +46,7 @@ GRAMMY AWARDS
             <div class="container">
               <div class="row">
               <div class="col-md-6 text-center hidden-md-up">
-                  <img class="img-responsive mt-md-5 " src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt="">
+                  <a href="/gateway/"  target="_blank"><img class="img-responsive mt-md-5 " src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>AMV Gateway: <span>live promos &amp;  Interviews</span></h3>
@@ -118,7 +118,7 @@ GRAMMY AWARDS
                   <h3>HD Tapeless Carrypack &amp; Blackcam B60:  <br><span>Performance on NY Harbor</span></h3>
                   <p>When one of the worlds’ biggest bands wants to televise their performance from a boat in the middle of NY Harbor - AMV is up to the challenge! Customized for this unique environment and incorporating the <a href="/rental/blackcam" target="_blank">Blackcam B60</a> – our <a href="/mobile/tapeless-video/" target="_blank">HD Tapeless Carrypack</a> will ensure a smooth production.  </p>
                      <p><em>Get more info on how to configure this system to your needs   <a href="/mobile/tapeless-video/" target="_blank">here</a>.</em></p>
-                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/tapeless-video/">TAPELESS VIDEO CARRY PACK</a>
+                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/tapeless-video/" target="_blank">TAPELESS VIDEO CARRY PACK</a>
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down ">
                  <a href="/mobile/tapeless-video/" target="_blank"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png" alt=""></a>
