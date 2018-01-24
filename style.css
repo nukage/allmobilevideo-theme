@@ -619,47 +619,64 @@ section.icons {
 .page-template-page-gateway .sectionhero {
   background-image: url("img/gateway-hero-2.jpg"); }
 
-.page-id-794 .infoboxes .ibox {
+.page-id-800 .infoboxes .ibox {
   padding: 7em 0; }
 
-.page-id-794 .sectionhero {
+.page-id-800 .sectionhero {
   background: url("img/promos/grammys-splash.jpg") no-repeat fixed;
   background-size: cover;
   height: 100vh; }
 
-.page-id-794 .sectionoverlay {
+.page-id-800 .sectionoverlay {
   background: rgba(0, 32, 105, 0.5); }
-  .page-id-794 .sectionoverlay h1 {
-    padding-top: 20vh;
+  .page-id-800 .sectionoverlay h1 {
+    padding-top: 35vh;
     padding-bottom: 8vh; }
-  .page-id-794 .sectionoverlay h4 {
-    padding-bottom: 8vh; }
+  .page-id-800 .sectionoverlay h4 {
+    padding-bottom: 8vh;
+    text-shadow: 2px 2px 13px rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1.6em; }
 
-.page-id-794 .navbar {
+.page-id-800 .navbar {
   display: none; }
 
-.page-id-794 .main-footer .ftmain {
+.page-id-800 .main-footer .ftmain {
   display: none; }
 
-.page-id-794 .gateway {
-  background: url("img/promos/gateway-1.jpg") center center no-repeat fixed; }
+.page-id-800 .gateway {
+  background: url("img/promos/gateway-1.jpg") center center no-repeat fixed;
+  background-size: cover; }
 
-.page-id-794 .crossroads .img-responsive {
-  margin-top: 30px; }
+.page-id-800 .crossroads .img-responsive {
+  margin-top: 50px; }
 
-.page-id-794 .crossroads {
+.page-id-800 .img-responsive {
+  transition: 1s; }
+
+.page-id-800 .img-responsive:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2); }
+
+.page-id-800 .crossroads {
   background: url("img/promos/crossroads-bg.jpg") center center no-repeat fixed;
   background-size: cover; }
 
-.page-id-794 .splashbtn {
+.page-id-800 .splashbtn {
   font-size: 20px;
   width: 15em;
   margin-bottom: 1em; }
 
-.page-id-794 .dn-arro {
+.page-id-800 .dn-arro {
   margin: auto;
   text-align: center;
   display: block; }
+
+.page-id-800 h3 {
+  font-weight: 600; }
+  .page-id-800 h3 span {
+    font-weight: 400; }
 
 /*--------------------------------------------------------------
 # Layout

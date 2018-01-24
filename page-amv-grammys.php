@@ -15,18 +15,18 @@
 get_header(); ?>
 <div class="amv-grammys">
 
- <section class="sectionhero">
+ <section style="display: none;" class="sectionhero">
   <div class="sectionoverlay">
 
 
 
 
-<div class="col-xl-6 offset-xl-3 pl-md-5 pr-md-5 sectionherotext" >
+<div class="  sectionherotext" >
     <h1>AMV AT THE 60th 
 GRAMMY AWARDS
 </h1>
  <h4>The Grammys return to NYC and All Mobile Video won’t miss a beat of the action!
-Check out all the services AMV is providing to bring it together.</h4>
+<br>Check out all the services AMV is providing to bring it together.</h4>
 <!--   <h2>AMV Gateway’s teleport provides a superior mix of data and video service. Both domestic and international antennas are available as well as multi-format global fiber connectivity. </h2> -->
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contact"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US <br> FOR YOUR NEXT PROJECT</a>
   <a class="page-scroll" href="#gateway"><img class="dn-arro " src="<?php echo get_template_directory_uri()?>/img/promos/dn-arro.png"></a>
@@ -37,7 +37,7 @@ Check out all the services AMV is providing to bring it together.</h4>
 
 </section>
 
-
+<?php echo do_shortcode( '[rev_slider alias="promo-grammys"]' ); ?>
 
     <!-- Page Content -->
   
@@ -49,13 +49,13 @@ Check out all the services AMV is providing to bring it together.</h4>
                   <img class="img-responsive mt-md-5 " src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt="">
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
-                  <h3>AMV Gateway Transmission </h3>
-                  <p>Starting Jan 25th, Live Promos will be transmitted by AMV Gateway directly from Madison Square Garden until the night of the show on CBS. </p>
-                  <p><em>Click <a href="/gateway/">here</a> to find out how AMV Gateway can get your live production on the air!</em></p>
-                  <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/gateway" data-wow-delay=".3s">AMV GATEWAY</a>  
+                  <h3>AMV Gateway: <span>live promos &amp;  Interviews</span></h3>
+                  <p>Starting Jan 25th, Live Promos will be transmitted by AMV Gateway directly from Madison Square Garden until the night of the show on CBS. Billboard Magazine will also utilize AMV’s fiber interconnectivity to broadcast live interviews and their pool feed from the Red Carpet.</p>
+                  <p><em>Click <a href="/gateway/"  target="_blank">here</a> to find out how AMV Gateway can get your live production on air!</em></p>
+                  <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/gateway" data-wow-delay=".3s"  target="_blank">AMV GATEWAY</a>  
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down">
-                  <img class="img-responsive mt-md-5 wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt="">
+                  <a href="/gateway/"  target="_blank"><img class="img-responsive mt-md-5 wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -64,14 +64,13 @@ Check out all the services AMV is providing to bring it together.</h4>
             <div class="container">
               <div class="row">
                  <div class="col-md-6 text-center">
-                  <img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/crossroads-1.png" alt="">
+                  <a href="/mobile/crossroads/" target="_blank"><img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/crossroads-1.png" alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInRight">
-                  <h3>Crossroads </h3>
-                  <p>Not-for-air productions deserve the same top-notch technology and engineering that live ones receive. 
-AMV’s CROSSROADS will bring insiders & nominees the Grammy Awards Premiere Ceremony happening at MSG before the main show kicks off. 
-</p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/mobile/crossroads">View Crossroads</a>
+                  <h3>Crossroads: <span>Grammy Awards Premiere Ceremony</span></h3>
+                  <p>Not-for-air productions deserve the same top-notch technology and engineering that live ones receive. AMV’s CROSSROADS will bring insiders &amp; nominees the Grammy Awards Premiere Ceremony happening at MSG before the main show kicks off.</p>
+                   <p><em>Click <a href="/mobile/crossroads/" target="_blank">here</a> for more info on Crossroads </em></p>
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/mobile/crossroads" target="_blank">Crossroads Production Truck</a>
                 </div>
               </div>
             </div>
@@ -83,12 +82,13 @@ AMV’s CROSSROADS will bring insiders & nominees the Grammy Awards Premiere Cer
                   <img class="img-responsive  wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt="">
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
-                  <h3>Zurich  </h3>
-                  <p>Go big or go home! When it comes to covering a Red Carpet of music’s biggest stars – the logical choice is AMV’s largest and most powerful Production Truck. ZURICH – managed by AMV’s top Engineers - will be positioned in the middle of the excitement</p>
-                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/zurich">View Zurich</a> 
+                  <h3>Zurich: <span>Grammys Red Carpet Show</span>  </h3>
+                  <p>Go big or go home! When it comes to covering a Red Carpet of music’s biggest stars – the logical choice is AMV’s largest and most powerful Production Truck. <br>ZURICH – managed by AMV’s top Engineers - will be prepped, parked &amp; powered for this epic event.</p>
+                   <p><em>Check out the specs &amp; diagrams  <a href="/mobile/zurich/"  target="_blank">here</a>.</em></p>
+                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/zurich"  target="_blank">Zurich Production Truck</a> 
                 </div>
                 <div class="col-md-6 text-center  hidden-sm-down">
-                  <img class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt="">
+                  <a href="/mobile/zurich/"  target="_blank"><img class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -97,12 +97,13 @@ AMV’s CROSSROADS will bring insiders & nominees the Grammy Awards Premiere Cer
             <div class="container">
               <div class="row">
                 <div class="col-md-6 text-center">
-                  <img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-digitalmedia.png" alt="">
+                  <a href="/mobile/ku-4/"  target="_blank"><img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/ku4.png" alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInRight">
-                  <h3>Digital Media</h3>
-                  <p>AMV Digital Media is the only glass-to-glass live video provider with the experience to ensure that your live event is a guaranteed success.  All the pieces of this puzzle are finally in place. AMVDM is now ready to handle full production and distribution of your 4K events. </p>
-                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="http://www.amvdm.com" target="_blank">View Digital Media</a>
+                  <h3>KU4: <span>E!’s Red Carpet Show</span></h3>
+                  <p>Not to be over-shadowed by the main show - E!’s Red Carpet coverage requires a reliable, high-end Satellite Uplink Truck.<br> KU-4 will be on-site and fired up bringing you every live interview E! offers. </p>
+                     <p><em>Find out more about KU-4 and other Satellite options   <a href="/mobile/ku-4/"  target="_blank">here</a>.</em></p>
+                  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="/mobile/ku-4/" target="_blank">KU-4 UPLINK TRUCK</a>
                 </div>
               </div>
             </div>
@@ -111,20 +112,21 @@ AMV’s CROSSROADS will bring insiders & nominees the Grammy Awards Premiere Cer
             <div class="container">
               <div class="row">
                <div class="col-md-6 text-center mb-3 hidden-md-up">
-                  <img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-sales.png " alt="">
+                  <a href="/mobile/tapeless-video/"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png " alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
-                  <h3>Sales</h3>
-                  <p>As the “World’s Production Equipment Headquarters,” AMV Broadcast Sales offers the world’s top production equipment at competitive prices along with expert installation, training and support. </p>
-                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/sales">View Sales</a>
+                  <h3>HD Tapeless Carrypack &amp; Blackcam B60:  <br><span>Performance on NY Harbor</span></h3>
+                  <p>When one of the worlds’ biggest bands wants to televise their performance from a boat in the middle of NY Harbor - AMV is up to the challenge! Customized for this unique environment and incorporating the <a href="/rental/blackcam" target="_blank">Blackcam B60</a> – our <a href="/mobile/tapeless-video/" target="_blank">HD Tapeless Carrypack</a> will ensure a smooth production.  </p>
+                     <p><em>Get more info on how to configure this system to your needs   <a href="/mobile/tapeless-video/" target="_blank">here</a>.</em></p>
+                  <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/tapeless-video/">TAPELESS VIDEO CARRY PACK</a>
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down ">
-                  <img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/home-sales.png" alt="">
+                 <a href="/mobile/tapeless-video/" target="_blank"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png" alt=""></a>
                 </div>
               </div>
             </div>
           </div>
-           <div class="ibox transport dark" id="transport">
+<!--            <div class="ibox transport dark" id="transport">
             <div class="container">
               <div class="row">
             <div class="col-md-5 text-center">
@@ -144,7 +146,7 @@ AMV’s CROSSROADS will bring insiders & nominees the Grammy Awards Premiere Cer
               </div>
             </div>
           </div>
-        </section>
+  -->       </section>
         <section class="contact" id="contact">
           <div class="container">
             <div class="row">
