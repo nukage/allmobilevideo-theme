@@ -115,7 +115,7 @@ GRAMMY AWARDS
                   <a href="/mobile/tapeless-video/"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png " alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
-                  <h3>HD Tapeless Carrypack &amp; Blackcam B60:  <br><span>Performance on NY Harbor</span></h3>
+                  <h3>HD Tapeless Carrypack &amp; Blackcam:  <br><span>Performance on NY Harbor</span></h3>
                   <p>When one of the worlds’ biggest bands wants to televise their performance from a boat in the middle of NY Harbor - AMV is up to the challenge! 
 
 Our carrypack and <a href="/rental/blackcam" target="_blank">Blackcam</a> railcam systems epitomize speed and flexibility, with a go anywhere - do anything spirit.  
