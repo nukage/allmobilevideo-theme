@@ -71,7 +71,7 @@ GRAMMY AWARDS
                   <p>Not-for-air productions deserve the same top-notch technology and engineering that live ones receive. AMV’s CROSSROADS will bring insiders &amp; nominees the Grammy Awards Premiere Ceremony happening at MSG before the main show kicks off.</p>
                    <p><em>Click <a href="/mobile/crossroads/" target="_blank">here</a> for more info on Crossroads </em></p>
                   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/mobile/crossroads" target="_blank">Crossroads Production Truck</a>
-                </div>
+                </div> 
               </div>
             </div>
           </div>
@@ -83,12 +83,12 @@ GRAMMY AWARDS
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>Zurich: <span>Grammys Red Carpet Show</span>  </h3>
-                  <p>Go big or go home! When it comes to covering a Red Carpet of music’s biggest stars – the logical choice is AMV’s largest and most powerful Production Truck. <br>ZURICH – managed by AMV’s top Engineers - will be prepped, parked &amp; powered for this epic event.</p>
+                  <p>Go big or go home! When it comes to covering a Red Carpet of music’s biggest stars – the logical choice is AMV’s largest and most powerful Production Truck. <br>ZURICH – managed by AMV’s top Engineers - will be prepped, parked &amp; powered for this epic event. ZURICH will be prepped, parked & powered by AMV’s top Engineers for this epic event. </p><p>Once the Grammy’s Red Carpet is complete, ZURICH will transition over to capturing the Elton John Grammy’s Salute inside MSG.  Whether Crocodile Rock’n inside for Elton-or capturing the arrivals and fashion of the music industry’s biggest night outdoors- ZURICH does it all.</p>
                    <p><em>Check out the specs &amp; diagrams  <a href="/mobile/zurich/"  target="_blank">here</a>.</em></p>
                    <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/zurich"  target="_blank">Zurich Production Truck</a> 
                 </div>
                 <div class="col-md-6 text-center  hidden-sm-down">
-                  <a href="/mobile/zurich/"  target="_blank"><img class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt=""></a>
+                  <a href="/mobile/zurich/"  target="_blank"><img style="margin-top:5em;" class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -116,7 +116,12 @@ GRAMMY AWARDS
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>HD Tapeless Carrypack &amp; Blackcam B60:  <br><span>Performance on NY Harbor</span></h3>
-                  <p>When one of the worlds’ biggest bands wants to televise their performance from a boat in the middle of NY Harbor - AMV is up to the challenge! Customized for this unique environment and incorporating the <a href="/rental/blackcam" target="_blank">Blackcam B60</a> – our <a href="/mobile/tapeless-video/" target="_blank">HD Tapeless Carrypack</a> will ensure a smooth production.  </p>
+                  <p>When one of the worlds’ biggest bands wants to televise their performance from a boat in the middle of NY Harbor - AMV is up to the challenge! 
+
+Our carrypack and <a href="/rental/blackcam" target="_blank">Blackcam</a> railcam systems epitomize speed and flexibility, with a go anywhere - do anything spirit.  
+Whether on land, sea or air; AMV has solutions for your unique technical challenges!
+
+                 </p>
                      <p><em>Get more info on how to configure this system to your needs   <a href="/mobile/tapeless-video/" target="_blank">here</a>.</em></p>
                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/tapeless-video/" target="_blank">TAPELESS VIDEO CARRY PACK</a>
                 </div>
