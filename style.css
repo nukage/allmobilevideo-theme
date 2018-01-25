@@ -619,63 +619,63 @@ section.icons {
 .page-template-page-gateway .sectionhero {
   background-image: url("img/gateway-hero-2.jpg"); }
 
-.page-id-800 .infoboxes .ibox {
+.page-id-811 .infoboxes .ibox {
   padding: 7em 0; }
 
-.page-id-800 .sectionhero {
+.page-id-811 .sectionhero {
   background: url("img/promos/grammys-splash.jpg") no-repeat fixed;
   background-size: cover;
   height: 100vh; }
 
-.page-id-800 .sectionoverlay {
+.page-id-811 .sectionoverlay {
   background: rgba(0, 32, 105, 0.5); }
-  .page-id-800 .sectionoverlay h1 {
+  .page-id-811 .sectionoverlay h1 {
     padding-top: 35vh;
     padding-bottom: 8vh; }
-  .page-id-800 .sectionoverlay h4 {
+  .page-id-811 .sectionoverlay h4 {
     padding-bottom: 8vh;
     text-shadow: 2px 2px 13px rgba(0, 0, 0, 0.9);
     font-weight: 700;
     letter-spacing: .04em;
     line-height: 1.6em; }
 
-.page-id-800 .navbar {
+.page-id-811 .navbar {
   display: none; }
 
-.page-id-800 .main-footer .ftmain {
+.page-id-811 .main-footer .ftmain {
   display: none; }
 
-.page-id-800 .gateway {
+.page-id-811 .gateway {
   background: url("img/promos/gateway-1.jpg") center center no-repeat fixed;
   background-size: cover; }
 
-.page-id-800 .crossroads .img-responsive {
+.page-id-811 .crossroads .img-responsive {
   margin-top: 50px; }
 
-.page-id-800 .img-responsive {
+.page-id-811 .img-responsive {
   transition: 1s; }
 
-.page-id-800 .img-responsive:hover {
+.page-id-811 .img-responsive:hover {
   cursor: pointer;
   transform: scale(1.2, 1.2); }
 
-.page-id-800 .crossroads {
+.page-id-811 .crossroads {
   background: url("img/promos/crossroads-bg.jpg") center center no-repeat fixed;
   background-size: cover; }
 
-.page-id-800 .splashbtn {
+.page-id-811 .splashbtn {
   font-size: 20px;
   width: 15em;
   margin-bottom: 1em; }
 
-.page-id-800 .dn-arro {
+.page-id-811 .dn-arro {
   margin: auto;
   text-align: center;
   display: block; }
 
-.page-id-800 h3 {
+.page-id-811 h3 {
   font-weight: 600; }
-  .page-id-800 h3 span {
+  .page-id-811 h3 span {
     font-weight: 400; }
 
 /*--------------------------------------------------------------
