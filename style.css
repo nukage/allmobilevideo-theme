@@ -655,7 +655,7 @@ section.icons {
 .page-id-811 .img-responsive {
   transition: 1s; }
 
-.page-id-811 .img-responsive:hover {
+.page-id-811 .hoverme:hover {
   cursor: pointer;
   transform: scale(1.2, 1.2); }
 

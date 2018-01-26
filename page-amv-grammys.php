@@ -13,6 +13,7 @@
  */
 
 get_header(); ?>
+<meta property="og:image"              content="http://www.allmobilevideo.com/wp-content/uploads/revslider/promo-grammys/02-grammys-trophy-billboard-1548.jpg" />
 <div class="amv-grammys">
 
  <section style="display: none;" class="sectionhero">
@@ -55,7 +56,7 @@ GRAMMY AWARDS
                   <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/gateway" data-wow-delay=".3s"  target="_blank">AMV GATEWAY</a>  
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down">
-                  <a href="/gateway/"  target="_blank"><img class="img-responsive mt-md-5 wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt=""></a>
+                  <a href="/gateway/"  target="_blank" class="hoverme"><img class="img-responsive mt-md-5 wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/amv-gateway.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -64,7 +65,7 @@ GRAMMY AWARDS
             <div class="container">
               <div class="row">
                  <div class="col-md-6 text-center">
-                  <a href="/mobile/crossroads/" target="_blank"><img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/crossroads-1.png" alt=""></a>
+                  <a href="/mobile/crossroads/" target="_blank" class="hoverme"><img class="img-responsive wow fadeInLeft" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/crossroads-1.png" alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInRight">
                   <h3>Crossroads: <span>Grammy Awards Premiere Ceremony</span></h3>
@@ -89,7 +90,7 @@ AMV’s CROSSROADS will bring the Grammy Awards Premiere Ceremony from The Theat
                    <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/zurich"  target="_blank">Zurich Production Truck</a> 
                 </div>
                 <div class="col-md-6 text-center  hidden-sm-down">
-                  <a href="/mobile/zurich/"  target="_blank"><img style="margin-top:7em;" class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt=""></a>
+                  <a href="/mobile/zurich/"  target="_blank" class="hoverme"><img style="margin-top:7em;" class="img-responsive  wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/zurich-1.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -113,7 +114,7 @@ AMV’s CROSSROADS will bring the Grammy Awards Premiere Ceremony from The Theat
             <div class="container">
               <div class="row">
                <div class="col-md-6 text-center mb-3 hidden-md-up">
-                  <a href="/mobile/tapeless-video/"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png " alt=""></a>
+                  <a href="/mobile/tapeless-video/" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png " alt=""></a>
                 </div>
                 <div class="col-md-6 descrip wow fadeInLeft">
                   <h3>HD Tapeless Carrypack &amp; Blackcam:  <br><span>Performance on NY Harbor</span></h3>
@@ -127,7 +128,7 @@ Our carrypack and <a href="/rental/blackcam" target="_blank">Blackcam</a> railca
                   <a role="button" class="btn btn-primary custom-btn wow fadeInLeft" href="<?php echo get_home_url(); ?>/mobile/tapeless-video/" target="_blank">TAPELESS VIDEO CARRY PACK</a>
                 </div>
                 <div class="col-md-6 text-center hidden-sm-down ">
-                 <a href="/mobile/tapeless-video/" target="_blank"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png" alt=""></a>
+                 <a href="/mobile/tapeless-video/" target="_blank" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/promos/tapeless.png" alt=""></a>
                 </div>
               </div>
             </div>
