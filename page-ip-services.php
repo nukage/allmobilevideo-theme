@@ -148,7 +148,7 @@ All services are monitored and controlled via a state-of-the-art control center,
 <li>One-touch HD streaming to Facebook live and other platforms</li>
 <li>Broadcast like a pro for an affordable price</li>
 </ul>
-      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="<?php echo get_home_url(); ?>/#" data-wow-delay=".3s"  target="_blank">LIVE U</a>  
+      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="<?php echo get_home_url(); ?>/#" data-wow-delay=".3s"  target="_blank">LIVE U SOLO</a>  
     </div>
     <div class="col-md-6 text-center hidden-sm-down">
       <a href="/gateway/"  target="_blank" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
