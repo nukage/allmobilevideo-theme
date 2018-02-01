@@ -1867,3 +1867,11 @@ img {
 
 .product-content .gallery-columns-3 .gallery-icon img:hover {
   transform: scale(1.1, 1.1); }
+
+#liveu-box {
+  padding: 7em 0;
+  background: #EEEEEE;
+  background-image: url(img/circles.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain; }

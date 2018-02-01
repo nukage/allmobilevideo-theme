@@ -54,10 +54,11 @@
               <div class="offset-md-5 offset-lg-0 col-md-3 col-sm-6 col-lg-2 text-sm-left text-left col-5  offset-sm-0">
                 <h6>Video Transport / IP</h6>
                 <ul>
-                  <li><a href="<?php echo get_home_url(); ?>/gateway/">AMV Gateway</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/satellite-services/">AMV Satellite Services</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/master-control/">AMV Master Control</a></li>
-                  <li><a href="http://amvdm.com/" target="_blank">AMV Digital Media</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/gateway/">Gateway</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/satellite-services/">Satellite Services</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/master-control/">Master Control</a></li>
+                  <li><a href="http://amvdm.com/" target="_blank">Digital Media</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/ip-services/">IP Services &amp; LiveU</a></li>
                 </ul>
               
 
