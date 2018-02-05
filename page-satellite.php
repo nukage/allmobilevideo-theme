@@ -25,7 +25,7 @@ get_header(); ?>
           <h4>
 Westar provides customers with national video contribution and distribution over satellite or IP.</h4>
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
-  <div class="pb-xl-5"></div>
+<!--   <div class="pb-xl-5"></div> -->
 </div>
     <div class="sectionherooverlay">
 

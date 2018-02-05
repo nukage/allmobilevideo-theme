@@ -42,42 +42,20 @@ get_header(); ?>
 <!--         <h4>
 All services are monitored and controlled via a state-of-the-art control center, which is staffed with experienced technical personnel twenty-four hours a day.</h4> -->
     </div>
-
   </div>
-
-
-
-
 </section>
-
-
-
-
-
-
 <div class="bluebar">
     <div class="container">
         <div class="row">
-            
-            <div class="col-sm-12" style="height:30px;">  
-</div>
- 
+            <div class="col-sm-12" style="height:30px;"></div>
         </div>
     </div>
 </div>
-
-
-
-
 <section class="gatewayinfo">
 	<div class="container">
 		<div class="row">
-
-        
-		<div class="col-md-8 bloglook">
-                 
+		<div class="col-md-8 bloglook">     
     <h3> AMV offers the IP Transport technology and services you’re looking for :</h3>
-   
     <ul class="listy">
         <li>
             Encoding/Decoding
@@ -107,11 +85,9 @@ All services are monitored and controlled via a state-of-the-art control center,
 <h5 style="padding:30px 0 5px">Introducing the LU600</h5>
 <div style="margin-bottom:20px;" class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAdfA2hwK2w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 </div>
 		 <section class='sidebarcontactinfo hidden-sm-down'>
     <h4>Inquiries</h4>
-
     <ul>
     <li>
 		<ul>
@@ -121,9 +97,7 @@ All services are monitored and controlled via a state-of-the-art control center,
 			<li>e: <a target="_blank" href="mailto:llaxer@amvchelsea.com">llaxer@amvchelsea.com</a></li>
 		</ul>
 	</li>
-	 
 </ul>
- 
     </section></div>
 	</div></div>
 </section>
@@ -134,36 +108,32 @@ All services are monitored and controlled via a state-of-the-art control center,
 <div class="container" >
   <div class="row">
   <div class="col-md-6 text-center hidden-md-up">
-      <a href="#"  target="_blank"><img class="img-responsive  " src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
+      <a href="https://shop.liveu.tv?rfsn=1024063.e35287"  target="_blank"><img class="img-responsive  " src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
     </div>
     <div class="col-md-6 descrip wow fadeInLeft" id="overview">
       <h2>LiveU Solo</span></h2>
-      
       <ul class="mt-md-4">
       	<p>The LiveU Solo video encoder offers one-touch, wireless streaming, directly from your camera to Facebook Live and delivers professional quality live video streams without a large crew, lots of equipment or steep learning curve. LiveU Solo lets online broadcasters of all sizes live stream HD video content directly to any online video provider - from anywhere.</p>
       	<li>It’s a plug-and-play, end-to-end live video streaming solution</li>
-<li>Keep more viewers engaged with a reliable stream</li>
-<li>Send a high-quality stream from remote locations or in heavy crowds</li>
-<li>Get out of the studio and broadcast in HD from anywhere</li>
-<li>One-touch HD streaming to Facebook live and other platforms</li>
-<li>Broadcast like a pro for an affordable price</li>
-</ul>
-      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="<?php echo get_home_url(); ?>/#" data-wow-delay=".3s"  target="_blank">LIVE U SOLO</a>  
+        <li>Keep more viewers engaged with a reliable stream</li>
+        <li>Send a high-quality stream from remote locations or in heavy crowds</li>
+        <li>Get out of the studio and broadcast in HD from anywhere</li>
+        <li>One-touch HD streaming to Facebook live and other platforms</li>
+        <li>Broadcast like a pro for an affordable price</li>
+      </ul>
+      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="<?php echo get_home_url(); ?>/#" data-wow-delay=".3s"  target="_blank">Purchase LiveU Solo</a>  
     </div>
     <div class="col-md-6 text-center hidden-sm-down">
       <a href="/gateway/"  target="_blank" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
     </div>
   </div>
 </div>
- 
  </section>
- 
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">
 			<h4 class="">Other Services Available</h4>
 		</div>
-		
 	</div>
 	<div class="container">
 		<div class="row">
@@ -180,16 +150,9 @@ All services are monitored and controlled via a state-of-the-art control center,
 			</div>
 		</div>
 	</div>
-	
 </section>
-
- 
 <?php dynamic_contact($postID) ?>
- 
-	
 			</script>
 			<?php
-			
 			get_footer();
 			?>
-			

@@ -408,7 +408,7 @@ li{
 			}
 	}
 	.sectionherooverlay{
-		position: absolute;
+	 
 		bottom:0;
 		// height:9rem;
 		width:100%;
@@ -1261,11 +1261,13 @@ margin:40px auto;}
 
 //buttons
 
-.splashbtn{
-	margin:auto;
+.splashbtn{ 
 	display:block;
 	width:12em;
-	margin-bottom:6em;
+	margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
 	font-size: 1.5em;
 	border-radius:.2em;
 	font-weight:600;
@@ -1288,14 +1290,11 @@ margin:40px auto;}
 	transition: .4s  all;
 	transform: scale(1,1)  translate(0%, -100%);
 	z-index:-1;
- 
 }
 .splashbtn:hover:before{
-background: lighten(rgba(3, 121, 255, 1), 0%);
-// background:#fff;
-
-transform: scale(1,1) translate(0%,  0%);
- 
+	background: lighten(rgba(3, 121, 255, 1), 0%);
+	// background:#fff;
+	transform: scale(1,1) translate(0%,  0%);
 }
 .splashbtn:hover{
 	border:1px solid #fff;
@@ -1306,11 +1305,10 @@ transform: scale(1,1) translate(0%,  0%);
 .page-template-page-post {
 	.transfersuite{
 		background: url('img/post-transfersuite.jpg');
-		 background-size:cover;
+		background-size:cover;
 		background-position: center center;
 		padding-top:80px;
 		padding-bottom: 80px;
-		
 		h1,h2,h3{
 			text-align: center;
 			color:white;
@@ -1349,10 +1347,10 @@ transform: scale(1,1) translate(0%,  0%);
 			font-size:22px;
 			border-bottom:1px solid #ccc;
 			padding-bottom:8px;		}
-		font-family: roboto;
-		padding:2em;
-		font-weight:300;
-		background:   90% 100% #F2F2F2 no-repeat;
+			font-family: roboto;
+			padding:2em;
+			font-weight:300;
+			background:   90% 100% #F2F2F2 no-repeat;
 		ul, li{
 			list-style-type: none;
 			margin:0;padding:0;

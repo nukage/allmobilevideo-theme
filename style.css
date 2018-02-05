@@ -963,7 +963,6 @@ img {
     line-height: 32px; }
 
 .sectionherooverlay {
-  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 2rem 0;
@@ -1613,10 +1612,12 @@ img {
       margin: .5em 0; }
 
 .splashbtn {
-  margin: auto;
   display: block;
   width: 12em;
-  margin-bottom: 6em;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
   font-size: 1.5em;
   border-radius: .2em;
   font-weight: 600;

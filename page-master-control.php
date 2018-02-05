@@ -28,7 +28,7 @@ get_header(); ?>
 	<!--   <h2>Master control center, media management, and business services for independent, small group, and public television broadcasters.</h2> -->
 	     <h4>Master control center, media management for independent, small group, and public television broadcasters.</h4>
 	  <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
-	  <div class="pb-xl-5"></div>
+	<!--   <div class="pb-xl-5"></div> -->
 	</div>
     <div class="sectionherooverlay">
           <h3>MASTER CONTROL SERVICES</h3>
