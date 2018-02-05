@@ -58,7 +58,7 @@
                   <li><a href="<?php echo get_home_url(); ?>/satellite-services/">Satellite Services</a></li>
                   <li><a href="<?php echo get_home_url(); ?>/master-control/">Master Control</a></li>
                   <li><a href="http://amvdm.com/" target="_blank">Digital Media</a></li>
-                  <li><a href="<?php echo get_home_url(); ?>/ip-services/">IP Services &amp; LiveU</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/ip-services/">IP Services</a></li>
                 </ul>
               
 

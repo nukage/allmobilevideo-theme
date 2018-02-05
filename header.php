@@ -84,7 +84,7 @@
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/gateway">AMV Gateway</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/satellite-services">Westar Satellite Services</a>
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/master-control">Westar Master Control</a>
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/ip-services">IP Services &amp; Live U</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/ip-services">IP Services</a>
               </li>
                       <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="<?php echo get_home_url(); ?>/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
