@@ -102,13 +102,13 @@ All services are monitored and controlled via a state-of-the-art control center,
 	</div></div>
 </section>
 
-
+<!--
 <section id="liveu-box">
  
-<div class="container" >
+<div class="container">
   <div class="row">
   <div class="col-md-6 text-center hidden-md-up">
-      <a href="https://shop.liveu.tv?rfsn=1024063.e35287"  target="_blank"><img class="img-responsive  " src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
+      <a href="#"  target="_blank"><img class="img-responsive  " src="#" alt=""></a>
     </div>
     <div class="col-md-6 descrip wow fadeInLeft" id="overview">
       <h2>LiveU Solo</span></h2>
@@ -121,14 +121,14 @@ All services are monitored and controlled via a state-of-the-art control center,
         <li>One-touch HD streaming to Facebook live and other platforms</li>
         <li>Broadcast like a pro for an affordable price</li>
       </ul>
-      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="https://shop.liveu.tv?rfsn=1024063.e35287" data-wow-delay=".3s"  target="_blank">Purchase LiveU Solo</a>  
+      <a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 " href="#" data-wow-delay=".3s"  target="_blank">Purchase LiveU Solo</a>  
     </div>
     <div class="col-md-6 text-center hidden-sm-down">
-      <a href="https://shop.liveu.tv?rfsn=1024063.e35287"  target="_blank" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri()?>/img/live-u.png" alt=""></a>
+      <a href="#"  target="_blank" class="hoverme"><img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="#" alt=""></a>
     </div>
   </div>
 </div>
- </section>
+ </section> -->
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">
