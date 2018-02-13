@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-md-6 descrip wow fadeInRight">
                   <h3>Stages</h3>
-                  <p>AMV’s Manhattan-based sound stages are conveniently located in Chelsea and Midtown West. Each stage is fully customizable to meet the needs of your production from beginning to end. Providing cutting edge technology, effortless load-in access and ample support space, AMV’s Sound Stages are able to accommodate all of your production needs.</p>
+                  <p>AMV’s Manhattan-based sound stages are conveniently located in Chelsea and Midtown West. Each stage is fully customizable to meet the needs of your production from beginning to end. Providing cutting edge technology, effortless load-in access and ample support space, AMV’s Sound Stages are able to accommodate all of your production needs. All of AMV's NY stages are Level 2 Qualified Production Facilities.</p>
                   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInRight" href="<?php echo get_home_url(); ?>/stage">View Stages</a>
                 </div>
               </div>
