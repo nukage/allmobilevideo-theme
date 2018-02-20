@@ -50,6 +50,21 @@ $categories = get_terms($args);
 
 <?php
 if ($cateID === 0){
+
+
+?>
+<section style="background:black; padding-top:80px;">
+<div class="container" >
+  <div class="row">
+    <a href="/sales/sony-mvs8000/"><img src="<?php echo get_template_directory_uri() . '/img/promos/switcher-promo.jpg'; ?>" alt="" style="   
+    width: auto;
+    margin: auto;
+    display: block;"> </a>
+    <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="/sales/sony-mvs8000/" style="visibility: visible; animation-name: fadeInRight;">MORE INFO</a>
+  </div>
+</div>
+</section>
+<?php
 echo do_shortcode( '[rev_slider alias="sales-slider"]' ); ?>
 
 <?php
