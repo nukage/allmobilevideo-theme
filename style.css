@@ -710,7 +710,7 @@ section.icons {
 .footersocialinfo a span, .sidebar_social a span {
   display: none; }
 
-.footersocialinfo a:before, .sidebar_social a:before {
+.footersocialinfo a.social:before, .sidebar_social a.social:before {
   float: left;
   position: relative;
   margin-top: -10px;
@@ -744,6 +744,17 @@ section.icons {
 
 .footersocialinfo a[href*="linkedin"]:hover:before, .sidebar_social a[href*="linkedin"]:hover:before {
   background-color: #966842; }
+
+.mail-signup-ft {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 16px; }
+  .mail-signup-ft a {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -1876,3 +1887,14 @@ img {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain; }
+
+.mail-signup-ft {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 16px; }
+  .mail-signup-ft a {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px; }

@@ -64,17 +64,39 @@
 
     
               </div>
-              <div class="col-md-4 col-sm-12  footersocialinfo text-sm-left text-left text-md-left pt-sm-3 pt-md-0 col-lg-3 offset-3 offset-sm-0 pt-4 pt-sm-0 ">
+              <div class="col-md-4 col-sm-12 footersocialinfo  text-sm-left text-left text-md-left pt-sm-3 pt-md-0 col-lg-3 offset-3 offset-sm-0 pt-4 pt-sm-0 ">
                 <h6>Follow Us:</h6>
-                <ul><li><a href="https://www.facebook.com/allmobilevideo/" target="_blank"><span>Facebook</span></a></li>
-                <li><a href="https://twitter.com/allmobilevideo" target="_blank"><span>Twitter</span></a></li>
-                <li><a href="https://www.linkedin.com/company/all-mobile-video" target="_blank"><span>LinkedIn</span></a></li></ul>
+                <ul><li><a class="social" href="https://www.facebook.com/allmobilevideo/" target="_blank"><span>Facebook</span></a></li>
+                <li><a class="social" href="https://twitter.com/allmobilevideo" target="_blank"><span>Twitter</span></a></li>
+                <li><a class="social" href="https://www.linkedin.com/company/all-mobile-video" target="_blank"><span>LinkedIn</span></a></li></ul>
                 <div class="clearfix"></div>
                 <form class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down" action="<?php echo get_site_url() ; ?>" role="search" method="get" >
                   <input class="form-control footersearch" type="text" placeholder="Search" name="s" >
                   <button class="btn  my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                <div class="mail-signup-ft">
+<div>Sign up for AMV News and &amp; EXCLUSIVE Offers!</div><a role="button" class="btn btn-primary custom-btn btn-mail-signup-ft" href="#" data-target="#mailchimp" class="icon-links" data-toggle="modal">SIGN UP</a></div>
+<div class="modal fade" id="mailchimp" tabindex="-1" role="dialog" aria-labelledby="mailchimpModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mailchimpLabel">SIGN UP FOR AMV NEWS &amp; EXCLUSIVE OFFERS!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body row" >
+    
+        
+        <iframe width="500px" height="700px"  src="http://eepurl.com/dlJ_0j"></iframe>
+        
+      </div>
+  
+    </div>
+  </div>
+</div>
               </div>
+
             </div>
              <div class="row">
             <div class="col-lg-12 pr-5 text-right">
