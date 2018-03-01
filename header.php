@@ -55,10 +55,14 @@
             
          
                <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile<span class="sr-only">(current)</span>
+              <a class="nav-link dropdown-toggle" id="mobile-rentals" href="<?php echo get_home_url(); ?>/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile<span class="sr-only">(current)</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="mobile">
-                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile">Mobile Production</a>
+                <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile">Full Fleet</a>
+               <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-production&scroll=1">Production</a>
+                  <a  class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-uplink&scroll=1">Uplink</a>
+                  <a  class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile/#mputype=mputype-carry-pack&scroll=1">Carry-Packs</a>
+               
                 <a class="dropdown-item" href="<?php echo get_home_url(); ?>/mobile-specs">Spec Sheets</a>
               </li>
               <li class="nav-item">
