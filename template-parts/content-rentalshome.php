@@ -94,7 +94,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 <?php if ($current != 'rentals_product'){ ?>
 
  <section class="rental-product-categories container " >
-<h2 class="text-center" style="padding-bottom:20px;">Featured Systems</h2>
+<h2 class="text-center" style="padding-bottom:20px;">Featured Systems and Equipment</h2>
 
             <div class="col-sm-12 rental-products ">
               <div class="row featured-systems">
@@ -150,6 +150,17 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
   <header class="entry-header">
     Blackcam                   
     <span class="field-model">Rail Based Camera Tracking System</span>
+  </header><!-- .entry-header -->
+     </a>
+</div><!-- .product -->
+<div class="col-sm-3 product">
+   <a href="http://www.amv.dev/rental/canon-fpm-420d/">
+      <div class="imgholder mx-auto">
+        <img src="/wp-content/uploads/2018/03/HJ15ex8.5B-KRSE-V_675x450-360x230.jpg" >
+      </div>
+  <header class="entry-header">
+   Canon FPM-420D               
+    <span class="field-model">Portable HD Zoom Lens</span>
   </header><!-- .entry-header -->
      </a>
 </div><!-- .product -->
