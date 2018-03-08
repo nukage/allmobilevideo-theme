@@ -1891,3 +1891,11 @@ img {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain; }
+
+.post-slider-holder {
+  background: #191919;
+  padding: 20px 0 50px; }
+  .post-slider-holder h2 {
+    padding: 20px;
+    color: white;
+    text-align: center; }

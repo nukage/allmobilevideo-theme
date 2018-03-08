@@ -37,7 +37,20 @@
     <div class='hidden-sm-down'>
  
 
-      <?php get_template_part( 'template-parts/contactinfo',  'mobile' ); ?>
+       <section class='sidebarcontactinfo'>
+    <h4>Inquiries</h4>
+      <ul> 
+     
+      
+      
+      <li>
+        <ul>
+        <li><a target="_blank" href="mailto:contact@amvchelsea.com">contact@amvchelsea.com</a></li>
+          <li><a target="_blank" href="tel:2127271234">(212)727-1234</a> o</li>
+          <li><a target="_blank" href="tel:2122556644">(212)255-6644</a> f</li>
+        </ul>
+      </li></ul>
+    </section>
     </div>
   </div>
 <div class="col-sm-12 col-md-9 col-lg-10">   

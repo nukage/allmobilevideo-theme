@@ -17,12 +17,46 @@
   <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="#contactform"   style="visibility: visible; animation-name: fadeInRight;">CONTACT US</a>
   <div class="pb-xl-5"></div>
 </div>
+
     <div class="sectionherooverlay">
           <h3>Post</h3>
       
     </div>
   </div>
 </section>
+
+<section class="transfersuite">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 pb-5">
+          <?php echo do_shortcode('[rev_slider alias="transfer"]') ?>
+        </div>
+        <div class="col-lg-6">
+            <h2>Chelsea Post Transfer Suite</h2>
+  <h3>Now Available</h3>
+  <div class="insidebox row">
+    <div class="col-6">
+    <ul>
+      <li> Frame Rate Conversion</li>
+      <li>Audio Sweetening</li>
+      <li>Captioning</li>
+    </ul></div>
+     <div class="col-6">
+       <ul>
+         <li>Upload to Cloud</li>
+         <li>File Transfer</li>
+         <li>Quality Control Reports</li>
+       </ul>
+     </div>
+  </div>
+        </div>
+    </div>
+  </div>
+ 
+ 
+</section>
+<section class="post-slider-holder"> <h2 >FEATURED PROJECTS</h2>
+  <?php echo do_shortcode( '[rev_slider alias="post-shows"]' ); ?> </section>
 <section class="icons pt-5" id="services">
       <div class="container">
                 <div class="row">
@@ -69,25 +103,7 @@
           <!-- /.container -->
         </section>
 
-<section class="transfersuite">
-  <h2>COMING SOON!</h2>
-  <h3>Chelsea Post Transfer Suite</h3>
-  <div class="insidebox row">
-    <div class="col-6">
-    <ul>
-      <li> Frame Rate Conversion</li>
-      <li>Audio Sweetening</li>
-      <li>Captioning</li>
-    </ul></div>
-     <div class="col-6">
-       <ul>
-         <li>Upload to Cloud</li>
-         <li>File Transfer</li>
-         <li>Quality Control Reports</li>
-       </ul>
-     </div>
-  </div>
-</section>
+
         <section id="features">
           <h3 class="text-center pb-4">Equipment Inventory &amp; Capabilities </h3>
   <div class="container">

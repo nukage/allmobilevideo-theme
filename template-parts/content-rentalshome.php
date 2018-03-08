@@ -154,7 +154,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
      </a>
 </div><!-- .product -->
 <div class="col-sm-3 product">
-   <a href="http://www.amv.dev/rental/canon-fpm-420d/">
+   <a href="/rental/canon-fpm-420d/">
       <div class="imgholder mx-auto">
         <img src="/wp-content/uploads/2018/03/HJ15ex8.5B-KRSE-V_675x450-360x230.jpg" >
       </div>
