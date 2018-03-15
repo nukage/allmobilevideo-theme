@@ -51,6 +51,46 @@ All services are monitored and controlled via a state-of-the-art control center,
         </div>
     </div>
 </div>
+
+<section id="liveu-box">
+ 
+<div class="container">
+  <div class="row">
+  <div class="col-md-6 text-center hidden-md-up">
+      <a href="#"  target="_blank"><img class="img-responsive  " src="#" alt=""></a>
+    </div>
+    <div class="col-md-6 descrip wow fadeInLeft" id="overview">
+      <h2>Official Reseller of LiveU Products!</span></h2>
+
+
+
+
+<p>Special offers on Sales, Rentals and support available now</p>
+<p>The LiveU family of products are constantly providing new ways to deliver non-stop live video coverage.
+With LiveU's complete family of 3G/4G bonded uplink products, more options are available for live news and event coverage. </p><p>All LiveU products connect with LiveU Central, enabling control rooms to manage multiple incoming video feeds and content simply and effectively from units operating in different locations.</p>
+
+<p>Contact us for quotes and demos.</p>
+<a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 page-scroll" href="#contactform" data-wow-delay=".3s" >CONTACT</a>  
+
+
+
+      <!-- <ul class="mt-md-4">
+        <p>The LiveU Solo video encoder offers one-touch, wireless streaming, directly from your camera to Facebook Live and delivers professional quality live video streams without a large crew, lots of equipment or steep learning curve. LiveU Solo lets online broadcasters of all sizes live stream HD video content directly to any online video provider - from anywhere.</p>
+        <li>It’s a plug-and-play, end-to-end live video streaming solution</li>
+        <li>Keep more viewers engaged with a reliable stream</li>
+        <li>Send a high-quality stream from remote locations or in heavy crowds</li>
+        <li>Get out of the studio and broadcast in HD from anywhere</li>
+        <li>One-touch HD streaming to Facebook live and other platforms</li>
+        <li>Broadcast like a pro for an affordable price</li>
+      </ul> -->
+      
+    </div>
+    <div class="col-md-6 text-center hidden-sm-down">
+    <img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri(); ?>/img/promos/LU600_Solo_Comp.png" alt="">
+    </div>
+  </div>
+</div>
+ </section> 
 <section class="gatewayinfo">
 	<div class="container">
 		<div class="row">
@@ -111,45 +151,6 @@ All services are monitored and controlled via a state-of-the-art control center,
 </section>
 
 
-<section id="liveu-box">
- 
-<div class="container">
-  <div class="row">
-  <div class="col-md-6 text-center hidden-md-up">
-      <a href="#"  target="_blank"><img class="img-responsive  " src="#" alt=""></a>
-    </div>
-    <div class="col-md-6 descrip wow fadeInLeft" id="overview">
-      <h2>Official Reseller of LiveU Products!</span></h2>
-
-
-
-
-<p>Special offers on Sales, Rentals and support available now</p>
-<p>The LiveU family of products are constantly providing new ways to deliver non-stop live video coverage.
-With LiveU's complete family of 3G/4G bonded uplink products, more options are available for live news and event coverage. </p><p>All LiveU products connect with LiveU Central, enabling control rooms to manage multiple incoming video feeds and content simply and effectively from units operating in different locations.</p>
-
-<p>Contact us for quotes and demos.</p>
-<a role="button"  class="btn btn-primary custom-btn wow fadeInLeft  mt-md-3 page-scroll" href="#contactform" data-wow-delay=".3s" >CONTACT</a>  
-
-
-
-      <!-- <ul class="mt-md-4">
-      	<p>The LiveU Solo video encoder offers one-touch, wireless streaming, directly from your camera to Facebook Live and delivers professional quality live video streams without a large crew, lots of equipment or steep learning curve. LiveU Solo lets online broadcasters of all sizes live stream HD video content directly to any online video provider - from anywhere.</p>
-      	<li>It’s a plug-and-play, end-to-end live video streaming solution</li>
-        <li>Keep more viewers engaged with a reliable stream</li>
-        <li>Send a high-quality stream from remote locations or in heavy crowds</li>
-        <li>Get out of the studio and broadcast in HD from anywhere</li>
-        <li>One-touch HD streaming to Facebook live and other platforms</li>
-        <li>Broadcast like a pro for an affordable price</li>
-      </ul> -->
-      
-    </div>
-    <div class="col-md-6 text-center hidden-sm-down">
-    <img class="img-responsive wow fadeInRight" data-wow-delay=".5s" src="<?php echo get_template_directory_uri(); ?>/img/promos/LU600_Solo_Comp.png" alt="">
-    </div>
-  </div>
-</div>
- </section> 
 <section class="featured-pages">
 	<div class="other-services">
 		<div class="container">
