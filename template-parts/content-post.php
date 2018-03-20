@@ -24,39 +24,6 @@
     </div>
   </div>
 </section>
-
-<section class="transfersuite">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-6 pb-5">
-          <?php echo do_shortcode('[rev_slider alias="transfer"]') ?>
-        </div>
-        <div class="col-lg-6">
-            <h2>Chelsea Post Transfer Suite</h2>
-  <h3>Now Available</h3>
-  <div class="insidebox row">
-    <div class="col-6">
-    <ul>
-      <li> Frame Rate Conversion</li>
-      <li>Audio Sweetening</li>
-      <li>Captioning</li>
-    </ul></div>
-     <div class="col-6">
-       <ul>
-         <li>Upload to Cloud</li>
-         <li>File Transfer</li>
-         <li>Quality Control Reports</li>
-       </ul>
-     </div>
-  </div>
-        </div>
-    </div>
-  </div>
- 
- 
-</section>
-<section class="post-slider-holder"> <h2 >FEATURED PROJECTS</h2>
-  <?php echo do_shortcode( '[rev_slider alias="post-shows"]' ); ?> </section>
 <section class="icons pt-5" id="services">
       <div class="container">
                 <div class="row">
@@ -102,6 +69,39 @@
           </div>
           <!-- /.container -->
         </section>
+<section class="transfersuite">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 pb-5">
+          <?php echo do_shortcode('[rev_slider alias="transfer"]') ?>
+        </div>
+        <div class="col-lg-6">
+            <h2>Chelsea Post Transfer Suite</h2>
+  <h3>Now Available</h3>
+  <div class="insidebox row">
+    <div class="col-6">
+    <ul>
+      <li> Frame Rate Conversion</li>
+      <li>Audio Sweetening</li>
+      <li>Captioning</li>
+    </ul></div>
+     <div class="col-6">
+       <ul>
+         <li>Upload to Cloud</li>
+         <li>File Transfer</li>
+         <li>Quality Control Reports</li>
+       </ul>
+     </div>
+  </div>
+        </div>
+    </div>
+  </div>
+ 
+ 
+</section>
+<section class="post-slider-holder"> <h2 >FEATURED PROJECTS</h2>
+  <?php echo do_shortcode( '[rev_slider alias="post-shows"]' ); ?> </section>
+
 
 
         <section id="features">
@@ -165,7 +165,7 @@
 <li>  Broadcast QC</li>
 <li>  Dolby E encoding/decoding</li>
 <li>  AC3 encoding</li>
-<li> <a href="/mobile/nellie">Mobile editing</a></li>
+<li> <a href="/mobile/nle">Mobile editing</a></li>
 </ul>
         </div>
 

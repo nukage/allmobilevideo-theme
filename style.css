@@ -453,15 +453,15 @@ section.icons {
   line-height: 1.4em;
   padding-bottom: .5em; }
 
-.single-mobile .post-153 .product-nav-title, .single-mobile .post-464 .product-nav-title, .single-mobile .post-147 .product-nav-title, .single-mobile .post-149 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-stage .post-464 .product-nav-title, .single-stage .post-147 .product-nav-title, .single-stage .post-149 .product-nav-title, .single-rental .post-153 .product-nav-title, .single-rental .post-464 .product-nav-title, .single-rental .post-147 .product-nav-title, .single-rental .post-149 .product-nav-title, .single-sales .post-153 .product-nav-title, .single-sales .post-464 .product-nav-title, .single-sales .post-147 .product-nav-title, .single-sales .post-149 .product-nav-title {
+.single-mobile .post-153 .product-nav-title, .single-mobile .post-464 .product-nav-title, .single-mobile .post-147 .product-nav-title, .single-mobile .post-149 .product-nav-title, .single-mobile .post-591 .product-nav-title, .single-stage .post-153 .product-nav-title, .single-stage .post-464 .product-nav-title, .single-stage .post-147 .product-nav-title, .single-stage .post-149 .product-nav-title, .single-stage .post-591 .product-nav-title, .single-rental .post-153 .product-nav-title, .single-rental .post-464 .product-nav-title, .single-rental .post-147 .product-nav-title, .single-rental .post-149 .product-nav-title, .single-rental .post-591 .product-nav-title, .single-sales .post-153 .product-nav-title, .single-sales .post-464 .product-nav-title, .single-sales .post-147 .product-nav-title, .single-sales .post-149 .product-nav-title, .single-sales .post-591 .product-nav-title {
   overflow: hidden;
   scroll: vertical; }
-  .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2 {
+  .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-mobile .post-591 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-stage .post-591 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-rental .post-591 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2, .single-sales .post-591 .product-nav-title h2 {
     width: 90%;
     top: -10px;
     position: relative; }
     @media (min-width: 1200px) {
-      .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2 {
+      .single-mobile .post-153 .product-nav-title h2, .single-mobile .post-464 .product-nav-title h2, .single-mobile .post-147 .product-nav-title h2, .single-mobile .post-149 .product-nav-title h2, .single-mobile .post-591 .product-nav-title h2, .single-stage .post-153 .product-nav-title h2, .single-stage .post-464 .product-nav-title h2, .single-stage .post-147 .product-nav-title h2, .single-stage .post-149 .product-nav-title h2, .single-stage .post-591 .product-nav-title h2, .single-rental .post-153 .product-nav-title h2, .single-rental .post-464 .product-nav-title h2, .single-rental .post-147 .product-nav-title h2, .single-rental .post-149 .product-nav-title h2, .single-rental .post-591 .product-nav-title h2, .single-sales .post-153 .product-nav-title h2, .single-sales .post-464 .product-nav-title h2, .single-sales .post-147 .product-nav-title h2, .single-sales .post-149 .product-nav-title h2, .single-sales .post-591 .product-nav-title h2 {
         font-size: 2.0em; } }
 
 .single-mobile .tooltip-inner img, .single-stage .tooltip-inner img, .single-rental .tooltip-inner img, .single-sales .tooltip-inner img {
@@ -1539,9 +1539,6 @@ img {
       font-size: 12px;
       margin: 0 0 0 140px;
       padding: 0;
-      position: relative;
-      top: -28px;
-      margin-bottom: -10px;
       color: #575757; } }
 
 @media (max-width: 991px) {
