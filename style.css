@@ -149,9 +149,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   border-radius: 0 5px  5px 0;
   cursor: pointer; }
 
-@media (max-width: 990px) {
+@media (max-width: 990px) and (min-width: 576px) {
   .customsearchbar1 {
     margin-left: 37%; } }
+
+@media (max-width: 575px) {
+  .customsearchbar1 .form-control {
+    width: auto; } }
 
 #navbar2 .nav-pills .nav-item.show .nav-link {
   background: transparent; }
@@ -1773,7 +1777,9 @@ img {
   display: none; }
 
 .page-template-page-about .page-default-top {
-  background-image: url("img/about-hero-1.jpg"); }
+  background: url("img/about-hero-1.jpg");
+  background-size: cover;
+  background-position: center; }
   .page-template-page-about .page-default-top h1 {
     padding: 4em 0; }
 

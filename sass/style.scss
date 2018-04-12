@@ -1490,7 +1490,10 @@ margin:40px auto;}
 
 .page-template-page-about {
 		.page-default-top{
-			background-image: url("img/about-hero-1.jpg");
+			background: url("img/about-hero-1.jpg");
+			background-size: cover;
+			background-position: center ;
+
 			h1{
 				padding:4em 0;
 			}

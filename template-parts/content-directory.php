@@ -177,12 +177,6 @@
     <li><a href="tel:3107511925" target="_blank">(310) 751-1925</a>  o</li>
     <li><a href="tel:3102136923" target="_blank">(310) 213-6923</a> m</li>
   </ul>
-  <h4>Nick Jacobovitz</h4>
-  <ul>
-    <li><a href="mailto:nickj@amvchelsea.com" target="_blank">nickj@amvchelsea.com</a></li>
-    <li><a href="tel:3107511960" target="_blank">(310) 751-1960</a> o</li>
-    <li><a href="tel:8188230154" target="_blank">(818) 823-0154</a> m</li>
-  </ul>
   <h3>AMV RENTALS</h3>
   <h4>AMV FIELD OPERATIONS</h4>
   <ul>
