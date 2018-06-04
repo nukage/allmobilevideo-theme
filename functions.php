@@ -455,9 +455,9 @@ add_action( 'wp_footer', 'thankyou_wp_footer' );
 function thankyou_wp_footer() {
 ?>
 <script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-    location = '/thank-you/';
-}, false );
+// document.addEventListener( 'wpcf7mailsent', function( event ) {
+//     location = '/thank-you/';
+// }, false );
 </script>
 <?php
 }

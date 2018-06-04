@@ -159,7 +159,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
         <img src="/wp-content/uploads/2018/03/HJ15ex8.5B-KRSE-V_675x450-360x230.jpg" >
       </div>
   <header class="entry-header">
-   Canon FPM-420D               
+   CANON HJ15EX8.5BKRSE-V            
     <span class="field-model">Portable HD Zoom Lens</span>
   </header><!-- .entry-header -->
      </a>

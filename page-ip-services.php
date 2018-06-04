@@ -61,6 +61,8 @@ All services are monitored and controlled via a state-of-the-art control center,
     </div>
     <div class="col-md-6 descrip wow fadeInLeft" id="overview">
       <h2>Official Reseller of LiveU Products!</span></h2>
+      <p><strong>Missed the AMV &amp; LiveU Open House? <br><a href="http://www.allmobilevideo.com/openhouse/">Click here</a> to watch the recording of our live stream.</strong></p>
+
 
 
 
@@ -122,9 +124,9 @@ With LiveU's complete family of 3G/4G bonded uplink products, more options are a
       
 </div>
 		<div class="col-md-4 pb-5 pb-md-0">
-<h5 style="padding:30px 0 5px">Introducing the LU600</h5>
+<h5 style="padding:30px 0 5px">AMV - LiveU Demonstration</h5>
 <div style="margin-bottom:20px;" class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wAdfA2hwK2w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BvBwjom5DGs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 		 <section class='sidebarcontactinfo hidden-sm-down'>
     <h4>Inquiries</h4>
