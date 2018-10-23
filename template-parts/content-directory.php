@@ -130,9 +130,8 @@
        
             <li><a target="_blank" href="mailto:sales@amvchelsea.com">sales@amvchelsea.com</a></li>
             <li><a target="_blank" href="tel:2125868616">(212)586-8616</a></li>
-            <li>515 West 57th Street</li>
-            <li>Between 10th &amp; 11th Avenues</li>
-            <li>New York, NY 10019</li>
+<li>226 West 26th Street</li>
+  <li>New York, NY 10001</li>
         
   </ul>
   <h4>Erik Thielking</h4>
