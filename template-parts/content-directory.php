@@ -140,11 +140,8 @@
           <li><a target="_blank" href="tel:3478657797">(347) 865-7797</a> m</li>
            <li><a target="_blank" href="mailto:ethielking@allmobilevideo.com">ethielking@allmobilevideo.com</a></li>
   </ul>
-  <h4>Helena Lin</h4>
-  <ul>
-   <li><a href="tel:2125868616" target="_blank" >212-586-8616</a> ext 2 o</li>
-          <li><a target="_blank" href="mailto:hlin@allmobilevideo.com">hlin@allmobilevideo.com</a></li>
-  </ul>
+  
+   
   <h4>Mark Ptak</h4>
   <ul>
     <li><a href="tel:2125868616" target="_blank" >212-586-8616</a> ext 3 o</li>

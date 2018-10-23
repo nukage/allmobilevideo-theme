@@ -5,8 +5,8 @@
           <ul>
             <li><a target="_blank" href="mailto:sales@amvchelsea.com">sales@amvchelsea.com</a></li>
             <li><a target="_blank" href="tel:2125868616">(212)586-8616</a></li>
-            <li>515 West 57th Street</li>
-            <li>Between 10th &amp; 11th Avenues</li>
+            <li>226 West 26th Street</li>
+ 
             <li>New York, NY 10019</li>
           </ul>
       </li>
@@ -17,12 +17,7 @@
            <li><a target="_blank" href="mailto:ethielking@allmobilevideo.com">ethielking@allmobilevideo.com</a></li>
         </ul>
       </li>
-      <li>
-        <ul><h5>Helena Lin</h5>
-          <li><a href="tel:2125868616" target="_blank" >212-586-8616</a> ext 2 o</li>
-          <li><a target="_blank" href="mailto:hlin@allmobilevideo.com">hlin@allmobilevideo.com</a></li>
-        </ul>
-      </li>
+ 
       <li>
         <ul><h5>Mark Ptak</h5>
           <li><a href="tel:2125868616" target="_blank" >212-586-8616</a> ext 3 o</li>
