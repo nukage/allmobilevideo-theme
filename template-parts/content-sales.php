@@ -53,17 +53,17 @@ if ($cateID === 0){
 
 
 ?>
-<section style="background:black; padding-top:80px;">
+<!-- <section style="background:black; padding-top:80px;">
 <div class="container" >
   <div class="row">
-    <a href="/sales/sony-mvs8000/"><img src="<?php echo get_template_directory_uri() . '/img/promos/switcher-promo.jpg'; ?>" alt="" style="   
+    <a href="/sales/sony-mvs8000/"><img src="<php echo get_template_directory_uri() . '/img/promos/switcher-promo.jpg'; ?>" alt="" style="   
     width: auto;
     margin: auto;
     display: block;"> </a>
     <a role="button" class="btn btn-outline-secondary custom-btn wow fadeInUp animated page-scroll splashbtn" href="/sales/sony-mvs8000/" style="visibility: visible; animation-name: fadeInRight;">MORE INFO</a>
   </div>
 </div>
-</section>
+</section> -->
 <?php
 echo do_shortcode( '[rev_slider alias="sales-slider"]' ); ?>
 
@@ -226,19 +226,24 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
       <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/leader.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
        4K and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/imagine.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-      4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt=""></div>
+		
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+		  <img src="/wp-content/uploads/2017/12/imagine.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt=""></div>
+		
+ 		
+		
       <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/NewTek.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
        4K 60p and HD Tricaster Production Switchers with Virtual Sets, and Streaming capability
 
 HD 60p 3Play Sports Production Systems, low cost portable Mini Production Systems
 
-Talkshow Multichannel Video Call In Systems" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/Panasonic.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
+		  Talkshow Multichannel Video Call In Systems" alt=""></div>
+		  
+		  <div class="col-lg-3 col-md-4 col-6 img-holder  "><img src="/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
-        High Definition and 4K Studio/EFP Portable, PTZ Cameras, Monitors, and Switchers" alt=""></div>
+        (LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt=""></div>
+		
       <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/snell.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
     4K and High Definition Standards…" alt=""></div>
@@ -247,12 +252,18 @@ Talkshow Multichannel Video Call In Systems" alt=""></div>
         High Definition and 4K Studio/EFP Portable, PTZ Cameras, OLED Monitors, HD and 4K Switchers" alt=""></div>
       <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/tektronix.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 4K HDR and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
+     
+      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/Panasonic.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
-        (LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-4"><img src="/wp-content/uploads/2017/12/thor.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
+        High Definition and 4K Studio/EFP Portable, PTZ Cameras, Monitors, and Switchers" alt=""></div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3"><img src="/wp-content/uploads/2017/12/thor.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
 
         Specializing in Turnkey Solutions in Broadcast CATV Complete Line of Encoding & Decoding Equipment -Easily Transport any Signal over IP, Fiber and RF" alt=""></div>
+		
+						      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3">
+		  <img src="/wp-content/uploads/2019/01/LiveU_logo.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt=""></div>
+		
+		
       </div>
   </div>
 </section>
@@ -261,7 +272,7 @@ Talkshow Multichannel Video Call In Systems" alt=""></div>
   <div class="container">
     <div class="row">
       <div class="col-md-4 icon"> <img src="<?php echo get_template_directory_uri() . '/img/icon 1.png'; ?>" alt=""></div>
-       <div class="col-md-4 icon"> <a href="/wp-content/uploads/2017/12/HDLineCard4K2016.pdf"  target="_blank"><img src="<?php echo get_template_directory_uri() . '/img/icon 2.png'; ?>" alt=""></a></div>
+       <div class="col-md-4 icon"> <a href="/wp-content/uploads/2019/01/HDLineCard4K2019.pdf"  target="_blank"><img src="<?php echo get_template_directory_uri() . '/img/icon 2.png'; ?>" alt=""></a></div>
         <div class="col-md-4 icon"> <a href="http://stores.ebay.com/AMV-Broadcast-Sales" target="_blank"><img src="<?php echo get_template_directory_uri() . '/img/icon 4.png'; ?>" alt=""></a></div>
     </div>
   </div>

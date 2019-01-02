@@ -103,7 +103,7 @@
               <ul>
                 <li><a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></li>
                 <li><a href="<?php echo get_home_url(); ?>/terms-conditions">Terms &amp; Conditions</a></li>
-                <li>© 2017 - 2018 • All Mobile Video • All Rights Reserved</li>
+                <li>© 2017 - 2019 • All Mobile Video • All Rights Reserved</li>
               </ul>
               
             </div>
