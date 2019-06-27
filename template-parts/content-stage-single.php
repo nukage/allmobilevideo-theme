@@ -28,7 +28,7 @@
 
 
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-sm-12">
 				<h2><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h2>
 				
 				<?php if (types_render_field( 'subtitle' )){ ?>

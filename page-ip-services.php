@@ -61,7 +61,7 @@ All services are monitored and controlled via a state-of-the-art control center,
     </div>
     <div class="col-md-6 descrip wow fadeInLeft" id="overview">
       <h2>Official Reseller of LiveU Products!</span></h2>
-      <p><strong>Missed the AMV &amp; LiveU Open House? <br><a href="http://www.allmobilevideo.com/openhouse/">Click here</a> to watch the recording of our live stream.</strong></p>
+      <p><strong>Missed the recent AMV &amp; LiveU Panel Discussion? <br><a href="http://www.allmobilevideo.com/panel/">Click here</a> to watch the recording of our live stream.</strong></p>
 
 
 

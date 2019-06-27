@@ -161,12 +161,7 @@
     <li>Los Angeles, CA 90066</li>
     <li><a href="http://www.amvdm.com" target="_blank"></a>www.amvdm.com</a></li>
   </ul>
-  <h4>Brian Bedard</h4>
-  <ul>
-    <li><a href="mailto:bbedard@amvdm.com" target="_blank">bbedard@amvdm.com</a></li>
-    <li><a href="tel:3107511921" target="_blank">(310) 751-1921</a>  o</li>
-    <li><a href="tel:3238393225" target="_blank">(323) 839-3225</a> m</li>
-  </ul>
+   
   <h4>Ian Dittbrenner</h4>
   <ul>
     <li><a href="mailto:iand@amvchelsea.com" target="_blank">iand@amvchelsea.com</a></li>

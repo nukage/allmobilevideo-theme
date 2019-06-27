@@ -74,8 +74,11 @@
                   <input class="form-control footersearch" type="text" placeholder="Search" name="s" >
                   <button class="btn  my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                <!--
                 <div class="mail-signup-ft">
-<div>Sign up for AMV News and &amp; EXCLUSIVE Offers!</div><a role="button" class="btn btn-primary custom-btn btn-mail-signup-ft" href="#" data-target="#mailchimp" class="icon-links" data-toggle="modal">SIGN UP</a></div>
+<div>Sign up for AMV News and &amp; EXCLUSIVE Offers!</div>
+
+<a role="button" class="btn btn-primary custom-btn btn-mail-signup-ft" href="#" data-target="#mailchimp" class="icon-links" data-toggle="modal">SIGN UP</a></div>
 <div class="modal fade" id="mailchimp" tabindex="-1" role="dialog" aria-labelledby="mailchimpModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -95,11 +98,11 @@
     </div>
   </div>
 </div>
-              </div>
+              </div> -->
 
             </div>
              <div class="row">
-            <div class="col-lg-12 pr-5 text-right">
+            <div class="col-lg-12 pr-5 text-left">
               <ul>
                 <li><a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></li>
                 <li><a href="<?php echo get_home_url(); ?>/terms-conditions">Terms &amp; Conditions</a></li>

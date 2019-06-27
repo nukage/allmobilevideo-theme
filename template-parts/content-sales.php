@@ -199,71 +199,111 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
   <div class="container logosection">
     <div class="row"> 
-        <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/aja.png" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-              
-          High Definition and 4K Capture Cards, Converters, DAs, Frame Syncs, Recorders, Routers"></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/blackcam-long.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        Dynamic, Discreet HD and 4K PTZ and Track Camera Systems that can be installed in floors or flown" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/blackmagicdesign.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        High Definition and 4K Cameras, Capture Cards, Teranex Converters, DAs, Recorders, Routers, Switchers" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/boxx.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-       PROVIDING DIGITAL MICROWAVE SOLUTIONS AT A FRACTION OF THE COST OF TRADITIONAL COFDM SYSTEMS" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/cinedeck.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        HD and 4K Tapeless Recorders, SetMeUp MulitChannel Live Recording System with Axle Automatic Media Management" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/evertz.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        High Definition and 4K Converters, DAs, Generators, Multiviewers, Routers" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/grassvalley.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        High Definition and 4K Cameras, Switchers, Replay, Graphics DAs, Multiviewers, Routers, and Automated Production" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/ikegami.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-       4K and High Definition Studio/EFP Portable and Box cameras.  4K and OLED Monitors" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/leader.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-       4K and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt=""></div>
-		
+        <div class="col-lg-3 col-md-4 col-6 img-holder">
+          <a href="https://www.aja.com/" target="_blank" rel="nofollow">
+          <img src="/wp-content/uploads/2017/12/aja.png" data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Capture Cards, Converters, DAs, Frame Syncs, Recorders, Routers">
+          </a>
+        </div>
       <div class="col-lg-3 col-md-4 col-6 img-holder">
-		  <img src="/wp-content/uploads/2017/12/imagine.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt=""></div>
-		
- 		
-		
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/NewTek.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
+      <a href="http://blackcam.de/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/blackcam-long.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="Dynamic, Discreet HD and 4K PTZ and Track Camera Systems that can be installed in floors or flown" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+        <a href="https://www.blackmagicdesign.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/blackmagicdesign.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Cameras, Capture Cards, Teranex Converters, DAs, Recorders, Routers, Switchers" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+        <a href="https://www.skaarhoj.com/" target="_blank" rel="nofollow">
+        <img style="margin-top:25px" src="/wp-content/uploads/2019/06/skaarhoj.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="Customized Broadcast Control Systems" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://cinedeck.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/cinedeck.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="HD and 4K Tapeless Recorders, SetMeUp MulitChannel Live Recording System with Axle Automatic Media Management" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://evertz.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/evertz.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Converters, DAs, Generators, Multiviewers, Routers" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://www.grassvalley.com/home/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/grassvalley.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Cameras, Switchers, Replay, Graphics DAs, Multiviewers, Routers, and Automated Production" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://www.ikegami.de/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/ikegami.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Studio/EFP Portable and Box cameras.  4K and OLED Monitors" alt="">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://www.leader.co.jp/en/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/leader.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt="">         
+      </a>
 
-       4K 60p and HD Tricaster Production Switchers with Virtual Sets, and Streaming capability
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+     <a href="https://www.imaginecommunications.com/" target="_blank" rel="nofollow">
+      <img src="/wp-content/uploads/2017/12/imagine.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt="">          
+    </a>
+
+    </div>
+    
+    
+  <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://www.newtek.com/" target="_blank" rel="nofollow">
+    <img src="/wp-content/uploads/2017/12/NewTek.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K 60p and HD Tricaster Production Switchers with Virtual Sets, and Streaming capability
 
 HD 60p 3Play Sports Production Systems, low cost portable Mini Production Systems
 
-		  Talkshow Multichannel Video Call In Systems" alt=""></div>
-		  
-		  <div class="col-lg-3 col-md-4 col-6 img-holder  "><img src="/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        (LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt=""></div>
-		
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/snell.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-    4K and High Definition Standards…" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/sony.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        High Definition and 4K Studio/EFP Portable, PTZ Cameras, OLED Monitors, HD and 4K Switchers" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/tektronix.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-4K HDR and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt=""></div>
+      Talkshow Multichannel Video Call In Systems" alt="">
+</a>
+    </div>
+      
+      <div class="col-lg-3 col-md-4 col-6 img-holder  ">
+<a href="http://www.sipro.tv" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="(LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt="">
+</a>
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+<a href="https://www.haivision.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2019/06/HaivisionLogo2.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="IPTV, Encoders, Decoders, Streaming Solutions" alt="">
+</a>
+  </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+        <a href="https://pro.sony/ue_US/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/sony.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Studio/EFP Portable, PTZ Cameras, OLED Monitors, HD and 4K Switchers" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+        <a href="https://www.tek.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/tektronix.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K HDR and High Definition Waveform Monitors, Vectorscopes, Rasterizers and Sync Generators" alt="">
+        </a>
+      </div>
      
-      <div class="col-lg-3 col-md-4 col-6 img-holder"><img src="/wp-content/uploads/2017/12/Panasonic.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        High Definition and 4K Studio/EFP Portable, PTZ Cameras, Monitors, and Switchers" alt=""></div>
-      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3"><img src="/wp-content/uploads/2017/12/thor.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="
-
-        Specializing in Turnkey Solutions in Broadcast CATV Complete Line of Encoding & Decoding Equipment -Easily Transport any Signal over IP, Fiber and RF" alt=""></div>
-		
-						      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3">
-		  <img src="/wp-content/uploads/2019/01/LiveU_logo.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt=""></div>
-		
-		
+      <div class="col-lg-3 col-md-4 col-6 img-holder">
+        <a href="https://pro-av.panasonic.net/en/index.html" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/Panasonic.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="High Definition and 4K Studio/EFP Portable, PTZ Cameras, Monitors, and Switchers" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3">
+        <a href="https://thorbroadcast.com/" target="_blank" rel="nofollow">
+        <img src="/wp-content/uploads/2017/12/thor.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="Specializing in Turnkey Solutions in Broadcast CATV Complete Line of Encoding & Decoding Equipment -Easily Transport any Signal over IP, Fiber and RF" alt="">
+        </a>
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-6 img-holder push-lg-3">
+      <a href="https://www.liveu.tv/" target="_blank" rel="nofollow">
+      <img src="/wp-content/uploads/2019/01/LiveU_logo.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="4K and High Definition Converters, Playout, Routing, Multiviewers, Modular Infrasturcture" alt="">
+      </a>
+      </div>
+    
+    
       </div>
   </div>
 </section>

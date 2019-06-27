@@ -19,14 +19,6 @@ transform: translateY(-100%)
 	text-indent: -99em;
 	 background-size:contain;
 }
-.post-type-archive-sales  .navbar-brand, .page-template-page-master-control .navbar-brand{
-	background-image: url(img/amv-bcast-header.png);
-	background-repeat: no-repeat;
-	width:185px;
-	height:68px;
-	text-indent: -99em;
-	 background-size:contain;
-	}
 
 .navbar2 {
 	position: absolute;
@@ -100,11 +92,8 @@ transform: translateY(-100%)
 			border-radius: 0 5px  5px 0; 
 			cursor: pointer;
 		}
-			@media (max-width:990px) and (min-width:576px){
+			@media (max-width:990px){
 			margin-left:37%;		 
-	}
-	@media (max-width:575px){
-		.form-control{width:auto;}
 	}
 }
 

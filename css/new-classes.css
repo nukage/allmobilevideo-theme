@@ -1,0 +1,37 @@
+#callout-banner {
+	background-color: #2a4b70;
+   	color:#fff;
+	font-family:roboto;
+	font-weight:100;
+	font-size:14px;
+}
+#callout-banner li {
+	line-height: 2em;
+}
+#callout-banner h3 {
+font-family: roboto;
+ color:#51A3FF;
+}
+#callout-banner h2 {
+font-family: roboto;
+color:#fff;
+font-size:18px;
+}
+#callout-banner ul{
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#callout-banner .gateway-btn{
+	display:inline-block;
+	padding:10px;
+	border-radius:5px;
+	border: 1px solid #fff;
+	color:white;
+	font-weight: 500;
+	margin:auto;
+}
+#callout-banner .gateway-btn:hover{
+	text-decoration: none;
+	background: #fff;
+	color:#0875D8;
+}

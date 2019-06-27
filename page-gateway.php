@@ -46,10 +46,35 @@ All services are monitored and controlled via a state-of-the-art control center,
   </div>
 
 </section>
+ 
+
+ 
+
+ <?php   if (types_render_field('gateway-banner')) : ?>
+<section id="callout-banner">      
+    <div class="container">
+        <div class="row pt-3 pb-3">
+        <div class="col-sm-12 col-md-3 pb-3">
+            <?php   if (types_render_field('gateway-banner-image' )){ ?>
+                        <?php echo (types_render_field('gateway-banner-image')) ?>
+                        <?php } ?>
+        </div> <!-- col-sm-3 -->
+                <div class="col-md-9">
+                        <?php   if (types_render_field('gateway-banner-text' )){ ?>
+                        <?php echo (types_render_field('gateway-banner-text')) ?>
+                        <?php } ?>
+                </div><!-- col-sm-9 -->
+            <div class="col-sm-12 push-sm-0 col-lg-3 col-md-5 push-lg-9 push-md-5 ">
+                <a href="#contactform" class="gateway-btn  mt-sm-5 mt-md-3 mt-lg-0">
+            CONTACT FOR MORE INFO
+        </a> </div>
+            </div><!--row -->
+        </div>
+</section>
+ <?php endif; ?>
 <div class="bluebar">
     <div class="container">
         <div class="row">
-            
             <div class="col-sm-12"><ul class="nav nav-tabs" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" href="#gwoverview" role="tab" data-toggle="tab">OVERVIEW</a>
