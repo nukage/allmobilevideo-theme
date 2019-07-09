@@ -59,7 +59,10 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
         <h4>Trusted Since 1976.</h4>
         <p>As the original and longest standing department of All Mobile Video, the Rentals Division personifies AMV’s approach to business. Everything we rent is carefully tested and maintained by a meticulous team of engineers and technicians. Customers are supported every step of the way from the budgeting phase, prep, and check- out straight through shoots and post production.</p>
         <p>
-        Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way. TEST</p>
+        Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way. </p>
+
+         <?php echo (types_render_field('rental-about')) ?>
+          <?php echo get_post_meta($postID, 'wpcf-rental-about', true); ?>
        
       </div>
     </div>
