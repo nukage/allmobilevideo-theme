@@ -4,6 +4,7 @@
 	font-family:roboto;
 	font-weight:100;
 	font-size:14px;
+	position: relative;
 }
 #callout-banner li {
 	line-height: 2em;
@@ -20,6 +21,7 @@ font-size:18px;
 #callout-banner ul{
 	padding-bottom:0;
 	margin-bottom:0;
+
 }
 #callout-banner .gateway-btn{
 	display:inline-block;
@@ -34,4 +36,8 @@ font-size:18px;
 	text-decoration: none;
 	background: #fff;
 	color:#0875D8;
+}
+a#gateway-banner {
+	position: absolute;
+	top:-80px;
 }

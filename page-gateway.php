@@ -51,7 +51,7 @@ All services are monitored and controlled via a state-of-the-art control center,
  
 
  <?php   if (types_render_field('gateway-banner')) : ?>
-<section id="callout-banner">      
+<section id="callout-banner"> <a id="gateway-banner"></a>
     <div class="container">
         <div class="row pt-3 pb-3">
         <div class="col-sm-12 col-md-3 pb-3">
