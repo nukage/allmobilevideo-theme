@@ -59,11 +59,14 @@ echo do_shortcode( '[rev_slider alias="rentalslider"]' ); ?>
         <h4>Trusted Since 1976.</h4>
         <p>As the original and longest standing department of All Mobile Video, the Rentals Division personifies AMV’s approach to business. Everything we rent is carefully tested and maintained by a meticulous team of engineers and technicians. Customers are supported every step of the way from the budgeting phase, prep, and check- out straight through shoots and post production.</p>
         <p>
-        Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way.</p>
+        Since 1976, AMV Rentals has built a solid reputation as New York’s definitive source for high-end, high- quality production and editorial equipment. One call from you gets unparalleled response from us. That’s the AMV way. TEST</p>
+       
       </div>
     </div>
   </div>
 </div>
+
+
 <?php
 
 };
@@ -93,8 +96,11 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 <?php if ($current != 'rentals_product'){ ?>
 
- <section class="rental-product-categories container " >
+ <section class="rental-product-categories container " >  <?php echo do_shortcode('[wpv-view name="featured-rentals"]' ); ?></section>
+ <section style="display:none;" class="rental-product-categories container " >
 <h2 class="text-center" style="padding-bottom:20px;">Featured Systems and Equipment</h2>
+
+
 
             <div class="col-sm-12 rental-products ">
               <div class="row featured-systems">
@@ -169,14 +175,7 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 </section>
 
-<div class="container"> 
-<div class="row">
 
-  <div class="col-sm-12">
-    <img src="<?php echo get_template_directory_uri() . '/img/comingsoon-rentals-inventory.jpg'; ?>" alt="">
-  </div>
-</div>
-</div>
 <section class="rental-product-categories container" style="display: none;">
 
 
