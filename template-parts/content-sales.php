@@ -104,8 +104,12 @@ if ($current === 'rentals_sub' || $current === 'rentals_product'){
 
 
 <?php if ($current != 'rentals_product'){ ?>
+  <section class="rental-product-categories container " >
+    <h3 class="text-center" style="padding-bottom:20px;">Featured Products</h3>
+     <?php echo do_shortcode('[wpv-view name="featured-sales"]' ); ?>
+  </section>
 
-<section class="sales-product-categories container " >
+<section style="display:none;" class="sales-product-categories container " >
  
 <h3 class="text-center" style="padding-bottom:20px;">Featured Products</h3>
 
