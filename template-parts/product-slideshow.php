@@ -9,10 +9,10 @@
 
 ?>
 
- 
+ <?php $use_acf_gallery =  get_field('use_acf_gallery'); ?>
 
  
-
+<?php if( $use_acf_gallery != '1' ): ?> 
 
 		<section class="slider block">
                 <div id="slider" class="flexslider">
@@ -24,18 +24,13 @@ if (has_post_thumbnail):
         the_post_thumbnail( 'amv-slider-image' );
         echo '<p class="flex-caption">';
     $full_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
-    
     $image_caption = get_post(get_post_thumbnail_id())->post_excerpt;
     if ($image_caption): ?>
      <p class="caption"><?php echo $image_caption; ?></p>
-
     <?php 
     endif;
     echo '<a href="' . $full_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" ';?>
      target="_blank"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Hi-Res</a></p>
-          
-
-        
                         </li>
 <?php
 endif;                 
@@ -131,7 +126,49 @@ endif;
                   </ul>
                 </div><!--/carousel flexslider-->
               <?php endif;?>
-              </section><!--/slider block -->
+</section><!--/slider block -->
+
+
+<?php else : ?>
+<section class="slider block">
+<div id="slider" class="flexslider">
+<ul class="slides">
+<?php while( have_rows('gallery') ): the_row(); ?>
+<?php         
+$image = get_sub_field('image');
+$caption = get_sub_field('caption'); 
+$full_image = wp_get_attachment_image($image, 'amv-slider-image', " " , array( "class" => "attachment-amv-slider-image size-amv-slider-image wp-post-image" , "draggable" => "false" ) );
+               ?>   
+                      
+<li>
+ <?php echo  $full_image ; ?>
+ 
+                        </li>
+               
+  
+
+<?php endwhile;?>
+</ul></div><!--/slider flexslider-->
+
+<div id="carousel" class="flexslider">
+                  
+           
+                <ul class="slides">
+                <?php while( have_rows('gallery') ): the_row(); ?>        
+                <?php 
+                $image = get_sub_field('image');
+                $caption = get_sub_field('caption'); 
+                $thumb_image = wp_get_attachment_image($image, 'amv-slider-thumb', " " , array( "class" => "attachment-amv-slider-image size-amv-slider-image wp-post-image" , "draggable" => "false" , "height" => "430" , "width" => "725") );
+  ?>                       
+ <li>
+ <?php echo  $thumb_image ; ?>
+ </li>
+ <?php endwhile;?>   
+</ul>
+             
+                  
+</section>
+<?php endif; ?>
 
 
 

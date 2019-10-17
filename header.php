@@ -76,7 +76,7 @@
             
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/digitalmedia">Digital Media</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/sales">Sales</a>

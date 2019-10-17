@@ -1074,6 +1074,7 @@ img {
     padding: 20px;
     font-weight: 200;
     top: 0;
+    left: 0;
     width: 100%; }
   .mobile-products a:hover .description {
     opacity: 1;
