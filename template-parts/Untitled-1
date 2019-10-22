@@ -1,0 +1,59 @@
+<nav class="navbar navbar2 navbar-toggleable-md navbar-inverse justify-content-between" data-pg-collapsed>
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="http://amv.local">All Mobile Video</a>
+        <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
+            <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="mobile-rentals" href="http://amv.local/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile<span class="sr-only">(current)</span> </a>
+                    <div class="dropdown-menu" aria-labelledby="mobile">
+                        <a class="dropdown-item" href="http://amv.local/mobile">Full Fleet</a>
+                        <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-production&scroll=1">Production</a>
+                        <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-uplink&scroll=1">Uplink</a>
+                        <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-carry-pack&scroll=1">Carry-Packs</a>
+                        <a class="dropdown-item" href="http://amv.local/mobile-specs">Spec Sheets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amv.local/rental">Rentals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amv.local/stage">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amv.local/post">Post</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amvdm.com/" target="_blank">Digital Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amv.local/sales">Sales</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video Transport / IP <span class="sr-only">(current)</span> </a>
+                    <div class="dropdown-menu" aria-labelledby="video-transport-ip">
+                        <a class="dropdown-item" href="http://amv.local/gateway">AMV Gateway</a>
+                        <a class="dropdown-item" href="http://amv.local/satellite-services">Westar Satellite Services</a>
+                        <a class="dropdown-item" href="http://amv.local/master-control">Westar Master Control</a>
+                        <a class="dropdown-item" href="http://amv.local/ip-services">IP Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://amv.local/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="/about">Our Company</a>
+                        <!--    <a class="dropdown-item" href="#">Credits</a> -->
+                        <a class="dropdown-item" href="http://amv.local/news">News</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amv.local/contact">Contact</a>
+                </li>
+            </ul>
+            <form role="search" method="get" class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up" action="http://amv.local">
+                <input name="s" id="s" class="form-control" type="text" placeholder="Search">
+                <button class="btn  my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>

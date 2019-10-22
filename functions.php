@@ -188,6 +188,17 @@ function get_term_parents( $id, $taxonomy, $link = false, $separator = '/', $nic
  
     return $chain;
 }
+
+//ACF OPTIONS PAGE
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
+
+
 /* Shortcode to display linked URLs to files uploaded via Types post meta
 * 
 * @arg file_url optionally will hold a specific URL to process & display a link to the file directly
