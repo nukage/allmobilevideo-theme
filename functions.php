@@ -208,6 +208,9 @@ if( function_exists('acf_add_options_page') ) {
 * and dsiplay each (if multiple) as the file name with extension linked to full file download URL
 *
 */
+
+	
+add_filter('acf/settings/remove_wp_meta_box', '__return_false');
  
  
 function dynamic_contact($postID){ ?>
