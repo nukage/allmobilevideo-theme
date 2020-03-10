@@ -20,7 +20,14 @@
 	<div class="sectionoverlay">
 	<div class="container ">
 		<h1 class="topheader">
-					<?php if ( 'rental' == get_post_type() ) {
+					
+
+ 
+
+	
+			<?php if (types_render_field( 'section_title_override' )){ ?>
+		<?php	echo(types_render_field( 'section_title_override' )); ?> 
+			<?php	} elseif ( 'rental' == get_post_type() ) {
 					 echo '<a href="/rental" class="section-title">Rentals</a>';
 					 $post_type = 'rentals';
 					} 
@@ -206,9 +213,15 @@
 		</div>
 	<div class="col-12 col-md-4">
 
- 
 
-			<?php if ( 'rental' == get_post_type() ) {
+
+			<?php 
+			if (types_render_field( 'contact_override' )){
+			?>	<section class="sidebarcontactinfo"> <?php
+				echo(types_render_field( 'contact_override' )); 
+				?>	</section> <?php
+			} 
+					elseif ( 'rental' == get_post_type() ) {
 					get_template_part( 'template-parts/contactinfo',  'rentals' );
 				 
 					} 

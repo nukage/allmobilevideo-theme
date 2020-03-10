@@ -269,7 +269,7 @@ HD 60p 3Play Sports Production Systems, low cost portable Mini Production System
     </div>
       
       <div class="col-lg-3 col-md-4 col-6 img-holder  ">
-<a href="http://www.sipro.tv" target="_blank" rel="nofollow">
+<a href="https://sipro.tv/" target="_blank" rel="nofollow">
         <img src="/wp-content/uploads/2017/12/sipro.png"  data-toggle="tooltip" data-html="true" data-placement="top" title="" data-original-title="(LCD MONITORS): High-End 4K Color Grading Rack Mount; (LED LIGHTS): 95 CRI Studio, Run-Gun Fresnels, Lekos, Soft Panels, AC&DC; (Tripods): High-End, for 55lb, 35lb, 25lb & 11lb Cameras." alt="">
 </a>
       </div>
